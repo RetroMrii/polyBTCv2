@@ -1,0 +1,1032 @@
+{
+  "periods": {
+    "earlier": {
+      "start": "2026-10-12T20:30:00",
+      "end": "2026-10-12T21:03:00",
+      "n": 38,
+      "counts": {
+        "unverified_input_provenance": 23,
+        "probability_gap_too_large": 3,
+        "stale_horizon": 9,
+        "price_ceiling_exceeded": 1,
+        "market_already_expired": 1,
+        "missing_reference_return_30s": 1
+      },
+      "verified": 4,
+      "source_records": 29,
+      "strategy_calls": 4,
+      "missing_execution": 4,
+      "diagnostics": {
+        "execution:no_book:future_source_timestamp:limit=500.0": 4,
+        "prediction:reference:stale_source:limit=2000.0": 13,
+        "execution:reference:stale_source:limit=2000.0": 19,
+        "history:reference:stale_source:limit=2000.0": 12,
+        "execution:yes_book:stale_source:limit=500.0": 10,
+        "execution:no_book:stale_source:limit=500.0": 8,
+        "execution:yes_book:future_source_timestamp:limit=500.0": 2,
+        "history:reference:missing_reference_anchor:limit=None": 1
+      },
+      "rows": 3383,
+      "distributions": {
+        "receipt_ms": {
+          "n": 3383,
+          "median": 334.854,
+          "p90": 584.8354000000003,
+          "p99": 20052.940999999948,
+          "maximum": 58134.75,
+          "minimum": 60.262
+        },
+        "reference_age_ms": {
+          "n": 3383,
+          "median": 1783.863,
+          "p90": 2453.2592,
+          "p99": 2999.1850799999997,
+          "maximum": 4636.155,
+          "minimum": 605.05
+        },
+        "yes_age_ms": {
+          "n": 3383,
+          "median": -325.043,
+          "p90": 128.16020000000003,
+          "p99": 360.54707999999744,
+          "maximum": 1335.6460000000002,
+          "minimum": -366.615
+        },
+        "no_age_ms": {
+          "n": 3383,
+          "median": -404.669,
+          "p90": 48.88740000000001,
+          "p99": 309.03419999999903,
+          "maximum": 1104.355,
+          "minimum": -439.35
+        },
+        "target_processing_ms": {
+          "n": 38,
+          "median": 2170.1594999999998,
+          "p90": 2419.8632,
+          "p99": 33211.30359000013,
+          "maximum": 51268.115000000005,
+          "minimum": 2011.4610000000002
+        }
+      },
+      "freshness": {
+        "reference": {
+          "stale": 34,
+          "future": 0,
+          "denominator": 3383
+        },
+        "yes_book": {
+          "stale": 20,
+          "future": 2226,
+          "denominator": 3383
+        },
+        "no_book": {
+          "stale": 15,
+          "future": 2236,
+          "denominator": 3383
+        }
+      }
+    },
+    "later": {
+      "start": "2026-10-12T21:10:00",
+      "end": "2026-10-12T21:40:00",
+      "n": 36,
+      "counts": {
+        "stale_reference": 10,
+        "unverified_input_provenance": 8,
+        "stale_market_books": 5,
+        "stale_horizon": 11,
+        "probability_gap_too_large": 1,
+        "price_ceiling_exceeded": 1
+      },
+      "verified": 17,
+      "source_records": 25,
+      "strategy_calls": 12,
+      "missing_execution": 2,
+      "diagnostics": {
+        "execution:yes_book:stale_source:limit=500.0": 4,
+        "prediction:reference:stale_source:limit=3000.0": 1,
+        "history:reference:stale_source:limit=3000.0": 1,
+        "execution:no_book:stale_source:limit=500.0": 1,
+        "execution:reference:stale_source:limit=3000.0": 1
+      },
+      "rows": 1731,
+      "distributions": {
+        "receipt_ms": {
+          "n": 1731,
+          "median": 260.065,
+          "p90": 420.485,
+          "p99": 545.4037000000004,
+          "maximum": 1356.842,
+          "minimum": 67.153
+        },
+        "reference_age_ms": {
+          "n": 1731,
+          "median": 2079.379,
+          "p90": 2651.252,
+          "p99": 3216.1305000000007,
+          "maximum": 4612.005,
+          "minimum": 1062.7930000000001
+        },
+        "yes_age_ms": {
+          "n": 1731,
+          "median": 114.415,
+          "p90": 137.162,
+          "p99": 426.56640000000044,
+          "maximum": 1518.846,
+          "minimum": 78.744
+        },
+        "no_age_ms": {
+          "n": 1731,
+          "median": 38.108999999999995,
+          "p90": 53.855,
+          "p99": 321.0954000000005,
+          "maximum": 1518.846,
+          "minimum": 7.101
+        },
+        "target_processing_ms": {
+          "n": 36,
+          "median": 2243.7535,
+          "p90": 2441.2389999999996,
+          "p99": 2625.5273500000003,
+          "maximum": 2636.454,
+          "minimum": 2008.922
+        }
+      },
+      "freshness": {
+        "reference": {
+          "stale": 43,
+          "future": 0,
+          "denominator": 1731
+        },
+        "yes_book": {
+          "stale": 14,
+          "future": 0,
+          "denominator": 1731
+        },
+        "no_book": {
+          "stale": 9,
+          "future": 0,
+          "denominator": 1731
+        }
+      }
+    }
+  },
+  "stale_horizons": [
+    {
+      "id": 337733,
+      "target": "2026-10-12T20:34:30+00:00",
+      "gap": 18.475331,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337739,
+      "target": "2026-10-12T20:39:30+00:00",
+      "gap": 30.43129,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337744,
+      "target": "2026-10-12T20:44:00+00:00",
+      "gap": 29.047031,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337745,
+      "target": "2026-10-12T20:44:30+00:00",
+      "gap": 59.047031,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337757,
+      "target": "2026-10-12T20:54:30+00:00",
+      "gap": 29.793577,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337760,
+      "target": "2026-10-12T20:58:00+00:00",
+      "gap": 15.536873,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337761,
+      "target": "2026-10-12T20:58:30+00:00",
+      "gap": 45.536873,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337762,
+      "target": "2026-10-12T20:59:00+00:00",
+      "gap": 75.536873,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337763,
+      "target": "2026-10-12T20:59:30+00:00",
+      "gap": 105.536873,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337766,
+      "target": "2026-10-12T21:03:00+00:00",
+      "gap": 11.38329,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337767,
+      "target": "2026-10-12T21:03:30+00:00",
+      "gap": 41.38329,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337768,
+      "target": "2026-10-12T21:04:00+00:00",
+      "gap": 71.38329,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337769,
+      "target": "2026-10-12T21:04:30+00:00",
+      "gap": 101.38329,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337771,
+      "target": "2026-10-12T21:07:00+00:00",
+      "gap": 34.199739,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337772,
+      "target": "2026-10-12T21:08:00+00:00",
+      "gap": 94.199739,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337773,
+      "target": "2026-10-12T21:08:30+00:00",
+      "gap": 124.199739,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337774,
+      "target": "2026-10-12T21:09:00+00:00",
+      "gap": 154.199739,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337775,
+      "target": "2026-10-12T21:09:30+00:00",
+      "gap": 184.199739,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337780,
+      "target": "2026-10-12T21:14:00+00:00",
+      "gap": 21.711385,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337781,
+      "target": "2026-10-12T21:14:30+00:00",
+      "gap": 51.711385,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337786,
+      "target": "2026-10-12T21:19:00+00:00",
+      "gap": 16.487132,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337787,
+      "target": "2026-10-12T21:19:30+00:00",
+      "gap": 46.487132,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337793,
+      "target": "2026-10-12T21:24:30+00:00",
+      "gap": 13.1094,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337798,
+      "target": "2026-10-12T21:29:00+00:00",
+      "gap": 31.335011,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337799,
+      "target": "2026-10-12T21:29:30+00:00",
+      "gap": 61.335011,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337804,
+      "target": "2026-10-12T21:34:00+00:00",
+      "gap": 29.798619,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337805,
+      "target": "2026-10-12T21:34:30+00:00",
+      "gap": 59.798619,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337810,
+      "target": "2026-10-12T21:39:00+00:00",
+      "gap": 21.728949,
+      "raw_rows": 0,
+      "causal_rows": 0
+    },
+    {
+      "id": 337811,
+      "target": "2026-10-12T21:39:30+00:00",
+      "gap": 51.728949,
+      "raw_rows": 0,
+      "causal_rows": 0
+    }
+  ],
+  "integrity": {
+    "receipt_rows": 11073,
+    "csv_receipted_rows": 11073,
+    "duplicate_observed_times": 0,
+    "out_of_order": 0,
+    "checkpoint": {
+      "id": 1,
+      "source_path": "H:\\PolyBTCv2\\data\\live\\vnext_market_snapshots.csv",
+      "source_identity": "16635342973237467071:2251799813785246",
+      "header_sha256": "69bd2aec562afff614b461754d193d97723e3b23a2f7321da3b3a798b09fe62c",
+      "header_end_offset": 487,
+      "offset_bytes": 35565749,
+      "acknowledged_prefix_sha256": "31894f85d1d9b9b3c31c6ebcc8ec8b7107c3ac1fbd78e8574a36e5d2d0490cf2"
+    },
+    "csv_size": 35565749
+  },
+  "replays": [
+    {
+      "id": 337776,
+      "at": "2026-10-12T21:11:03.781277+00:00",
+      "prediction_id": "9c29a4e11ef85250d47b2f689adc016686a40aded0a2f415794b331e879443b8",
+      "execution_id": "b819bcb439d8d7ca2bfd32c25881fb6e0d9c1de728f6455cd7538d4a5c53f7d7",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+        "prediction_snapshot_id": "9c29a4e11ef85250d47b2f689adc016686a40aded0a2f415794b331e879443b8",
+        "execution_snapshot_id": "b819bcb439d8d7ca2bfd32c25881fb6e0d9c1de728f6455cd7538d4a5c53f7d7",
+        "checked_at_utc": "2026-10-12T21:11:03.781277+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "22c54fe3f28c692830d4ac85ae63224e33bf0aa3022ae68b63302d394fe1b01b",
+          "3bd957c7577cd3436e9bedd960c69fd150cac1897e301ff0b1efea494e513c52",
+          "de124e57a169eaa0ad30e8e11c6beae6da0fc9d6bd784d853615042acb4e4ac0"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "fe6b7e6e025ea252e5cab8dab7f984681b4d109227a258c41b0da1b83c84eeb4",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2781.277,
+      "yes_age_ms": 369.27700000000004,
+      "no_age_ms": 281.277,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+          "horizon_seconds": 240,
+          "model_probability_yes": 0.7005339527112011,
+          "market_probability_yes": 0.625,
+          "prediction_market_probability_yes": 0.615,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+          "horizon_seconds": 240,
+          "model_probability_yes": 0.7005339527112011,
+          "market_probability_yes": 0.625,
+          "prediction_market_probability_yes": 0.615,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337779,
+      "at": "2026-10-12T21:13:32.520725+00:00",
+      "prediction_id": "398894cee504d9a6ecf35957a87563e80896ad572faab8c6cf64b59b299ab972",
+      "execution_id": "8a878ef9568350c58a794e17e5d2367db2bbe64cd24cb80a546cb5c36567f018",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+        "prediction_snapshot_id": "398894cee504d9a6ecf35957a87563e80896ad572faab8c6cf64b59b299ab972",
+        "execution_snapshot_id": "8a878ef9568350c58a794e17e5d2367db2bbe64cd24cb80a546cb5c36567f018",
+        "checked_at_utc": "2026-10-12T21:13:32.520725+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "406383e6a888a835c35a6ca7cbd535a33066e8cbbd1d2e8892cc5c99d86cdec8",
+          "ad2bdd800628c9410e0f450438c807f3a8210c40d5ca0a95e52efabd1c37e3be",
+          "daa92f9a182377416b2f8ec23689e7227d1d9e4df32990ee2c17e0ccb34c2aae"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "7184d255483d2a538d78d99f5fa71c47dcd84aedf0ce257cdbd13ef13e52b9f2",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2520.725,
+      "yes_age_ms": 401.725,
+      "no_age_ms": 322.72499999999997,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+          "horizon_seconds": 90,
+          "model_probability_yes": 0.14692747012546511,
+          "market_probability_yes": 0.045,
+          "prediction_market_probability_yes": 0.055,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+          "horizon_seconds": 90,
+          "model_probability_yes": 0.14692747012546511,
+          "market_probability_yes": 0.045,
+          "prediction_market_probability_yes": 0.055,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337790,
+      "at": "2026-10-12T21:23:03.352203+00:00",
+      "prediction_id": "96d03f38f861dae402237169929f4226dd1ece7726a0f41cdfb9babefb5c1c79",
+      "execution_id": "89dc9cc6dbf4eb8b63b8c58a20a9f3b06c666afc58f8e06213096bc48698085a",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "prediction_snapshot_id": "96d03f38f861dae402237169929f4226dd1ece7726a0f41cdfb9babefb5c1c79",
+        "execution_snapshot_id": "89dc9cc6dbf4eb8b63b8c58a20a9f3b06c666afc58f8e06213096bc48698085a",
+        "checked_at_utc": "2026-10-12T21:23:03.352203+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "bb9123135887a412d021aab5ec74d86bd08c775ecf9cb3123e1f83da758b7c78",
+          "dc80580f5593cec14c50ee01e95b9048b3f94c1c54c3710d94f9facf42c9ea40",
+          "f5f64418822a4c575f4a5ff5b50d590c955a03f4de34aae9b48fdbad5ccac941"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "e52c3a57d214322ef2f43c8fcc74b05d355f539f15b73b96fb9e0c374097157b",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2352.203,
+      "yes_age_ms": 357.203,
+      "no_age_ms": 281.203,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+          "horizon_seconds": 120,
+          "model_probability_yes": 0.8096140101951199,
+          "market_probability_yes": 0.865,
+          "prediction_market_probability_yes": 0.845,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+          "horizon_seconds": 120,
+          "model_probability_yes": 0.8096140101951199,
+          "market_probability_yes": 0.865,
+          "prediction_market_probability_yes": 0.845,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337791,
+      "at": "2026-10-12T21:23:33.057583+00:00",
+      "prediction_id": "45619a80336dff90d3571ac862c859f7be00dd3811206851edbf37069d53dbf2",
+      "execution_id": "3d26effdd1ac7ac2adae2f1f0a3c5e3bcb49fcb1eb403658a543a023ea59a2a6",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "prediction_snapshot_id": "45619a80336dff90d3571ac862c859f7be00dd3811206851edbf37069d53dbf2",
+        "execution_snapshot_id": "3d26effdd1ac7ac2adae2f1f0a3c5e3bcb49fcb1eb403658a543a023ea59a2a6",
+        "checked_at_utc": "2026-10-12T21:23:33.057583+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "1da52ef223dd411996b198a59e944a8347c51127bbebcfc7eeb2d9ef8b98a7a0",
+          "7834ce216601c977d029df352c6e8f9579b9d24252503d734a01c00c5ca12000",
+          "bfcf2307c73eaaaaa5b688ae3c5624348f7b449617f0aeb4c6f420b90bf69337"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "66a69604841a4a6f5353caab30da4ae23c63b32d37749ab3e0620ced49d852e8",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2057.583,
+      "yes_age_ms": 338.583,
+      "no_age_ms": 266.583,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+          "horizon_seconds": 90,
+          "model_probability_yes": 0.8454263304866494,
+          "market_probability_yes": 0.885,
+          "prediction_market_probability_yes": 0.875,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "price_ceiling_exceeded",
+          "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+          "horizon_seconds": 90,
+          "model_probability_yes": 0.8454263304866494,
+          "market_probability_yes": 0.885,
+          "prediction_market_probability_yes": 0.875,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337792,
+      "at": "2026-10-12T21:24:03.074703+00:00",
+      "prediction_id": "a8a9bf23a4c23676201fbe4d6dc7ef83e718bfaab31a37977644a5f639c0a4df",
+      "execution_id": "b8424302d052f049fccd001b13bf3390818c43f46ab85ed2e8247400cf9f9814",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "prediction_snapshot_id": "a8a9bf23a4c23676201fbe4d6dc7ef83e718bfaab31a37977644a5f639c0a4df",
+        "execution_snapshot_id": "b8424302d052f049fccd001b13bf3390818c43f46ab85ed2e8247400cf9f9814",
+        "checked_at_utc": "2026-10-12T21:24:03.074703+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "1da52ef223dd411996b198a59e944a8347c51127bbebcfc7eeb2d9ef8b98a7a0",
+          "6a5a66fba0c7d7e497691a6546d3d55104b09f18916c4cd086a140aa5715ea49",
+          "71948bb4475aeb90937fa64394eb183090d5a3d26a1df30d25c2d04f3dfcad62"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "45619a80336dff90d3571ac862c859f7be00dd3811206851edbf37069d53dbf2",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2074.703,
+      "yes_age_ms": 336.703,
+      "no_age_ms": 266.70300000000003,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+          "horizon_seconds": 60,
+          "model_probability_yes": 0.752007551533614,
+          "market_probability_yes": 0.965,
+          "prediction_market_probability_yes": 0.935,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+          "horizon_seconds": 60,
+          "model_probability_yes": 0.752007551533614,
+          "market_probability_yes": 0.965,
+          "prediction_market_probability_yes": 0.935,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337795,
+      "at": "2026-10-12T21:27:02.684558+00:00",
+      "prediction_id": "f6924d341cd28b5441d7aac44720bf78eb5e05fe61c41d5111788e4cb7cfa4cf",
+      "execution_id": "4119810ca51f1c697e52ed6277e0911f248a4e0378460596e0455224385f3c1d",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+        "prediction_snapshot_id": "f6924d341cd28b5441d7aac44720bf78eb5e05fe61c41d5111788e4cb7cfa4cf",
+        "execution_snapshot_id": "4119810ca51f1c697e52ed6277e0911f248a4e0378460596e0455224385f3c1d",
+        "checked_at_utc": "2026-10-12T21:27:02.684558+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "2b2e269f6bd83355ffb2421a94753ecd34efc322fba41356d9a3d9393d2989b9",
+          "c2a6e28cc3b073b69bfdea0d96d5eda349d303f18415091f18c18de875fed5eb",
+          "fc7e8c4ead2f81470e97c1b345a503cb925df486caf1db5a4c1443b539660331"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "67b6f6d6786e89ba8cffd07fac8066499a05470b39fe07b7567a4895b528d755",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2684.558,
+      "yes_age_ms": 311.558,
+      "no_age_ms": 227.55800000000002,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+          "horizon_seconds": 180,
+          "model_probability_yes": 0.26397390178154334,
+          "market_probability_yes": 0.125,
+          "prediction_market_probability_yes": 0.125,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+          "horizon_seconds": 180,
+          "model_probability_yes": 0.26397390178154334,
+          "market_probability_yes": 0.125,
+          "prediction_market_probability_yes": 0.125,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337796,
+      "at": "2026-10-12T21:28:02.288194+00:00",
+      "prediction_id": "8358552e5516e92cc8a4f1a4c2037e62d570465c49366f53c30d94b41188a82a",
+      "execution_id": "09a1a37e8d796444ee9f7ae7c0b88774c1098d14bc0bc9396013da9f32d72438",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+        "prediction_snapshot_id": "8358552e5516e92cc8a4f1a4c2037e62d570465c49366f53c30d94b41188a82a",
+        "execution_snapshot_id": "09a1a37e8d796444ee9f7ae7c0b88774c1098d14bc0bc9396013da9f32d72438",
+        "checked_at_utc": "2026-10-12T21:28:02.288194+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "47fb1df249678468dc4f7e8f9ead0720086e316e3d1b7852ef72a724a29d5fda",
+          "639f3d9d67dda2f01ed8370ab9d59928132ec7ae5b7dabc0d689598b71c0d14e",
+          "de771ef542548041b931b057b422e028d1cf5605ae46464e1664143ea6126702"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "de9564c9eceef34e6b8a947bc054937e02f8a7cb1a3ce5f57a9f695ba5b2684d",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2288.194,
+      "yes_age_ms": 452.19399999999996,
+      "no_age_ms": 334.194,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+          "horizon_seconds": 120,
+          "model_probability_yes": 0.11065484363432705,
+          "market_probability_yes": 0.025,
+          "prediction_market_probability_yes": 0.025,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+          "horizon_seconds": 120,
+          "model_probability_yes": 0.11065484363432705,
+          "market_probability_yes": 0.025,
+          "prediction_market_probability_yes": 0.025,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337801,
+      "at": "2026-10-12T21:32:03.291190+00:00",
+      "prediction_id": "7b7c83fb1a52f0123eacfa910e2946a2c4ad6018e6eac3f7a7979c5ed2faa8f7",
+      "execution_id": "61346b18e826681094ba70f6b0b482351f93f8769a6a6059a1eb745b1bf30e0c",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x2d78b0d0d665b3734f23acf82ff0ddb8af6e5185ece4fc4286187bfe9d343401",
+        "prediction_snapshot_id": "7b7c83fb1a52f0123eacfa910e2946a2c4ad6018e6eac3f7a7979c5ed2faa8f7",
+        "execution_snapshot_id": "61346b18e826681094ba70f6b0b482351f93f8769a6a6059a1eb745b1bf30e0c",
+        "checked_at_utc": "2026-10-12T21:32:03.291190+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "10ab70426d929a49e352fd795ac45b392ac3565b89e5133feb1e813f085f6f2d",
+          "9b420e3f7d1068a74cd6f044a690cd76c56a5bbbebd3c3c3543984113b87000a",
+          "cd7fde17d211af09e6f39d92af21c11f5a79a572e5ab3cf663768d03b21c0e48"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "13d01a8e2a5ab926a223b25c525edcc0c32a03c958fca00f26108c9650c2b511",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2291.19,
+      "yes_age_ms": 443.19,
+      "no_age_ms": 366.19,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0x2d78b0d0d665b3734f23acf82ff0ddb8af6e5185ece4fc4286187bfe9d343401",
+          "horizon_seconds": 180,
+          "model_probability_yes": 0.731541746444859,
+          "market_probability_yes": 0.905,
+          "prediction_market_probability_yes": 0.855,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0x2d78b0d0d665b3734f23acf82ff0ddb8af6e5185ece4fc4286187bfe9d343401",
+          "horizon_seconds": 180,
+          "model_probability_yes": 0.731541746444859,
+          "market_probability_yes": 0.905,
+          "prediction_market_probability_yes": 0.855,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337808,
+      "at": "2026-10-12T21:38:03.161700+00:00",
+      "prediction_id": "bd4c5cffb50e6720bbc40c560dbca87db4726b028b91e0466ed4e747af202ad3",
+      "execution_id": "b69052657d51c07bf190d7ed0ad1b524ccf31b1b1368b33a00736e1bd5454513",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+        "prediction_snapshot_id": "bd4c5cffb50e6720bbc40c560dbca87db4726b028b91e0466ed4e747af202ad3",
+        "execution_snapshot_id": "b69052657d51c07bf190d7ed0ad1b524ccf31b1b1368b33a00736e1bd5454513",
+        "checked_at_utc": "2026-10-12T21:38:03.161700+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "0b5277c5493f96d13a96e652f3c7a4861adcf053332209acfc8ac7180fa6541b",
+          "56fe98902f7755f3a92c26a0ab5ac09ff7a4c36d57df308fbf7a5d6dd46f66ce",
+          "dec60f67e51aae6de6864263e44c7c699f955d4139682c8eb163e6be04dce2d3"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "41fb3c5634b2071a5fca83fd33c94b8477068706b74adb6a492e6849eb1fd526",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2161.7000000000003,
+      "yes_age_ms": 436.7,
+      "no_age_ms": 351.7,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+          "horizon_seconds": 120,
+          "model_probability_yes": 0.21317705491914496,
+          "market_probability_yes": 0.055,
+          "prediction_market_probability_yes": 0.185,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+          "horizon_seconds": 120,
+          "model_probability_yes": 0.21317705491914496,
+          "market_probability_yes": 0.055,
+          "prediction_market_probability_yes": 0.185,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    },
+    {
+      "id": 337809,
+      "at": "2026-10-12T21:38:32.147657+00:00",
+      "prediction_id": "de73dc825138531cecfc4c183fb4a08fc3d3f311c93bf1d2162d02363c4df2e2",
+      "execution_id": "85a3094b7e73b94d65ce837c894d4c79cfd7980702373e4d2ad7603e1a7c5f0b",
+      "source_verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+        "prediction_snapshot_id": "de73dc825138531cecfc4c183fb4a08fc3d3f311c93bf1d2162d02363c4df2e2",
+        "execution_snapshot_id": "85a3094b7e73b94d65ce837c894d4c79cfd7980702373e4d2ad7603e1a7c5f0b",
+        "checked_at_utc": "2026-10-12T21:38:32.147657+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "0b5277c5493f96d13a96e652f3c7a4861adcf053332209acfc8ac7180fa6541b",
+          "2889b2ae6fc3de83ae7f1db85a7f7fe5fcb55118f41911cfc7d224c2e5ae71cf",
+          "6beceaaeb167fd4a0b190d54729ea319951bfb7a65fb166449a598c9b9099784"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "bd4c5cffb50e6720bbc40c560dbca87db4726b028b91e0466ed4e747af202ad3",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "reference_age_ms": 2147.657,
+      "yes_age_ms": 417.657,
+      "no_age_ms": 322.65700000000004,
+      "outcomes": {
+        "2000": {
+          "status": "ABSTAIN",
+          "reason": "stale_reference",
+          "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+          "horizon_seconds": 90,
+          "model_probability_yes": 0.09743362932200245,
+          "market_probability_yes": 0.015,
+          "prediction_market_probability_yes": 0.015,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        },
+        "3000": {
+          "status": "ABSTAIN",
+          "reason": "probability_gap_too_large",
+          "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+          "horizon_seconds": 90,
+          "model_probability_yes": 0.09743362932200245,
+          "market_probability_yes": 0.015,
+          "prediction_market_probability_yes": 0.015,
+          "execution_price": null,
+          "estimated_net_ev_per_share": null
+        }
+      }
+    }
+  ],
+  "later_execution_distributions_ms": {
+    "execution_observation_to_verification": {
+      "n": 23,
+      "median": 317.828,
+      "p90": 394.7716,
+      "p99": 577.4581800000002,
+      "maximum": 604.701
+    },
+    "execution_receipt_to_verification": {
+      "n": 23,
+      "median": 93.516,
+      "p90": 130.2062,
+      "p99": 141.93128000000002,
+      "maximum": 142.74
+    },
+    "execution_reference_age": {
+      "n": 23,
+      "median": 2288.194,
+      "p90": 2774.8552,
+      "p99": 3010.1316600000005,
+      "maximum": 3051.931
+    },
+    "execution_yes_age": {
+      "n": 23,
+      "median": 436.7,
+      "p90": 558.9788,
+      "p99": 938.4803000000004,
+      "maximum": 1005.379
+    },
+    "execution_no_age": {
+      "n": 23,
+      "median": 351.7,
+      "p90": 442.0072,
+      "p99": 599.4161400000002,
+      "maximum": 628.294
+    }
+  },
+  "preservation_after": {
+    "decisions": 324,
+    "max_decision_id": 337811,
+    "entries": 0,
+    "model_sha256": "42647c6810f8ee01313aee24362e0c83e20b4240f951316d2d576160327752e4",
+    "csv_sha256": "31894f85d1d9b9b3c31c6ebcc8ec8b7107c3ac1fbd78e8574a36e5d2d0490cf2"
+  }
+}

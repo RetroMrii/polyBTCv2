@@ -1,0 +1,27 @@
+........................................................................ [ 14%]
+........................................................................ [ 28%]
+........................................................................ [ 43%]
+.........................................................FF............. [ 57%]
+........................................................................ [ 71%]
+..........................................................F............. [ 86%]
+......................................................................   [100%]
+================================== FAILURES ===================================
+_____________ test_runtime_defaults_to_v2_and_closed_verification _____________
+tests\shadow\test_source_verification_vnext.py:164: in test_runtime_defaults_to_v2_and_closed_verification
+    import run_vnext_shadow
+E   ModuleNotFoundError: No module named 'run_vnext_shadow'
+______________ test_explicit_refresh_cli_uses_cache_refresh_once ______________
+tests\shadow\test_source_verification_vnext.py:182: in test_explicit_refresh_cli_uses_cache_refresh_once
+    import refresh_vnext_fees
+E   ModuleNotFoundError: No module named 'refresh_vnext_fees'
+___________ test_status_command_works_without_csv_or_runtime_start ____________
+tests\trading\test_operations.py:77: in test_status_command_works_without_csv_or_runtime_start
+    result=subprocess.run([sys.executable,'scripts/run_vnext_shadow.py','--status','--state-dir',str(target)],
+C:\Python314\Lib\subprocess.py:578: in run
+    raise CalledProcessError(retcode, process.args,
+E   subprocess.CalledProcessError: Command '['H:\\PolyBTCv2\\.venv\\Scripts\\python.exe', 'scripts/run_vnext_shadow.py', '--status', '--state-dir', 'H:\\PolyBTCv2\\docs\\audit-20261019\\core-temp\\test_status_command_works_with0\\absent']' returned non-zero exit status 2.
+=========================== short test summary info ===========================
+FAILED tests/shadow/test_source_verification_vnext.py::test_runtime_defaults_to_v2_and_closed_verification
+FAILED tests/shadow/test_source_verification_vnext.py::test_explicit_refresh_cli_uses_cache_refresh_once
+FAILED tests/trading/test_operations.py::test_status_command_works_without_csv_or_runtime_start
+3 failed, 499 passed, 1 skipped in 419.16s (0:06:59)

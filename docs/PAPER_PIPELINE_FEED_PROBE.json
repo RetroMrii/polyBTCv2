@@ -1,0 +1,882 @@
+[
+  {
+    "received_at_unix": 1791834572.471584,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82663677677071425863680",
+        "symbol": "btc/usd",
+        "timestamp": 1791834571000,
+        "value": 82663.67767707142,
+        "window_s": 60
+      },
+      "timestamp": 1791834572465,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834573.6971922,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82663824664476887547904",
+        "symbol": "btc/usd",
+        "timestamp": 1791834572000,
+        "value": 82663.82466447688,
+        "window_s": 60
+      },
+      "timestamp": 1791834573627,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834574.7884889,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82663961987644030713856",
+        "symbol": "btc/usd",
+        "timestamp": 1791834573000,
+        "value": 82663.96198764403,
+        "window_s": 60
+      },
+      "timestamp": 1791834574751,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834575.356791,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82664075906410539384832",
+        "symbol": "btc/usd",
+        "timestamp": 1791834574000,
+        "value": 82664.07590641054,
+        "window_s": 60
+      },
+      "timestamp": 1791834575226,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834575.8764908,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82664220848981299691520",
+        "symbol": "btc/usd",
+        "timestamp": 1791834575000,
+        "value": 82664.2208489813,
+        "window_s": 60
+      },
+      "timestamp": 1791834575854,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834577.4424536,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82664363534476768182272",
+        "symbol": "btc/usd",
+        "timestamp": 1791834576000,
+        "value": 82664.36353447677,
+        "window_s": 60
+      },
+      "timestamp": 1791834577384,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834578.4120524,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82664655689361167220736",
+        "symbol": "btc/usd",
+        "timestamp": 1791834577000,
+        "value": 82664.65568936117,
+        "window_s": 60
+      },
+      "timestamp": 1791834578379,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834578.8641887,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82664655689361167220736",
+        "symbol": "btc/usd",
+        "timestamp": 1791834578000,
+        "value": 82664.65568936117,
+        "window_s": 60
+      },
+      "timestamp": 1791834578859,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834580.9147096,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82664822704837402558464",
+        "symbol": "btc/usd",
+        "timestamp": 1791834579000,
+        "value": 82664.8227048374,
+        "window_s": 60
+      },
+      "timestamp": 1791834580821,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834581.5040786,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82665555449293888815104",
+        "symbol": "btc/usd",
+        "timestamp": 1791834580000,
+        "value": 82665.55544929388,
+        "window_s": 60
+      },
+      "timestamp": 1791834581462,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834582.4828334,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82665555449293888815104",
+        "symbol": "btc/usd",
+        "timestamp": 1791834581000,
+        "value": 82665.55544929388,
+        "window_s": 60
+      },
+      "timestamp": 1791834582489,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834583.0318487,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82665940089537420066816",
+        "symbol": "btc/usd",
+        "timestamp": 1791834582000,
+        "value": 82665.94008953741,
+        "window_s": 60
+      },
+      "timestamp": 1791834582952,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834584.4727726,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82666829382024922398720",
+        "symbol": "btc/usd",
+        "timestamp": 1791834583000,
+        "value": 82666.82938202492,
+        "window_s": 60
+      },
+      "timestamp": 1791834584417,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834585.400511,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82667291939515280654336",
+        "symbol": "btc/usd",
+        "timestamp": 1791834584000,
+        "value": 82667.29193951529,
+        "window_s": 60
+      },
+      "timestamp": 1791834585392,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834586.1363845,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82667291939515280654336",
+        "symbol": "btc/usd",
+        "timestamp": 1791834585000,
+        "value": 82667.29193951529,
+        "window_s": 60
+      },
+      "timestamp": 1791834586106,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834587.3552134,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82668218099186947588096",
+        "symbol": "btc/usd",
+        "timestamp": 1791834586000,
+        "value": 82668.21809918695,
+        "window_s": 60
+      },
+      "timestamp": 1791834587337,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834588.1464372,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82668218099186947588096",
+        "symbol": "btc/usd",
+        "timestamp": 1791834587000,
+        "value": 82668.21809918695,
+        "window_s": 60
+      },
+      "timestamp": 1791834588141,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834589.2896585,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82668682716718557036544",
+        "symbol": "btc/usd",
+        "timestamp": 1791834588000,
+        "value": 82668.68271671855,
+        "window_s": 60
+      },
+      "timestamp": 1791834589271,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834590.651066,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82669627134338041643008",
+        "symbol": "btc/usd",
+        "timestamp": 1791834589000,
+        "value": 82669.62713433804,
+        "window_s": 60
+      },
+      "timestamp": 1791834590663,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834591.5734184,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82670103888558255243264",
+        "symbol": "btc/usd",
+        "timestamp": 1791834590000,
+        "value": 82670.10388855825,
+        "window_s": 60
+      },
+      "timestamp": 1791834591603,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834592.503474,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82670580940219785150464",
+        "symbol": "btc/usd",
+        "timestamp": 1791834591000,
+        "value": 82670.58094021979,
+        "window_s": 60
+      },
+      "timestamp": 1791834592517,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834592.9070487,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82670580940219785150464",
+        "symbol": "btc/usd",
+        "timestamp": 1791834592000,
+        "value": 82670.58094021979,
+        "window_s": 60
+      },
+      "timestamp": 1791834592965,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834594.241337,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82671542379383040770048",
+        "symbol": "btc/usd",
+        "timestamp": 1791834593000,
+        "value": 82671.54237938304,
+        "window_s": 60
+      },
+      "timestamp": 1791834594250,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834594.720892,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82671542379383040770048",
+        "symbol": "btc/usd",
+        "timestamp": 1791834594000,
+        "value": 82671.54237938304,
+        "window_s": 60
+      },
+      "timestamp": 1791834594781,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834595.960085,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82672025804710019596288",
+        "symbol": "btc/usd",
+        "timestamp": 1791834595000,
+        "value": 82672.02580471002,
+        "window_s": 60
+      },
+      "timestamp": 1791834595964,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834597.1455214,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82672509297774756364288",
+        "symbol": "btc/usd",
+        "timestamp": 1791834596000,
+        "value": 82672.50929777476,
+        "window_s": 60
+      },
+      "timestamp": 1791834597227,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834597.8387053,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82672999661538304327680",
+        "symbol": "btc/usd",
+        "timestamp": 1791834597000,
+        "value": 82672.9996615383,
+        "window_s": 60
+      },
+      "timestamp": 1791834597842,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834599.1935773,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82673490556305419534336",
+        "symbol": "btc/usd",
+        "timestamp": 1791834598000,
+        "value": 82673.49055630542,
+        "window_s": 60
+      },
+      "timestamp": 1791834599122,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834600.3924534,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82674470751654996082688",
+        "symbol": "btc/usd",
+        "timestamp": 1791834599000,
+        "value": 82674.470751655,
+        "window_s": 60
+      },
+      "timestamp": 1791834600478,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834601.2776923,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82674470751654996082688",
+        "symbol": "btc/usd",
+        "timestamp": 1791834600000,
+        "value": 82674.470751655,
+        "window_s": 60
+      },
+      "timestamp": 1791834601281,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834602.1985412,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82674960737688115740672",
+        "symbol": "btc/usd",
+        "timestamp": 1791834601000,
+        "value": 82674.96073768812,
+        "window_s": 60
+      },
+      "timestamp": 1791834602252,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834604.044141,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82675922552417589133312",
+        "symbol": "btc/usd",
+        "timestamp": 1791834602000,
+        "value": 82675.92255241759,
+        "window_s": 60
+      },
+      "timestamp": 1791834604161,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834604.2440646,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82675922552417589133312",
+        "symbol": "btc/usd",
+        "timestamp": 1791834603000,
+        "value": 82675.92255241759,
+        "window_s": 60
+      },
+      "timestamp": 1791834604388,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834605.3506298,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82677226617330531827712",
+        "symbol": "btc/usd",
+        "timestamp": 1791834604000,
+        "value": 82677.22661733053,
+        "window_s": 60
+      },
+      "timestamp": 1791834605441,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834605.9035618,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82677226617330531827712",
+        "symbol": "btc/usd",
+        "timestamp": 1791834605000,
+        "value": 82677.22661733053,
+        "window_s": 60
+      },
+      "timestamp": 1791834606070,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834608.070415,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82678688145753044418560",
+        "symbol": "btc/usd",
+        "timestamp": 1791834606000,
+        "value": 82678.68814575304,
+        "window_s": 60
+      },
+      "timestamp": 1791834608230,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834608.7672646,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82679406305717126168576",
+        "symbol": "btc/usd",
+        "timestamp": 1791834607000,
+        "value": 82679.40630571713,
+        "window_s": 60
+      },
+      "timestamp": 1791834608658,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834609.1330261,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82679406305717126168576",
+        "symbol": "btc/usd",
+        "timestamp": 1791834608000,
+        "value": 82679.40630571713,
+        "window_s": 60
+      },
+      "timestamp": 1791834609068,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834610.5678961,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82680136933496405884928",
+        "symbol": "btc/usd",
+        "timestamp": 1791834609000,
+        "value": 82680.13693349641,
+        "window_s": 60
+      },
+      "timestamp": 1791834610565,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834610.9942873,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82680796662658557280256",
+        "symbol": "btc/usd",
+        "timestamp": 1791834610000,
+        "value": 82680.79666265855,
+        "window_s": 60
+      },
+      "timestamp": 1791834610947,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834612.2328973,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82681329835155864420352",
+        "symbol": "btc/usd",
+        "timestamp": 1791834611000,
+        "value": 82681.32983515586,
+        "window_s": 60
+      },
+      "timestamp": 1791834612199,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834613.4735758,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82682266502527532924928",
+        "symbol": "btc/usd",
+        "timestamp": 1791834612000,
+        "value": 82682.26650252753,
+        "window_s": 60
+      },
+      "timestamp": 1791834613436,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834613.9508076,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82682266502527532924928",
+        "symbol": "btc/usd",
+        "timestamp": 1791834613000,
+        "value": 82682.26650252753,
+        "window_s": 60
+      },
+      "timestamp": 1791834613894,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834615.1363614,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82682645280142349303808",
+        "symbol": "btc/usd",
+        "timestamp": 1791834614000,
+        "value": 82682.64528014234,
+        "window_s": 60
+      },
+      "timestamp": 1791834615113,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834616.4355385,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82683008249707381129216",
+        "symbol": "btc/usd",
+        "timestamp": 1791834615000,
+        "value": 82683.00824970737,
+        "window_s": 60
+      },
+      "timestamp": 1791834616397,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834616.7564266,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82683366862260841480192",
+        "symbol": "btc/usd",
+        "timestamp": 1791834616000,
+        "value": 82683.36686226084,
+        "window_s": 60
+      },
+      "timestamp": 1791834616798,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834618.1364667,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82683721755146365960192",
+        "symbol": "btc/usd",
+        "timestamp": 1791834617000,
+        "value": 82683.72175514637,
+        "window_s": 60
+      },
+      "timestamp": 1791834618055,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834619.2628264,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82684076442277942132736",
+        "symbol": "btc/usd",
+        "timestamp": 1791834618000,
+        "value": 82684.07644227795,
+        "window_s": 60
+      },
+      "timestamp": 1791834619219,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834620.667754,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82684797905943132110848",
+        "symbol": "btc/usd",
+        "timestamp": 1791834619000,
+        "value": 82684.79790594314,
+        "window_s": 60
+      },
+      "timestamp": 1791834620650,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834620.934453,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82684797905943132110848",
+        "symbol": "btc/usd",
+        "timestamp": 1791834620000,
+        "value": 82684.79790594314,
+        "window_s": 60
+      },
+      "timestamp": 1791834620946,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834622.4370735,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82685147452303411773440",
+        "symbol": "btc/usd",
+        "timestamp": 1791834621000,
+        "value": 82685.14745230341,
+        "window_s": 60
+      },
+      "timestamp": 1791834622390,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834623.05137,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82685525951718851870720",
+        "symbol": "btc/usd",
+        "timestamp": 1791834622000,
+        "value": 82685.52595171885,
+        "window_s": 60
+      },
+      "timestamp": 1791834623051,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834624.2489047,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82685914578190434566144",
+        "symbol": "btc/usd",
+        "timestamp": 1791834623000,
+        "value": 82685.91457819044,
+        "window_s": 60
+      },
+      "timestamp": 1791834624232,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834624.9017742,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82686281640313972850688",
+        "symbol": "btc/usd",
+        "timestamp": 1791834624000,
+        "value": 82686.28164031397,
+        "window_s": 60
+      },
+      "timestamp": 1791834624889,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  },
+  {
+    "received_at_unix": 1791834626.2258496,
+    "event": {
+      "connection_id": "gdVg_w7fIWeIKEiSSA==",
+      "payload": {
+        "full_accuracy_value": "82686644821388376932352",
+        "symbol": "btc/usd",
+        "timestamp": 1791834625000,
+        "value": 82686.64482138837,
+        "window_s": 60
+      },
+      "timestamp": 1791834626230,
+      "topic": "crypto_prices_twap_sixty",
+      "type": "update"
+    }
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "decision_id": 3,
+    "target": "2026-10-12T20:13:00+00:00",
+    "recorded_cycle_time": "2026-10-12T20:13:02.475058+00:00",
+    "quote": "1ffc2acc6acdf7ff6414f773e721fbd34e7d93a7564a76ccebf77e40ff850a48",
+    "source_verification": {
+      "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+      "condition_id": "0x2c5752cb9e879c1f363426676cdb9f888fd20b4e57c633999a2a8b9865a85424",
+      "prediction_snapshot_id": "5ce9a6bda4210cf05a60aa41e2c74fef6c95941636548b229132419b53d82e81",
+      "execution_snapshot_id": "1ffc2acc6acdf7ff6414f773e721fbd34e7d93a7564a76ccebf77e40ff850a48",
+      "checked_at_utc": "2026-10-12T20:13:02.475058+00:00",
+      "reference_source_verified": true,
+      "yes_book_source_verified": true,
+      "no_book_source_verified": true,
+      "fee_policy_verified": true,
+      "fee_descriptor_verified": true,
+      "reasons": [],
+      "evidence_ids": [
+        "3114a0c9841b58232bd2a7c70a4ac0eb6ecbc0be003ec3f6f00d8e7940b24270",
+        "7b4d80a7ac9cfd7412bd5ca2acb08100e974c5dc07c2ba67fd8bc9ccfac28f7c",
+        "b31f786675330047f15e9297b38ca9d9930cf1a271f8e741c9e8f77ef782179c"
+      ],
+      "execution_scope": "paper",
+      "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+      "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+      "reference_anchor_snapshot_id": "f86d28abea46e998e2351f15f3ab63790654a5891d5c6c4e57b3149db251c789",
+      "diagnostics_version": 1,
+      "diagnostics": []
+    }
+  }
+]

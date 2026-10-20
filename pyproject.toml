@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "polybtc-v2"
+version = "0.1.0"
+description = "PolyBTC v2 research and trading system"
+requires-python = ">=3.11"
+license = {file = "LICENSE"}
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0"]
+clob = ["polymarket-client==0.13.0"]
+paper = [
+    "numpy==2.5.3", "pandas==3.0.6", "scikit-learn==1.9.1",
+    "joblib==1.6.0", "requests==2.34.2", "websocket-client==1.9.2",
+    "py-clob-client==0.34.6",
+]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

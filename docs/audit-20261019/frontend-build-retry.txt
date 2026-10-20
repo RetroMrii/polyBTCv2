@@ -1,0 +1,15 @@
+vite v6.4.4 building for production...
+
+(!) outDir H:\PolyBTCv2\docs\audit-20261019\frontend-dist is not inside project root and will not be emptied.
+Use --emptyOutDir to override.
+
+transforming...
+✓ 2570 modules transformed.
+rendering chunks...
+computing gzip size...
+../../docs/audit-20261019/frontend-dist/index.html                   0.62 kB │ gzip:   0.34 kB
+../../docs/audit-20261019/frontend-dist/assets/index-nHYHuduM.css   25.77 kB │ gzip:   6.62 kB
+../../docs/audit-20261019/frontend-dist/assets/motion-CidOkcZi.js  134.63 kB │ gzip:  44.35 kB
+../../docs/audit-20261019/frontend-dist/assets/index-C_77UgTU.js   268.58 kB │ gzip:  80.97 kB
+../../docs/audit-20261019/frontend-dist/assets/charts-COeVH6VB.js  423.58 kB │ gzip: 121.72 kB
+✓ built in 12.27s

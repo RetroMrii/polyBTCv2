@@ -1,0 +1,76 @@
+{
+  "version": "publication-evidence-v1",
+  "rule": "Numerical paper tables cite these source extracts; parent paths/hashes identify retained originals. Historical metrics are not silently redefined.",
+  "artifacts": [
+    {
+      "artifact": "research/sources/data-evidence.json",
+      "sha256": "72b9743fca5dd4c3bf2df1491ee6ee35904f0523714dff549539c87f91b84594",
+      "source": "docs/POLYBTC_R1_EVIDENCE.json"
+    },
+    {
+      "artifact": "research/sources/demo.json",
+      "sha256": "a418f0e7f86fd4f403422e13c40a0ebd7583b7db869ec0803aa87a16b52a7650",
+      "source": "docs/POLYBTC_S5_EVIDENCE.json"
+    },
+    {
+      "artifact": "research/sources/economics-evidence.json",
+      "sha256": "bb0c4f4c549c484c8deaec9c8e7985587f42780c5c94d95279761bf47b038143",
+      "source": "docs/POLYBTC_S5_EVIDENCE.json"
+    },
+    {
+      "artifact": "research/sources/forecast-evidence.json",
+      "sha256": "1413dc15037d16eff69f8defa64a677b1cd3df3ce65fe45d864d87e0306067ae",
+      "source": "docs/POLYBTC_S5_EVIDENCE.json"
+    },
+    {
+      "artifact": "research/sources/model-evidence.json",
+      "sha256": "d7bd3faa54b2bf9fd0ff0afd1d0e21de67abeba5f28548dd4abd016cf3f27b03",
+      "source": "data/normalized/p115_market_anchored_walk_forward_report.json"
+    },
+    {
+      "artifact": "research/sources/timing-evidence.json",
+      "sha256": "1dcfb0d3a2c6d5d624960ae1ad9cb5bf491ead73fbcf11d75d0c39d611bbfebf",
+      "source": "docs/POLYBTC_DECISION_FUNNEL_EVIDENCE.json"
+    }
+  ],
+  "parent_sources": {
+    "docs/POLYBTC_S5_EVIDENCE.json": "f07394c985a16dcdbd5941e1d9d23959efed3b0a16eeef920bd4608cc35da465",
+    "docs/POLYBTC_R1_EVIDENCE.json": "7b0643e7ac5278c608ce0409410f3d3461c854bd13fad3a69b8084cb58f07eff",
+    "docs/POLYBTC_DECISION_FUNNEL_EVIDENCE.json": "9dc26a4169ae9d3f457c3a8335f9b2921858802c02537b7460335859185ca711",
+    "docs/audit-20261019/workspace-evidence.json": "6786b9b86c256315b6bb5de9c62f1f2bf3f14037d1f065fe4dbca47716801ac6",
+    "data/research/publication_data_20261019_v1/manifest.json": "9ce7101871c49e1130cf9f03e32ad2473f9d34d35f3f8c53afcfd32c8141fc73",
+    "data/normalized/p115_market_anchored_walk_forward_report.json": "cbb568f14802bb9721437addd4d43ec1d9d0f70ea1221c19847c3645fe7204b6",
+    "data/experiments/model_expansion/vm_expansion_v2/hgb3_xgb_v2_comparison.json": "1eeb8fb4b2a709def6156e8726aab0d7a0a244fe48048d3e48a610ae1b8d8ec0",
+    "data/experiments/p13_model_improvement/p13_k2_model_feature_retest_report.json": "ac225e8a376bbcde932d1f5466fa5b070da3c9df842fc29cce62dd4940a43cdc",
+    "data/experiments/p13_model_improvement/p13_block2_validation_report.json": "617cdd336cf48d18f4902b03696e1efb9ecfeeda7b5bc4deca9eb86a72cab5ea"
+  },
+  "paper_claim_map": {
+    "market-data-provenance": [
+      "data-evidence.json:raw",
+      "data-evidence.json:inventory",
+      "data-evidence.json:verified_summary"
+    ],
+    "models-versus-market": [
+      "model-evidence.json:overall",
+      "model-evidence.json:expanded_comparison",
+      "model-evidence.json:feature_retest",
+      "model-evidence.json:later_block"
+    ],
+    "forecast-calibration": [
+      "forecast-evidence.json:partitions",
+      "forecast-evidence.json:calibration",
+      "forecast-evidence.json:scores",
+      "forecast-evidence.json:recomputed_scores"
+    ],
+    "execution-timing": [
+      "timing-evidence.json:funnel",
+      "timing-evidence.json:latency_ms",
+      "timing-evidence.json:counterfactual"
+    ],
+    "strategy-economics": [
+      "economics-evidence.json:baseline",
+      "economics-evidence.json:alternative_summaries",
+      "economics-evidence.json:accounting_checks"
+    ]
+  }
+}

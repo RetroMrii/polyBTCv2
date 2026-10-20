@@ -1,0 +1,111 @@
+# Python
+__pycache__/
+*.py[cod]
+.ruff_cache/
+.mypy_cache/
+.hypothesis/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+
+# Virtual environments
+.venv/
+.venv-execution/
+.venv*/
+venv/
+*.egg-info/
+
+# Dependency installs and disposable build outputs (at any depth)
+node_modules/
+dist/
+build/
+coverage/
+.vite/
+.vite-temp/
+*.tsbuildinfo
+.cache/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Pytest
+.pytest_cache/
+
+# IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+Thumbs.db
+.DS_Store
+Desktop.ini
+$RECYCLE.BIN/
+
+# Runtime / generated data
+data/normalized/
+
+# Local raw datasets
+data/raw/
+
+# Models / experiments generated later
+models/
+/experiments/*
+!/experiments/README.md
+!/experiments/cards/
+reports/generated/
+
+# Local research and operational assets; publish explicit manifests instead.
+data/live/
+data/paper/
+data/shadow/
+data/external/
+data/models/
+data/experiments/
+data/research/
+data/validation/
+*.sqlite3
+*.sqlite3-*
+*.sqlite
+*.sqlite-*
+*.db
+*.db-wal
+*.db-shm
+*.db-journal
+.env
+.env.*
+!.env.example
+!.env.*.example
+*.pem
+*.key
+/dashboard/config.toml
+/dashboard/logs/
+.publication-deps/
+.publication-cache/
+.npm-publication-cache/
+reports/transformation/*-temp/
+dashboard/frontend/src/generated/
+dashboard/frontend/public/research/
+
+# Superseded exploratory notebooks and uncurated internal handoff documents.
+# Kept locally; canonical publications and cited evidence remain versionable.
+/research-OoD/
+/ToOrganize/
+/reports/
+
+# Local assistant/editor state, never publication sources.
+/.codex/
+/.agents/
+
+# Keep research/papers, research/figures, research/sources, docs (including
+# historical evidence and archives), datasets manifests, tests, source code,
+# dependency lock files visible. Local reports/ are excluded above; publish
+# selected verification summaries under docs/ when needed.
+# Do not blanket-ignore *.json, *.csv, *.png, *.svg, *.ipynb or docs/archive/.

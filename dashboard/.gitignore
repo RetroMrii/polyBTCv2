@@ -1,0 +1,10 @@
+.venv/
+.cache/
+logs/
+config.toml
+**/__pycache__/
+**/.pytest_cache/
+**/.ruff_cache/
+frontend/node_modules/
+frontend/dist/
+frontend/*.tsbuildinfo

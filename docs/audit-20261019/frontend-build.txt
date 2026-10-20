@@ -1,0 +1,15 @@
+
+> polybtc-monitor@1.0.0 build
+> tsc --noEmit && vite build
+
+failed to load config from H:\PolyBTCv2\dashboard\frontend\vite.config.ts
+error during build:
+Error: EPERM: operation not permitted, open 'H:\PolyBTCv2\dashboard\frontend\node_modules\.vite-temp\vite.config.ts.timestamp-1792430493799-617cf151cdd8e8.mjs'
+    at async open (node:internal/fs/promises:1287:25)
+    at async Object.writeFile (node:internal/fs/promises:1905:14)
+    at async loadConfigFromBundledFile (file:///H:/PolyBTCv2/dashboard/frontend/node_modules/vite/dist/node/chunks/dep-3O3b9SCF.js:49776:5)
+    at async bundleAndLoadConfigFile (file:///H:/PolyBTCv2/dashboard/frontend/node_modules/vite/dist/node/chunks/dep-3O3b9SCF.js:49621:22)
+    at async loadConfigFromFile (file:///H:/PolyBTCv2/dashboard/frontend/node_modules/vite/dist/node/chunks/dep-3O3b9SCF.js:49584:44)
+    at async resolveConfig (file:///H:/PolyBTCv2/dashboard/frontend/node_modules/vite/dist/node/chunks/dep-3O3b9SCF.js:49079:24)
+    at async createBuilder (file:///H:/PolyBTCv2/dashboard/frontend/node_modules/vite/dist/node/chunks/dep-3O3b9SCF.js:47054:18)
+    at async CAC.<anonymous> (file:///H:/PolyBTCv2/dashboard/frontend/node_modules/vite/dist/node/cli.js:862:23)

@@ -1,0 +1,59 @@
+{
+  "checked_at": "2026-10-12T20:19:35.375929+00:00",
+  "scope": "Original operational state, read only",
+  "decisions": {
+    "count": 234,
+    "max_id": 335723,
+    "latest_target": "2026-10-12T18:09:30.000000+00:00"
+  },
+  "reason_counts": {
+    "missing_horizon": 1,
+    "missing_reference_return_30s": 4,
+    "snapshot_arrived_after_target": 42,
+    "stale_horizon": 52,
+    "unverified_input_provenance": 135
+  },
+  "receipt_count": 5899,
+  "checkpoint": {
+    "id": 1,
+    "source_path": "H:\\PolyBTCv2\\data\\live\\vnext_market_snapshots.csv",
+    "source_identity": "16635342973237467071:2251799813785246",
+    "header_sha256": "69bd2aec562afff614b461754d193d97723e3b23a2f7321da3b3a798b09fe62c",
+    "header_end_offset": 487,
+    "offset_bytes": 31987165,
+    "acknowledged_prefix_sha256": "6023eca00d064ade8e6d704d8e31e5c6ac242fee856f0ded8f9290b5b77ac177"
+  },
+  "entry_count": 0,
+  "model_sha256": "42647c6810f8ee01313aee24362e0c83e20b4240f951316d2d576160327752e4",
+  "csv_size": 31987165,
+  "runtime_status": {
+    "failure": null,
+    "kill_switch": false,
+    "last_cycle": {
+      "cached_snapshots": 505,
+      "checkpoint_bytes": 31987165,
+      "decisions": 0,
+      "kill_switch": false,
+      "mode": "paper_execution",
+      "new_receipts": 0,
+      "observed_at_utc": "2026-10-12T18:10:37.847738+00:00",
+      "paper_execution_enabled": true,
+      "source_rows": 0
+    },
+    "live_enabled": false,
+    "mode": "paper_execution",
+    "model": {
+      "approval_scope": "artifact_identity_only",
+      "approved": true,
+      "identity_verified": true,
+      "path": "H:\\PolyBTCv2\\data\\models\\main\\hgb3_expanded_v2.joblib",
+      "production_approved": false,
+      "sha256": "42647c6810f8ee01313aee24362e0c83e20b4240f951316d2d576160327752e4",
+      "version": "hgb3_expanded_v2"
+    },
+    "observed_at": "2026-10-12T18:10:38.240677+00:00",
+    "pid": 24628,
+    "state": "stopped",
+    "version": "service_runtime_vnext_v1"
+  }
+}

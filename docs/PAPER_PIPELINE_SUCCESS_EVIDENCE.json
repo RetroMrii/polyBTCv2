@@ -1,0 +1,229 @@
+{
+  "outcome": "STRATEGY_REACHED_WITH_REAL_VERIFIED_INPUTS",
+  "validation_root": "H:\\PolyBTCv2\\data\\validation\\pipeline_recovery_20261012T201639Z",
+  "decision": {
+    "id": 1,
+    "condition_id": "0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00",
+    "horizon_seconds": 240,
+    "target_at_utc": "2026-10-12T20:21:00.000000+00:00",
+    "processed_at_utc": "2026-10-12T20:21:02.491061+00:00",
+    "status": "ABSTAIN",
+    "reason": "price_ceiling_exceeded",
+    "snapshot_id": "057e2e52bba93fca26d9c11cf9e0ac8c168b2aff0484904756ca09ff04a27726",
+    "snapshot_observed_at_utc": "2026-10-12T20:20:59.023489+00:00",
+    "snapshot_ingested_at_utc": "2026-10-12T20:20:59.386155+00:00",
+    "snapshot_source": "polybtc_v1_1_telemetry",
+    "horizon_gap_seconds": 0.976511,
+    "orchestrator_version": "shadow_orchestrator_vnext_v1",
+    "claim_token": "dcc32b0c8e0141409b840e8e74ea15d5",
+    "claimed_at_utc": "2026-10-12T20:21:02.607299+00:00",
+    "completed_at_utc": "2026-10-12T20:21:02.607299+00:00",
+    "model_probability_yes": 0.25046665036190147,
+    "market_probability_yes": 0.255,
+    "execution_price": null,
+    "prediction_market_probability_yes": 0.255,
+    "fee_provenance_json": "{\"fee_cache_version\":\"fee_policy_cache_vnext_v1\",\"fee_condition_id\":\"0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00\",\"fee_descriptor_exponent\":1,\"fee_descriptor_flag\":true,\"fee_descriptor_rate\":0.07,\"fee_policy_source\":\"https://clob.polymarket.com/clob-markets/0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00\",\"fee_provider_version\":\"polymarket_clob_fee_provider_v1\",\"fee_retrieved_at_utc\":\"2026-10-12T20:20:05.726170+00:00\"}",
+    "source_verification_json": "{\"checked_at_utc\":\"2026-10-12T20:21:02.607299+00:00\",\"condition_id\":\"0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00\",\"diagnostics\":[],\"diagnostics_version\":1,\"evidence_ids\":[\"67f63b0fe672e2f43e7f5bcf3d7bc87087be9ff459d8dcbb1f53898fd1413f73\",\"cb5d9bd04b26036a675dc8d7be79db09613f9bee54fa27546ded90abc0f61ec7\",\"f3ced2b4f16a0ae4be362cc163210afd01364f9385fab9c051d79b5b322d6e1a\"],\"execution_scope\":\"paper\",\"execution_snapshot_id\":\"67db1b58f4b76ee2dd498d96eb349b6d071cb5ecde39dab40266ad725ae41228\",\"fee_accounting_model\":\"paper_cash_taker_full_precision_v1\",\"fee_descriptor_verified\":true,\"fee_policy_verified\":true,\"no_book_source_verified\":true,\"prediction_snapshot_id\":\"057e2e52bba93fca26d9c11cf9e0ac8c168b2aff0484904756ca09ff04a27726\",\"reasons\":[],\"reference_anchor_snapshot_id\":\"81001dfe0554cc57d548a5a5f7ad2c886094912229e74588705314d3db9a4426\",\"reference_source_verified\":true,\"strike_model\":\"collector_nearest_boundary_twap_within_5s_v1\",\"verifier_version\":\"source_verification_vnext_v2_consumed_anchor\",\"yes_book_source_verified\":true}"
+  },
+  "source_verification": {
+    "checked_at_utc": "2026-10-12T20:21:02.607299+00:00",
+    "condition_id": "0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00",
+    "diagnostics": [],
+    "diagnostics_version": 1,
+    "evidence_ids": [
+      "67f63b0fe672e2f43e7f5bcf3d7bc87087be9ff459d8dcbb1f53898fd1413f73",
+      "cb5d9bd04b26036a675dc8d7be79db09613f9bee54fa27546ded90abc0f61ec7",
+      "f3ced2b4f16a0ae4be362cc163210afd01364f9385fab9c051d79b5b322d6e1a"
+    ],
+    "execution_scope": "paper",
+    "execution_snapshot_id": "67db1b58f4b76ee2dd498d96eb349b6d071cb5ecde39dab40266ad725ae41228",
+    "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+    "fee_descriptor_verified": true,
+    "fee_policy_verified": true,
+    "no_book_source_verified": true,
+    "prediction_snapshot_id": "057e2e52bba93fca26d9c11cf9e0ac8c168b2aff0484904756ca09ff04a27726",
+    "reasons": [],
+    "reference_anchor_snapshot_id": "81001dfe0554cc57d548a5a5f7ad2c886094912229e74588705314d3db9a4426",
+    "reference_source_verified": true,
+    "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+    "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+    "yes_book_source_verified": true
+  },
+  "fee_evidence": {
+    "fee_cache_version": "fee_policy_cache_vnext_v1",
+    "fee_condition_id": "0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00",
+    "fee_descriptor_exponent": 1,
+    "fee_descriptor_flag": true,
+    "fee_descriptor_rate": 0.07,
+    "fee_policy_source": "https://clob.polymarket.com/clob-markets/0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00",
+    "fee_provider_version": "polymarket_clob_fee_provider_v1",
+    "fee_retrieved_at_utc": "2026-10-12T20:20:05.726170+00:00"
+  },
+  "market_start": "2026-10-12T20:20:00+00:00",
+  "market_expiry": "2026-10-12T20:25:00+00:00",
+  "prediction": {
+    "snapshot_id": "057e2e52bba93fca26d9c11cf9e0ac8c168b2aff0484904756ca09ff04a27726",
+    "evidence_id": "67f63b0fe672e2f43e7f5bcf3d7bc87087be9ff459d8dcbb1f53898fd1413f73",
+    "observed_at": "2026-10-12T20:20:59.023489+00:00",
+    "captured_at": "2026-10-12T20:20:59.023860+00:00",
+    "published_at": "2026-10-12T20:20:59.346101+00:00",
+    "received_at": "2026-10-12T20:20:59.386155+00:00",
+    "reference": "2026-10-12T20:20:58+00:00",
+    "yes_book": "2026-10-12T20:20:59.312000+00:00",
+    "no_book": "2026-10-12T20:20:59.406000+00:00"
+  },
+  "anchor": {
+    "snapshot_id": "81001dfe0554cc57d548a5a5f7ad2c886094912229e74588705314d3db9a4426",
+    "evidence_id": "f3ced2b4f16a0ae4be362cc163210afd01364f9385fab9c051d79b5b322d6e1a",
+    "observed_at": "2026-10-12T20:20:28.680679+00:00",
+    "captured_at": "2026-10-12T20:20:28.681049+00:00",
+    "published_at": "2026-10-12T20:20:28.851115+00:00",
+    "received_at": "2026-10-12T20:20:28.863135+00:00",
+    "reference": "2026-10-12T20:20:27+00:00",
+    "yes_book": "2026-10-12T20:20:28.945000+00:00",
+    "no_book": "2026-10-12T20:20:29.013000+00:00"
+  },
+  "execution": {
+    "snapshot_id": "67db1b58f4b76ee2dd498d96eb349b6d071cb5ecde39dab40266ad725ae41228",
+    "evidence_id": "cb5d9bd04b26036a675dc8d7be79db09613f9bee54fa27546ded90abc0f61ec7",
+    "observed_at": "2026-10-12T20:21:02.044533+00:00",
+    "captured_at": "2026-10-12T20:21:02.044923+00:00",
+    "published_at": "2026-10-12T20:21:02.410341+00:00",
+    "received_at": "2026-10-12T20:21:02.438437+00:00",
+    "reference": "2026-10-12T20:21:01+00:00",
+    "yes_book": "2026-10-12T20:21:02.356000+00:00",
+    "no_book": "2026-10-12T20:21:02.430000+00:00"
+  },
+  "features": {
+    "relative_distance_from_strike": -0.0002704947863224796,
+    "target_horizon_seconds": 240,
+    "reference_return_30s": -0.00012421654906269453
+  },
+  "strategy": {
+    "observed_at": "2026-10-12T20:21:02.710076+00:00",
+    "input": {
+      "condition_id": "0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00",
+      "horizon_seconds": 240,
+      "model_probability_yes": 0.25046665036190147,
+      "market_probability_yes": 0.255,
+      "yes_ask": 0.26,
+      "no_ask": 0.75,
+      "yes_ask_size": 748.5,
+      "no_ask_size": 820.26,
+      "yes_book_age_ms": 353.976,
+      "no_book_age_ms": 279.976,
+      "reference_age_ms": 1709.9759999999999,
+      "tick_size": 0.01,
+      "fee_per_share": 0.01751
+    },
+    "decision": {
+      "strategy_version": "strategy_vnext_v1",
+      "condition_id": "0x9248b96c8affde0f3e779c2a21b502935ddab0673d133b8bcb18fc6fa5eeed00",
+      "horizon_seconds": 240,
+      "action": "ABSTAIN",
+      "reason": "price_ceiling_exceeded",
+      "model_probability_yes": 0.25046665036190147,
+      "market_probability_yes": 0.255,
+      "selected_probability": null,
+      "selected_ask": null,
+      "execution_price": null,
+      "fee_per_share": null,
+      "net_ev_per_share": null
+    }
+  },
+  "verification_reproduced": true,
+  "receipt_count": 113,
+  "evidence_rows": 115,
+  "latencies_ms": {
+    "observation_to_receipt": {
+      "n": 113,
+      "median": 338.335,
+      "p90": 577.7064,
+      "p99": 757.2941599999998,
+      "maximum": 777.5849999999999,
+      "minimum": 127.281
+    },
+    "observation_to_publication": {
+      "n": 115,
+      "median": 219.699,
+      "p90": 338.1924,
+      "p99": 449.57499999999993,
+      "maximum": 467.18100000000004,
+      "minimum": 94.357
+    },
+    "csv_poll": {
+      "n": 1921,
+      "median": 1.3325999971129932,
+      "p90": 1.8254999959026463,
+      "p99": 9.000959999684707,
+      "maximum": 145.30250000098022,
+      "minimum": 1.1006999993696809
+    },
+    "receipt_commit": {
+      "n": 1921,
+      "median": 0.4206999947200529,
+      "p90": 0.6426999971154146,
+      "p99": 129.00230000377616,
+      "maximum": 215.75189999566646,
+      "minimum": 0.3811999995377846
+    },
+    "history_load": {
+      "n": 1921,
+      "median": 0.35149999894201756,
+      "p90": 0.5549999987124465,
+      "p99": 4.148660002101677,
+      "maximum": 11.394399996788707,
+      "minimum": 0.3283000041847117
+    },
+    "horizon_selection_commit": {
+      "n": 1921,
+      "median": 0.4771000021719374,
+      "p90": 0.6979000027058646,
+      "p99": 6.9254599962732755,
+      "maximum": 110.48090000258526,
+      "minimum": 0.4365999993751757
+    },
+    "history_commit": {
+      "n": 1921,
+      "median": 0.41280000004917383,
+      "p90": 0.6357999955071136,
+      "p99": 152.53494000062344,
+      "maximum": 268.63939999748254,
+      "minimum": 0.3620999996201135
+    },
+    "evidence_commit": {
+      "n": 115,
+      "median": 101.81159999774536,
+      "p90": 166.95464000076757,
+      "p99": 221.83525000262307,
+      "maximum": 227.1312000011676,
+      "minimum": 35.27590000157943
+    },
+    "source_verification": {
+      "n": 1,
+      "median": 7.9017000025487505,
+      "p90": 7.9017000025487505,
+      "p99": 7.9017000025487505,
+      "maximum": 7.9017000025487505,
+      "minimum": 7.9017000025487505
+    },
+    "inference": {
+      "n": 1,
+      "median": 16.356200001609977,
+      "p90": 16.356200001609977,
+      "p99": 16.356200001609977,
+      "maximum": 16.356200001609977,
+      "minimum": 16.356200001609977
+    },
+    "claim_runner_completion": {
+      "n": 1,
+      "median": 186.7493000027025,
+      "p90": 186.7493000027025,
+      "p99": 186.7493000027025,
+      "maximum": 186.7493000027025,
+      "minimum": 186.7493000027025
+    }
+  },
+  "error_count": 0,
+  "ledger_entries": 0
+}

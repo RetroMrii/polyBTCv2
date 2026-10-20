@@ -1,0 +1,223 @@
+{
+  "source": "docs/POLYBTC_DECISION_FUNNEL_EVIDENCE.json",
+  "source_sha256": "9dc26a4169ae9d3f457c3a8335f9b2921858802c02537b7460335859185ca711",
+  "classification": "Historical exposed research evidence; not a new independent experiment.",
+  "serialization": "Nonfinite historical metadata values become JSON null; original source is unchanged.",
+  "window": {
+    "process_start_utc": "2026-10-13T14:30:11.035867+00:00",
+    "exclusive_end_utc": "2026-10-13T18:40:00+00:00",
+    "definition": "Targets in current runtime session, ending before 18:40 UTC to exclude partial last market",
+    "n": 300,
+    "first_id": 338028,
+    "last_id": 338327,
+    "first_target": "2026-10-13T14:31:00.000000+00:00",
+    "last_target": "2026-10-13T18:39:30.000000+00:00"
+  },
+  "funnel": {
+    "decisions": 300,
+    "horizon_selected": 222,
+    "features_reconstructable": 222,
+    "verification_attempted": 222,
+    "verification_pass": 157,
+    "inference_success": 222,
+    "strategy_reached": 97,
+    "economic_qualification": 0,
+    "risk_reservations": 0,
+    "fills": 0
+  },
+  "latency_ms": {
+    "target_to_verification_ms": {
+      "n": 222,
+      "minimum": 2059.7059999999997,
+      "median": 2471.0,
+      "p90": 3130.2107,
+      "p99": 3535.3902999999996,
+      "maximum": 3794.715
+    },
+    "initial_processing_to_verification_ms": {
+      "n": 222,
+      "minimum": 41.272000000000006,
+      "median": 88.3875,
+      "p90": 804.7836000000001,
+      "p99": 1240.2325699999997,
+      "maximum": 1650.143
+    },
+    "reference_age_at_observation_ms": {
+      "n": 194,
+      "minimum": 1068.312,
+      "median": 2008.0279999999998,
+      "p90": 2504.8312,
+      "p99": 2796.38233,
+      "maximum": 3072.218
+    },
+    "reference_age_at_receipt_ms": {
+      "n": 194,
+      "minimum": 1242.637,
+      "median": 2263.0789999999997,
+      "p90": 2806.2606,
+      "p99": 3117.9261499999993,
+      "maximum": 4191.273
+    },
+    "reference_age_at_verification_ms": {
+      "n": 194,
+      "minimum": 1350.0339999999999,
+      "median": 2397.714,
+      "p90": 2960.7535000000007,
+      "p99": 4074.8282999999997,
+      "maximum": 4263.059
+    },
+    "yes_book_age_at_observation_ms": {
+      "n": 194,
+      "minimum": -58.061,
+      "median": 1.088,
+      "p90": 29.542100000000012,
+      "p99": 72.58302999999984,
+      "maximum": 449.851
+    },
+    "yes_book_age_at_receipt_ms": {
+      "n": 194,
+      "minimum": 57.081,
+      "median": 251.47449999999998,
+      "p90": 377.8390000000001,
+      "p99": 515.8461299999992,
+      "maximum": 1882.2730000000001
+    },
+    "yes_book_age_at_verification_ms": {
+      "n": 194,
+      "minimum": 137.346,
+      "median": 362.8155,
+      "p90": 493.3718,
+      "p99": 1818.7772099999993,
+      "maximum": 1954.059
+    },
+    "no_book_age_at_observation_ms": {
+      "n": 194,
+      "minimum": -134.466,
+      "median": -76.98949999999999,
+      "p90": -52.6892,
+      "p99": 22.381679999999665,
+      "maximum": 449.851
+    },
+    "no_book_age_at_receipt_ms": {
+      "n": 194,
+      "minimum": -7.8549999999999995,
+      "median": 176.6875,
+      "p90": 305.53140000000025,
+      "p99": 445.16612999999876,
+      "maximum": 1809.273
+    },
+    "no_book_age_at_verification_ms": {
+      "n": 194,
+      "minimum": 61.07,
+      "median": 286.82000000000005,
+      "p90": 421.12800000000004,
+      "p99": 1743.1272099999992,
+      "maximum": 1881.059
+    },
+    "observation_to_capture_ms": {
+      "n": 194,
+      "minimum": 0.34099999999999997,
+      "median": 0.429,
+      "p90": 0.6496000000000002,
+      "p99": 3.352589999999999,
+      "maximum": 3.8609999999999998
+    },
+    "observation_to_receipt_ms": {
+      "n": 194,
+      "minimum": 89.045,
+      "median": 250.639,
+      "p90": 373.8039,
+      "p99": 481.41998999999964,
+      "maximum": 1871.941
+    },
+    "capture_to_receipt_ms": {
+      "n": 194,
+      "minimum": 88.242,
+      "median": 250.2365,
+      "p90": 373.293,
+      "p99": 481.0025199999997,
+      "maximum": 1871.547
+    },
+    "receipt_to_verification_ms": {
+      "n": 194,
+      "minimum": 45.079,
+      "median": 105.96100000000001,
+      "p90": 160.80930000000004,
+      "p99": 1229.4326599999995,
+      "maximum": 1704.682
+    },
+    "yes_book_reported_latency_ms": {
+      "n": 194,
+      "minimum": 67.81259999843314,
+      "median": 75.96410000041942,
+      "p90": 87.71448000152306,
+      "p99": 137.72395600095456,
+      "maximum": 186.51350000072853
+    },
+    "no_book_reported_latency_ms": {
+      "n": 194,
+      "minimum": 67.71529999969061,
+      "median": 74.99900000220805,
+      "p90": 87.81934000035108,
+      "p99": 108.70372800229205,
+      "maximum": 152.57239999846206
+    },
+    "snapshot_build_reported_latency_ms": {
+      "n": 194,
+      "minimum": 141.30440000008093,
+      "median": 154.4308499978797,
+      "p90": 173.68436999968256,
+      "p99": 240.28665300029382,
+      "maximum": 262.5273000012385
+    },
+    "reference_reported_latency_ms": {
+      "n": 194,
+      "minimum": 0.012399999832268804,
+      "median": 0.03389999801584054,
+      "p90": 0.058039999203174375,
+      "p99": 0.07660100251086971,
+      "maximum": 0.10779999865917489
+    },
+    "verified_remaining_book_budget_ms": {
+      "n": 157,
+      "minimum": 2.201999999999998,
+      "median": 148.49899999999997,
+      "p90": 282.7686,
+      "p99": 353.82304,
+      "maximum": 362.654
+    },
+    "expired_minimum_internal_delay_ms_strict_lower_bound": {
+      "n": 55,
+      "minimum": 2.201999999999998,
+      "median": 54.460000000000036,
+      "p90": 117.22480000000004,
+      "p99": 161.46468000000004,
+      "maximum": 170.622
+    }
+  },
+  "counterfactual": {
+    "execution_evidence_decisions": 194,
+    "earliest_sources_pass": 165,
+    "additional_strategy_reasons": {
+      "probability_gap_too_large": 28,
+      "model_market_disagreement": 12,
+      "price_ceiling_exceeded": 24,
+      "insufficient_net_ev": 4
+    },
+    "counterfactual_qualifying_trades": 0,
+    "additional_budget_ms": {
+      "n": 68,
+      "minimum": 41.688,
+      "median": 159.969,
+      "p90": 242.3617,
+      "p99": 305.12244999999996,
+      "maximum": 321.64799999999997
+    }
+  },
+  "limitations": [
+    "Current collector arguments and Windows time status could not be read: access denied. No escalation or time correction attempted.",
+    "No persisted collector/runner console log file found; dashboard HTTP logs do not contain trading stage times.",
+    "Historical counterfactuals retain source timestamps and actual receipts, and apply the same 2s finalization grace. They assume zero additional processing time after the earliest valid handoff.",
+    "No operational code or paper state changed. Analysis opens existing SQLite databases with mode=ro and query_only; all executions are pure verifier/model/strategy calls."
+  ]
+}

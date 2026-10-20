@@ -1,0 +1,2323 @@
+{
+  "scope": "Read-only audit; no normalization, fitting, collection or operational writes.",
+  "files": [
+    {
+      "path": "src/polybtc/operations.py",
+      "bytes": 10432
+    },
+    {
+      "path": "src/polybtc/__init__.py",
+      "bytes": 18
+    },
+    {
+      "path": "src/polybtc/data/causal_features_vnext.py",
+      "bytes": 3653
+    },
+    {
+      "path": "src/polybtc/data/fee_policy_cache_vnext.py",
+      "bytes": 15039
+    },
+    {
+      "path": "src/polybtc/data/market_values_vnext.py",
+      "bytes": 2740
+    },
+    {
+      "path": "src/polybtc/data/normalization.py",
+      "bytes": 6850
+    },
+    {
+      "path": "src/polybtc/data/paper_policy_vnext.py",
+      "bytes": 620
+    },
+    {
+      "path": "src/polybtc/data/polymarket_fees.py",
+      "bytes": 5023
+    },
+    {
+      "path": "src/polybtc/data/polymarket_metadata.py",
+      "bytes": 5501
+    },
+    {
+      "path": "src/polybtc/data/polymarket_resolution.py",
+      "bytes": 4195
+    },
+    {
+      "path": "src/polybtc/data/reconciliation.py",
+      "bytes": 5075
+    },
+    {
+      "path": "src/polybtc/data/resolution_handoff_vnext.py",
+      "bytes": 4652
+    },
+    {
+      "path": "src/polybtc/data/resolution_sync_vnext.py",
+      "bytes": 7287
+    },
+    {
+      "path": "src/polybtc/data/resolution_validation.py",
+      "bytes": 6827
+    },
+    {
+      "path": "src/polybtc/data/schema.py",
+      "bytes": 5152
+    },
+    {
+      "path": "src/polybtc/data/snapshot_codec_vnext.py",
+      "bytes": 1339
+    },
+    {
+      "path": "src/polybtc/data/validation.py",
+      "bytes": 5336
+    },
+    {
+      "path": "src/polybtc/data/verified_sources_vnext.py",
+      "bytes": 932
+    },
+    {
+      "path": "src/polybtc/data/__init__.py",
+      "bytes": 62
+    },
+    {
+      "path": "src/polybtc/execution/clob_adapter.py",
+      "bytes": 26911
+    },
+    {
+      "path": "src/polybtc/execution/clob_sdk.py",
+      "bytes": 3553
+    },
+    {
+      "path": "src/polybtc/execution/lifecycle.py",
+      "bytes": 23278
+    },
+    {
+      "path": "src/polybtc/execution/live_accounting.py",
+      "bytes": 16229
+    },
+    {
+      "path": "src/polybtc/execution/model.py",
+      "bytes": 6849
+    },
+    {
+      "path": "src/polybtc/execution/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/modeling/baselines.py",
+      "bytes": 1615
+    },
+    {
+      "path": "src/polybtc/modeling/calibration.py",
+      "bytes": 7213
+    },
+    {
+      "path": "src/polybtc/modeling/extended_models.py",
+      "bytes": 2491
+    },
+    {
+      "path": "src/polybtc/modeling/inference.py",
+      "bytes": 6849
+    },
+    {
+      "path": "src/polybtc/modeling/metrics.py",
+      "bytes": 1543
+    },
+    {
+      "path": "src/polybtc/modeling/splits.py",
+      "bytes": 1823
+    },
+    {
+      "path": "src/polybtc/modeling/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/position/policies.py",
+      "bytes": 912
+    },
+    {
+      "path": "src/polybtc/position/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/risk/live.py",
+      "bytes": 7145
+    },
+    {
+      "path": "src/polybtc/risk/vnext.py",
+      "bytes": 9468
+    },
+    {
+      "path": "src/polybtc/risk/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/shadow/acquisition_evidence.py",
+      "bytes": 11256
+    },
+    {
+      "path": "src/polybtc/shadow/adapter_vnext.py",
+      "bytes": 9138
+    },
+    {
+      "path": "src/polybtc/shadow/clock_vnext.py",
+      "bytes": 8691
+    },
+    {
+      "path": "src/polybtc/shadow/collector_bridge_vnext.py",
+      "bytes": 9515
+    },
+    {
+      "path": "src/polybtc/shadow/collector_service_vnext.py",
+      "bytes": 12036
+    },
+    {
+      "path": "src/polybtc/shadow/collect_vnext_local.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/shadow/converter_vnext.py",
+      "bytes": 5657
+    },
+    {
+      "path": "src/polybtc/shadow/coordinator_vnext.py",
+      "bytes": 669
+    },
+    {
+      "path": "src/polybtc/shadow/csv_tail_vnext.py",
+      "bytes": 12629
+    },
+    {
+      "path": "src/polybtc/shadow/executor_vnext.py",
+      "bytes": 8886
+    },
+    {
+      "path": "src/polybtc/shadow/input_stream_vnext.py",
+      "bytes": 6447
+    },
+    {
+      "path": "src/polybtc/shadow/ledger_vnext.py",
+      "bytes": 33697
+    },
+    {
+      "path": "src/polybtc/shadow/migration_vnext.py",
+      "bytes": 11553
+    },
+    {
+      "path": "src/polybtc/shadow/operating_mode_vnext.py",
+      "bytes": 3516
+    },
+    {
+      "path": "src/polybtc/shadow/orchestrator_vnext.py",
+      "bytes": 22507
+    },
+    {
+      "path": "src/polybtc/shadow/paper_store_vnext.py",
+      "bytes": 4858
+    },
+    {
+      "path": "src/polybtc/shadow/reconciler_vnext.py",
+      "bytes": 8307
+    },
+    {
+      "path": "src/polybtc/shadow/report_sqlite_vnext.py",
+      "bytes": 9894
+    },
+    {
+      "path": "src/polybtc/shadow/report_vnext.py",
+      "bytes": 8519
+    },
+    {
+      "path": "src/polybtc/shadow/runner.py",
+      "bytes": 14202
+    },
+    {
+      "path": "src/polybtc/shadow/runner_vnext.py",
+      "bytes": 24470
+    },
+    {
+      "path": "src/polybtc/shadow/service_runtime_vnext.py",
+      "bytes": 12751
+    },
+    {
+      "path": "src/polybtc/shadow/settlement_handoff_vnext.py",
+      "bytes": 2225
+    },
+    {
+      "path": "src/polybtc/shadow/settlement_vnext.py",
+      "bytes": 11636
+    },
+    {
+      "path": "src/polybtc/shadow/source_verification_vnext.py",
+      "bytes": 15744
+    },
+    {
+      "path": "src/polybtc/shadow/sqlite_wal_vnext.py",
+      "bytes": 1070
+    },
+    {
+      "path": "src/polybtc/shadow/stream_driver_vnext.py",
+      "bytes": 14208
+    },
+    {
+      "path": "src/polybtc/shadow/writer_lock_vnext.py",
+      "bytes": 1173
+    },
+    {
+      "path": "src/polybtc/shadow/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/strategy/consensus.py",
+      "bytes": 5744
+    },
+    {
+      "path": "src/polybtc/strategy/expected_value.py",
+      "bytes": 5050
+    },
+    {
+      "path": "src/polybtc/strategy/vnext.py",
+      "bytes": 7263
+    },
+    {
+      "path": "src/polybtc/strategy/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/data/dataset/features.py",
+      "bytes": 3846
+    },
+    {
+      "path": "src/polybtc/data/dataset/history_features.py",
+      "bytes": 4319
+    },
+    {
+      "path": "src/polybtc/data/dataset/horizons.py",
+      "bytes": 4081
+    },
+    {
+      "path": "src/polybtc/data/dataset/supervised.py",
+      "bytes": 10619
+    },
+    {
+      "path": "src/polybtc/data/dataset/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/data/exports/csv_export.py",
+      "bytes": 1297
+    },
+    {
+      "path": "src/polybtc/data/exports/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "src/polybtc/data/importers/polymarket_history.py",
+      "bytes": 2526
+    },
+    {
+      "path": "src/polybtc/data/importers/v1_decisions.py",
+      "bytes": 4088
+    },
+    {
+      "path": "src/polybtc/data/importers/v1_market_snapshots.py",
+      "bytes": 6730
+    },
+    {
+      "path": "src/polybtc/data/importers/v1_trades.py",
+      "bytes": 6175
+    },
+    {
+      "path": "src/polybtc/data/importers/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "scripts/_entrypoint.py",
+      "bytes": 1057
+    },
+    {
+      "path": "scripts/__init__.py",
+      "bytes": 139
+    },
+    {
+      "path": "scripts/modeling/build_hgb3_expanded_dataset.py",
+      "bytes": 12849
+    },
+    {
+      "path": "scripts/modeling/build_hgb3_expanded_v2_dataset.py",
+      "bytes": 9198
+    },
+    {
+      "path": "scripts/modeling/compare_hgb3_xgb_expanded_v2.py",
+      "bytes": 8908
+    },
+    {
+      "path": "scripts/modeling/freeze_expanded_model_candidates.py",
+      "bytes": 16100
+    },
+    {
+      "path": "scripts/modeling/run_hgb3_expanded_calibration.py",
+      "bytes": 18156
+    },
+    {
+      "path": "scripts/modeling/train_hgb3_expanded_v2.py",
+      "bytes": 12720
+    },
+    {
+      "path": "scripts/modeling/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "scripts/operations/audit_vnext_prospective.py",
+      "bytes": 11549
+    },
+    {
+      "path": "scripts/operations/btc_1m_ohlc_collector.py",
+      "bytes": 11628
+    },
+    {
+      "path": "scripts/operations/collect_vnext_local.py",
+      "bytes": 30080
+    },
+    {
+      "path": "scripts/operations/diagnose_vnext_horizons.py",
+      "bytes": 9662
+    },
+    {
+      "path": "scripts/operations/migrate_vnext_paper.py",
+      "bytes": 1250
+    },
+    {
+      "path": "scripts/operations/refresh_vnext_fees.py",
+      "bytes": 954
+    },
+    {
+      "path": "scripts/operations/run_vnext_incremental_value.py",
+      "bytes": 16166
+    },
+    {
+      "path": "scripts/operations/run_vnext_prediction_report.py",
+      "bytes": 8417
+    },
+    {
+      "path": "scripts/operations/run_vnext_resolutions.py",
+      "bytes": 3844
+    },
+    {
+      "path": "scripts/operations/run_vnext_shadow.py",
+      "bytes": 14387
+    },
+    {
+      "path": "scripts/operations/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "scripts/research/audit_r1_features.py",
+      "bytes": 22722
+    },
+    {
+      "path": "scripts/research/audit_s5.py",
+      "bytes": 25727
+    },
+    {
+      "path": "scripts/research/build_p115_residual_dataset.py",
+      "bytes": 10099
+    },
+    {
+      "path": "scripts/research/build_p13_btc_context_features.py",
+      "bytes": 6995
+    },
+    {
+      "path": "scripts/research/build_p13_btc_history_slice.py",
+      "bytes": 3207
+    },
+    {
+      "path": "scripts/research/build_p13_continuous_reference_feature.py",
+      "bytes": 12154
+    },
+    {
+      "path": "scripts/research/build_p13_enriched_dataset.py",
+      "bytes": 6563
+    },
+    {
+      "path": "scripts/research/build_p13_prospective_dataset.py",
+      "bytes": 16667
+    },
+    {
+      "path": "scripts/research/build_p4_dataset.py",
+      "bytes": 3817
+    },
+    {
+      "path": "scripts/research/build_p4_expanded_development.py",
+      "bytes": 9714
+    },
+    {
+      "path": "scripts/research/build_p4_extension_from_p12.py",
+      "bytes": 16595
+    },
+    {
+      "path": "scripts/research/finalize_p9.py",
+      "bytes": 6642
+    },
+    {
+      "path": "scripts/research/freeze_p12_shadow_model.py",
+      "bytes": 5611
+    },
+    {
+      "path": "scripts/research/freeze_p13_hgb3_rtds_native.py",
+      "bytes": 3849
+    },
+    {
+      "path": "scripts/research/freeze_p13_hgb4_candidate.py",
+      "bytes": 6805
+    },
+    {
+      "path": "scripts/research/hgb3_v3_r1.py",
+      "bytes": 29385
+    },
+    {
+      "path": "scripts/research/ingest_p13_rtds_ohlc.py",
+      "bytes": 5546
+    },
+    {
+      "path": "scripts/research/merge_p12_snapshot_pull.py",
+      "bytes": 3051
+    },
+    {
+      "path": "scripts/research/render_hgb3_v3_r1.py",
+      "bytes": 12615
+    },
+    {
+      "path": "scripts/research/render_s5_reports.py",
+      "bytes": 41816
+    },
+    {
+      "path": "scripts/research/run_p10_backtest.py",
+      "bytes": 16298
+    },
+    {
+      "path": "scripts/research/run_p10_combined_backtest.py",
+      "bytes": 15342
+    },
+    {
+      "path": "scripts/research/run_p115_market_anchored_walk_forward.py",
+      "bytes": 21726
+    },
+    {
+      "path": "scripts/research/run_p115_residual_audit.py",
+      "bytes": 14596
+    },
+    {
+      "path": "scripts/research/run_p11_extension_frozen_forward.py",
+      "bytes": 12117
+    },
+    {
+      "path": "scripts/research/run_p11_extension_frozen_strategy_execution.py",
+      "bytes": 25461
+    },
+    {
+      "path": "scripts/research/run_p11_extension_partition_audit.py",
+      "bytes": 5870
+    },
+    {
+      "path": "scripts/research/run_p11_extension_walk_forward_model.py",
+      "bytes": 12222
+    },
+    {
+      "path": "scripts/research/run_p11_extension_walk_forward_strategy_execution.py",
+      "bytes": 25544
+    },
+    {
+      "path": "scripts/research/run_p11_forward_partition_audit.py",
+      "bytes": 6950
+    },
+    {
+      "path": "scripts/research/run_p11_frozen_forward.py",
+      "bytes": 12094
+    },
+    {
+      "path": "scripts/research/run_p11_frozen_strategy_execution.py",
+      "bytes": 25392
+    },
+    {
+      "path": "scripts/research/run_p11_regime_robustness.py",
+      "bytes": 9513
+    },
+    {
+      "path": "scripts/research/run_p11_temporal_robustness.py",
+      "bytes": 4406
+    },
+    {
+      "path": "scripts/research/run_p11_walk_forward_model.py",
+      "bytes": 12147
+    },
+    {
+      "path": "scripts/research/run_p11_walk_forward_strategy_execution.py",
+      "bytes": 25544
+    },
+    {
+      "path": "scripts/research/run_p12_historical_consensus_backtest.py",
+      "bytes": 13391
+    },
+    {
+      "path": "scripts/research/run_p12_settlement_payoff_audit.py",
+      "bytes": 10385
+    },
+    {
+      "path": "scripts/research/run_p12_shadow.py",
+      "bytes": 1626
+    },
+    {
+      "path": "scripts/research/run_p12_shadow_failure_analysis.py",
+      "bytes": 11941
+    },
+    {
+      "path": "scripts/research/run_p12_shadow_integrity_audit.py",
+      "bytes": 11150
+    },
+    {
+      "path": "scripts/research/run_p12_shadow_performance.py",
+      "bytes": 10071
+    },
+    {
+      "path": "scripts/research/run_p12_shadow_resolutions.py",
+      "bytes": 5800
+    },
+    {
+      "path": "scripts/research/run_p13_block2_validation.py",
+      "bytes": 16406
+    },
+    {
+      "path": "scripts/research/run_p13_continuous_reference_comparison.py",
+      "bytes": 16269
+    },
+    {
+      "path": "scripts/research/run_p13_feature_ablation.py",
+      "bytes": 14691
+    },
+    {
+      "path": "scripts/research/run_p13_k2_model_feature_retest.py",
+      "bytes": 22408
+    },
+    {
+      "path": "scripts/research/run_p13_live_feature_substitution.py",
+      "bytes": 16628
+    },
+    {
+      "path": "scripts/research/run_p13_model_ablation.py",
+      "bytes": 18252
+    },
+    {
+      "path": "scripts/research/run_p13_model_family_retest.py",
+      "bytes": 18635
+    },
+    {
+      "path": "scripts/research/run_p13_prospective_robustness.py",
+      "bytes": 9405
+    },
+    {
+      "path": "scripts/research/run_p13_prospective_validation.py",
+      "bytes": 16827
+    },
+    {
+      "path": "scripts/research/run_p13_rtds_native_walkforward.py",
+      "bytes": 11400
+    },
+    {
+      "path": "scripts/research/run_p13_walk_forward.py",
+      "bytes": 20735
+    },
+    {
+      "path": "scripts/research/run_p14_execution_abstention.py",
+      "bytes": 17354
+    },
+    {
+      "path": "scripts/research/run_p14_market_relative_diagnostics.py",
+      "bytes": 4680
+    },
+    {
+      "path": "scripts/research/run_p14_p12_price_ceiling.py",
+      "bytes": 15192
+    },
+    {
+      "path": "scripts/research/run_p1_ingest.py",
+      "bytes": 5676
+    },
+    {
+      "path": "scripts/research/run_p3_labels.py",
+      "bytes": 3699
+    },
+    {
+      "path": "scripts/research/run_p3_redeem_crosscheck.py",
+      "bytes": 7202
+    },
+    {
+      "path": "scripts/research/run_p5_baselines.py",
+      "bytes": 11348
+    },
+    {
+      "path": "scripts/research/run_p6_calibration.py",
+      "bytes": 9042
+    },
+    {
+      "path": "scripts/research/run_p7_models.py",
+      "bytes": 12126
+    },
+    {
+      "path": "scripts/research/run_p7_residual_audit.py",
+      "bytes": 10020
+    },
+    {
+      "path": "scripts/research/run_p85_strategy_simulator.py",
+      "bytes": 8771
+    },
+    {
+      "path": "scripts/research/run_p8_candidate_audit.py",
+      "bytes": 5486
+    },
+    {
+      "path": "scripts/research/run_p8_edge_audit.py",
+      "bytes": 12357
+    },
+    {
+      "path": "scripts/research/run_p8_execution_stress.py",
+      "bytes": 4561
+    },
+    {
+      "path": "scripts/research/run_p8_price_side_audit.py",
+      "bytes": 4517
+    },
+    {
+      "path": "scripts/research/run_p8_robustness.py",
+      "bytes": 4745
+    },
+    {
+      "path": "scripts/research/run_p8_single_entry_audit.py",
+      "bytes": 4703
+    },
+    {
+      "path": "scripts/research/run_p8_temporal_audit.py",
+      "bytes": 6720
+    },
+    {
+      "path": "scripts/research/run_p9_baseline.py",
+      "bytes": 7081
+    },
+    {
+      "path": "scripts/research/run_p9_cashout.py",
+      "bytes": 8610
+    },
+    {
+      "path": "scripts/research/run_p9_reversal_audit.py",
+      "bytes": 5285
+    },
+    {
+      "path": "scripts/research/run_p9_scalein.py",
+      "bytes": 7183
+    },
+    {
+      "path": "scripts/research/run_p9_second_entry_audit.py",
+      "bytes": 4985
+    },
+    {
+      "path": "scripts/research/run_p9_stoploss.py",
+      "bytes": 8402
+    },
+    {
+      "path": "scripts/research/run_p9_third_entry_audit.py",
+      "bytes": 5396
+    },
+    {
+      "path": "scripts/research/sync_v14_markets.py",
+      "bytes": 7400
+    },
+    {
+      "path": "scripts/research/sync_vm_expansion_resolutions.py",
+      "bytes": 9463
+    },
+    {
+      "path": "scripts/research/validate_p3.py",
+      "bytes": 2811
+    },
+    {
+      "path": "scripts/research/validate_p4.py",
+      "bytes": 6067
+    },
+    {
+      "path": "scripts/research/validate_p85.py",
+      "bytes": 6161
+    },
+    {
+      "path": "scripts/research/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "tests/README.md",
+      "bytes": 1925
+    },
+    {
+      "path": "tests/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "tests/data/test_history_features.py",
+      "bytes": 2122
+    },
+    {
+      "path": "tests/data/test_horizon_selection.py",
+      "bytes": 3823
+    },
+    {
+      "path": "tests/data/test_snapshot_features.py",
+      "bytes": 2471
+    },
+    {
+      "path": "tests/data/test_v1_decisions.py",
+      "bytes": 667
+    },
+    {
+      "path": "tests/data/test_v1_market_snapshots.py",
+      "bytes": 1702
+    },
+    {
+      "path": "tests/data/test_validation.py",
+      "bytes": 1590
+    },
+    {
+      "path": "tests/data/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "tests/modeling/test_main_model_inference.py",
+      "bytes": 2646
+    },
+    {
+      "path": "tests/modeling/test_modeling_metrics.py",
+      "bytes": 376
+    },
+    {
+      "path": "tests/modeling/test_modeling_splits.py",
+      "bytes": 803
+    },
+    {
+      "path": "tests/modeling/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "tests/shadow/test_adapter_vnext.py",
+      "bytes": 5845
+    },
+    {
+      "path": "tests/shadow/test_clock_vnext.py",
+      "bytes": 5802
+    },
+    {
+      "path": "tests/shadow/test_collector_bridge_vnext.py",
+      "bytes": 4006
+    },
+    {
+      "path": "tests/shadow/test_collector_service_vnext.py",
+      "bytes": 6651
+    },
+    {
+      "path": "tests/shadow/test_collect_vnext_local.py",
+      "bytes": 5600
+    },
+    {
+      "path": "tests/shadow/test_converter_vnext.py",
+      "bytes": 3650
+    },
+    {
+      "path": "tests/shadow/test_csv_tail_vnext.py",
+      "bytes": 5329
+    },
+    {
+      "path": "tests/shadow/test_fee_provenance_vnext.py",
+      "bytes": 9648
+    },
+    {
+      "path": "tests/shadow/test_orchestrator_claims_vnext.py",
+      "bytes": 4134
+    },
+    {
+      "path": "tests/shadow/test_orchestrator_vnext.py",
+      "bytes": 7848
+    },
+    {
+      "path": "tests/shadow/test_paper_acquisition.py",
+      "bytes": 16536
+    },
+    {
+      "path": "tests/shadow/test_paper_mode_vnext.py",
+      "bytes": 7177
+    },
+    {
+      "path": "tests/shadow/test_reconciler_vnext.py",
+      "bytes": 7296
+    },
+    {
+      "path": "tests/shadow/test_report_sqlite_vnext.py",
+      "bytes": 6141
+    },
+    {
+      "path": "tests/shadow/test_report_vnext.py",
+      "bytes": 5024
+    },
+    {
+      "path": "tests/shadow/test_runner_vnext.py",
+      "bytes": 8363
+    },
+    {
+      "path": "tests/shadow/test_service_runtime_vnext.py",
+      "bytes": 3320
+    },
+    {
+      "path": "tests/shadow/test_settlement_vnext.py",
+      "bytes": 5235
+    },
+    {
+      "path": "tests/shadow/test_shadow_executor_vnext.py",
+      "bytes": 5638
+    },
+    {
+      "path": "tests/shadow/test_shadow_ledger_audit.py",
+      "bytes": 6910
+    },
+    {
+      "path": "tests/shadow/test_shadow_ledger_hardening.py",
+      "bytes": 5131
+    },
+    {
+      "path": "tests/shadow/test_shadow_ledger_vnext.py",
+      "bytes": 7724
+    },
+    {
+      "path": "tests/shadow/test_simplification_vnext.py",
+      "bytes": 11626
+    },
+    {
+      "path": "tests/shadow/test_source_verification_vnext.py",
+      "bytes": 16751
+    },
+    {
+      "path": "tests/shadow/test_stream_driver_vnext.py",
+      "bytes": 5388
+    },
+    {
+      "path": "tests/shadow/test_vnext_incremental_value.py",
+      "bytes": 3575
+    },
+    {
+      "path": "tests/shadow/test_vnext_resolution_sync.py",
+      "bytes": 5774
+    },
+    {
+      "path": "tests/shadow/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "tests/trading/test_clob_adapter.py",
+      "bytes": 14082
+    },
+    {
+      "path": "tests/trading/test_clob_sdk_contract.py",
+      "bytes": 6858
+    },
+    {
+      "path": "tests/trading/test_execution_model.py",
+      "bytes": 3225
+    },
+    {
+      "path": "tests/trading/test_expected_value_strategy.py",
+      "bytes": 1888
+    },
+    {
+      "path": "tests/trading/test_live_accounting.py",
+      "bytes": 10421
+    },
+    {
+      "path": "tests/trading/test_live_readiness_audit.py",
+      "bytes": 4747
+    },
+    {
+      "path": "tests/trading/test_live_risk.py",
+      "bytes": 9590
+    },
+    {
+      "path": "tests/trading/test_operations.py",
+      "bytes": 12746
+    },
+    {
+      "path": "tests/trading/test_order_lifecycle.py",
+      "bytes": 10599
+    },
+    {
+      "path": "tests/trading/test_risk_vnext.py",
+      "bytes": 7656
+    },
+    {
+      "path": "tests/trading/test_strategy_vnext.py",
+      "bytes": 3322
+    },
+    {
+      "path": "tests/trading/__init__.py",
+      "bytes": 35
+    },
+    {
+      "path": "docs/HGB3_V3_DATA_AUDIT.md",
+      "bytes": 11495
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "bytes": 7135
+    },
+    {
+      "path": "docs/PAPER_EVALUATION_REGRESSION_DETAIL.json",
+      "bytes": 39017
+    },
+    {
+      "path": "docs/PAPER_EVALUATION_REGRESSION_EVIDENCE.json",
+      "bytes": 272190
+    },
+    {
+      "path": "docs/PAPER_EVALUATION_REGRESSION_REPORT.md",
+      "bytes": 20881
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_FEED_PROBE.json",
+      "bytes": 24567
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_HANDOFF_EVIDENCE.json",
+      "bytes": 1520
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_INFERENCE_BENCHMARK.json",
+      "bytes": 471
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_PRESERVATION.json",
+      "bytes": 2016
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_RECEIPT_IO_BENCHMARK.json",
+      "bytes": 2224
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_RECOVERY_EVIDENCE.json",
+      "bytes": 1218709
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_RECOVERY_RECHECK.json",
+      "bytes": 688638
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_RECOVERY_REPORT.md",
+      "bytes": 25292
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_SQLITE_BENCHMARK.json",
+      "bytes": 410
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_SQLITE_GUARD_BENCHMARK.json",
+      "bytes": 197
+    },
+    {
+      "path": "docs/PAPER_PIPELINE_SUCCESS_EVIDENCE.json",
+      "bytes": 10449
+    },
+    {
+      "path": "docs/PAPER_TRADING.md",
+      "bytes": 22894
+    },
+    {
+      "path": "docs/POLYBTC_DECISION_FUNNEL_EVIDENCE.json",
+      "bytes": 1368944
+    },
+    {
+      "path": "docs/POLYBTC_DECISION_FUNNEL_REPORT.md",
+      "bytes": 30445
+    },
+    {
+      "path": "docs/POLYBTC_R1_COVERAGE_REPORT.md",
+      "bytes": 10890
+    },
+    {
+      "path": "docs/POLYBTC_R1_DATA_INVENTORY.md",
+      "bytes": 11253
+    },
+    {
+      "path": "docs/POLYBTC_R1_EVIDENCE.json",
+      "bytes": 8964912
+    },
+    {
+      "path": "docs/POLYBTC_R1_FEATURE_FEASIBILITY.md",
+      "bytes": 8996
+    },
+    {
+      "path": "docs/POLYBTC_R1_R2_EXPERIMENT_PROPOSAL.md",
+      "bytes": 9191
+    },
+    {
+      "path": "docs/POLYBTC_S5_CALIBRATION_REPORT.md",
+      "bytes": 16644
+    },
+    {
+      "path": "docs/POLYBTC_S5_EVIDENCE.json",
+      "bytes": 602420
+    },
+    {
+      "path": "docs/POLYBTC_S5_RELIABILITY.svg",
+      "bytes": 8898
+    },
+    {
+      "path": "docs/POLYBTC_S5_STRATEGY_COMPARISON.md",
+      "bytes": 12425
+    },
+    {
+      "path": "docs/POLYBTC_S5_STRATEGY_ECONOMICS_AUDIT.md",
+      "bytes": 16488
+    },
+    {
+      "path": "docs/POLYBTC_SIMPLIFICATION_AUDIT.md",
+      "bytes": 35673
+    },
+    {
+      "path": "docs/POLYBTC_SIMPLIFICATION_IMPLEMENTATION.md",
+      "bytes": 14247
+    },
+    {
+      "path": "docs/POLYBTC_SIMPLIFICATION_VALIDATION.json",
+      "bytes": 24327
+    },
+    {
+      "path": "docs/POLYBTC_V2_DEVELOPMENT_STAGES.md",
+      "bytes": 31162
+    },
+    {
+      "path": "docs/P_PAPER_L1_EVIDENCE.json",
+      "bytes": 1066060
+    },
+    {
+      "path": "docs/P_PAPER_L1_REPORT.md",
+      "bytes": 20615
+    },
+    {
+      "path": "docs/REPOSITORY_LAYOUT.md",
+      "bytes": 4085
+    },
+    {
+      "path": "docs/RESEARCH_BASELINE_S5.md",
+      "bytes": 9427
+    },
+    {
+      "path": "docs/RESEARCH_PROTOCOL.md",
+      "bytes": 11692
+    },
+    {
+      "path": "docs/RESEARCH_QUESTION.md",
+      "bytes": 6288
+    },
+    {
+      "path": "docs/RESEARCH_ROADMAP.md",
+      "bytes": 7199
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_AUDIT_REMEDIATION.md",
+      "bytes": 7093
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_FINAL_READINESS.md",
+      "bytes": 10690
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_E8.md",
+      "bytes": 7229
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_E9.md",
+      "bytes": 11547
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_F.md",
+      "bytes": 5703
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_G.md",
+      "bytes": 8253
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_H.md",
+      "bytes": 10341
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_I.md",
+      "bytes": 8118
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_J.md",
+      "bytes": 8302
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_K.md",
+      "bytes": 7793
+    },
+    {
+      "path": "ToOrganize/POLYBTC_V2_P_EX_L.md",
+      "bytes": 15425
+    },
+    {
+      "path": "research-OoD/BTC-ContextFeature-analysis.ipynb",
+      "bytes": 44790
+    },
+    {
+      "path": "research-OoD/DataAndMarket-structure.ipynb",
+      "bytes": 27237
+    },
+    {
+      "path": "research-OoD/NonlinearModel-comparison.ipynb",
+      "bytes": 36386
+    },
+    {
+      "path": "research-OoD/PolymarketBenchmark.ipynb",
+      "bytes": 36865
+    },
+    {
+      "path": "research-OoD/PredictiveBaselines.ipynb",
+      "bytes": 39034
+    },
+    {
+      "path": "research-OoD/ProspectiveValidation.ipynb",
+      "bytes": 43254
+    },
+    {
+      "path": "research-OoD/ResearchSummary.ipynb",
+      "bytes": 27978
+    },
+    {
+      "path": "data/live/paper_acquisition.sqlite3",
+      "bytes": 1036398592
+    },
+    {
+      "path": "data/live/paper_acquisition.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/live/paper_acquisition.sqlite3-wal",
+      "bytes": 4169472
+    },
+    {
+      "path": "data/live/paper_fees.sqlite3",
+      "bytes": 90112
+    },
+    {
+      "path": "data/live/paper_market_snapshots.csv",
+      "bytes": 195149
+    },
+    {
+      "path": "data/live/vnext_market_snapshots.csv",
+      "bytes": 84606592
+    },
+    {
+      "path": "data/normalized/fills_reconstructed.csv",
+      "bytes": 12258
+    },
+    {
+      "path": "data/normalized/labels.csv",
+      "bytes": 68362
+    },
+    {
+      "path": "data/normalized/markets.csv",
+      "bytes": 1520254
+    },
+    {
+      "path": "data/normalized/market_resolutions.csv",
+      "bytes": 846579
+    },
+    {
+      "path": "data/normalized/orders_reconstructed.csv",
+      "bytes": 11857
+    },
+    {
+      "path": "data/normalized/p10_combined_execution_report.json",
+      "bytes": 69998
+    },
+    {
+      "path": "data/normalized/p10_combined_execution_trades.csv",
+      "bytes": 6224268
+    },
+    {
+      "path": "data/normalized/p10_level2_fee_scenario_report.json",
+      "bytes": 19840
+    },
+    {
+      "path": "data/normalized/p10_level2_fee_scenario_trades.csv",
+      "bytes": 657700
+    },
+    {
+      "path": "data/normalized/p115_market_anchored_walk_forward_predictions.csv",
+      "bytes": 1906739
+    },
+    {
+      "path": "data/normalized/p115_market_anchored_walk_forward_report.json",
+      "bytes": 10823
+    },
+    {
+      "path": "data/normalized/p115_residual_audit.json",
+      "bytes": 27305
+    },
+    {
+      "path": "data/normalized/p115_residual_dataset.csv",
+      "bytes": 6424503
+    },
+    {
+      "path": "data/normalized/p115_residual_dataset_report.json",
+      "bytes": 867
+    },
+    {
+      "path": "data/normalized/p11_extension_frozen_execution_trades.csv",
+      "bytes": 26461439
+    },
+    {
+      "path": "data/normalized/p11_extension_frozen_predictions.csv",
+      "bytes": 1254090
+    },
+    {
+      "path": "data/normalized/p11_extension_frozen_report.json",
+      "bytes": 2329
+    },
+    {
+      "path": "data/normalized/p11_extension_frozen_strategy_decisions.csv",
+      "bytes": 9952845
+    },
+    {
+      "path": "data/normalized/p11_extension_frozen_strategy_execution_report.json",
+      "bytes": 36698
+    },
+    {
+      "path": "data/normalized/p11_extension_market_partitions.csv",
+      "bytes": 459191
+    },
+    {
+      "path": "data/normalized/p11_extension_partition_audit.json",
+      "bytes": 884
+    },
+    {
+      "path": "data/normalized/p11_extension_walk_forward_execution_trades.csv",
+      "bytes": 27046067
+    },
+    {
+      "path": "data/normalized/p11_extension_walk_forward_model_report.json",
+      "bytes": 7179
+    },
+    {
+      "path": "data/normalized/p11_extension_walk_forward_predictions.csv",
+      "bytes": 1421585
+    },
+    {
+      "path": "data/normalized/p11_extension_walk_forward_strategy_decisions.csv",
+      "bytes": 10131942
+    },
+    {
+      "path": "data/normalized/p11_extension_walk_forward_strategy_execution_report.json",
+      "bytes": 36850
+    },
+    {
+      "path": "data/normalized/p11_forward_partition_audit.json",
+      "bytes": 750
+    },
+    {
+      "path": "data/normalized/p11_frozen_execution_trades.csv",
+      "bytes": 20846664
+    },
+    {
+      "path": "data/normalized/p11_frozen_forward_predictions.csv",
+      "bytes": 973789
+    },
+    {
+      "path": "data/normalized/p11_frozen_forward_report.json",
+      "bytes": 2319
+    },
+    {
+      "path": "data/normalized/p11_frozen_strategy_decisions.csv",
+      "bytes": 8101486
+    },
+    {
+      "path": "data/normalized/p11_frozen_strategy_execution_report.json",
+      "bytes": 36944
+    },
+    {
+      "path": "data/normalized/p11_market_partitions.csv",
+      "bytes": 222773
+    },
+    {
+      "path": "data/normalized/p11_regime_robustness_report.json",
+      "bytes": 33257
+    },
+    {
+      "path": "data/normalized/p11_temporal_robustness_report.json",
+      "bytes": 42155
+    },
+    {
+      "path": "data/normalized/p11_walk_forward_execution_trades.csv",
+      "bytes": 21035802
+    },
+    {
+      "path": "data/normalized/p11_walk_forward_model_report.json",
+      "bytes": 5904
+    },
+    {
+      "path": "data/normalized/p11_walk_forward_predictions.csv",
+      "bytes": 1062916
+    },
+    {
+      "path": "data/normalized/p11_walk_forward_strategy_decisions.csv",
+      "bytes": 8252161
+    },
+    {
+      "path": "data/normalized/p11_walk_forward_strategy_execution_report.json",
+      "bytes": 37071
+    },
+    {
+      "path": "data/normalized/p12_historical_consensus_report.json",
+      "bytes": 3395
+    },
+    {
+      "path": "data/normalized/p12_historical_consensus_trades.csv",
+      "bytes": 159237
+    },
+    {
+      "path": "data/normalized/p1c_import_report.json",
+      "bytes": 1093
+    },
+    {
+      "path": "data/normalized/p3_redeem_crosscheck.csv",
+      "bytes": 1676
+    },
+    {
+      "path": "data/normalized/p3_redeem_crosscheck_report.json",
+      "bytes": 265
+    },
+    {
+      "path": "data/normalized/p3_resolution_report.json",
+      "bytes": 381
+    },
+    {
+      "path": "data/normalized/p3_unresolved_disputed.csv",
+      "bytes": 0
+    },
+    {
+      "path": "data/normalized/p4_dataset_report.json",
+      "bytes": 1039
+    },
+    {
+      "path": "data/normalized/p4_supervised_v1.csv",
+      "bytes": 12614393
+    },
+    {
+      "path": "data/normalized/p5_baseline_report.json",
+      "bytes": 62255
+    },
+    {
+      "path": "data/normalized/p6_calibration_decision.json",
+      "bytes": 1112
+    },
+    {
+      "path": "data/normalized/p6_calibration_full_output.txt",
+      "bytes": 129102
+    },
+    {
+      "path": "data/normalized/p6_calibration_predictions.csv",
+      "bytes": 137826
+    },
+    {
+      "path": "data/normalized/p6_calibration_report.json",
+      "bytes": 64550
+    },
+    {
+      "path": "data/normalized/p7_model_report.json",
+      "bytes": 10689
+    },
+    {
+      "path": "data/normalized/p7_residual_audit.json",
+      "bytes": 65917
+    },
+    {
+      "path": "data/normalized/p85_strategy_decisions.csv",
+      "bytes": 2614785
+    },
+    {
+      "path": "data/normalized/p85_strategy_report.json",
+      "bytes": 6238
+    },
+    {
+      "path": "data/normalized/p8_candidate_audit.json",
+      "bytes": 5657
+    },
+    {
+      "path": "data/normalized/p8_edge_audit.json",
+      "bytes": 14296
+    },
+    {
+      "path": "data/normalized/p8_edge_predictions.csv",
+      "bytes": 360180
+    },
+    {
+      "path": "data/normalized/p8_execution_stress.json",
+      "bytes": 7639
+    },
+    {
+      "path": "data/normalized/p8_price_side_audit.json",
+      "bytes": 27032
+    },
+    {
+      "path": "data/normalized/p8_robustness.json",
+      "bytes": 5688
+    },
+    {
+      "path": "data/normalized/p8_single_entry_audit.json",
+      "bytes": 5974
+    },
+    {
+      "path": "data/normalized/p8_temporal_audit.json",
+      "bytes": 23674
+    },
+    {
+      "path": "data/normalized/p9_baseline_report.json",
+      "bytes": 6679
+    },
+    {
+      "path": "data/normalized/p9_baseline_trades.csv",
+      "bytes": 263520
+    },
+    {
+      "path": "data/normalized/p9_cashout_report.json",
+      "bytes": 9934
+    },
+    {
+      "path": "data/normalized/p9_cashout_trades.csv",
+      "bytes": 473665
+    },
+    {
+      "path": "data/normalized/p9_position_policy_manifest.json",
+      "bytes": 1922
+    },
+    {
+      "path": "data/normalized/p9_reversal_audit.json",
+      "bytes": 5746
+    },
+    {
+      "path": "data/normalized/p9_scalein_report.json",
+      "bytes": 5273
+    },
+    {
+      "path": "data/normalized/p9_scalein_trades.csv",
+      "bytes": 213340
+    },
+    {
+      "path": "data/normalized/p9_second_entry_audit.json",
+      "bytes": 6491
+    },
+    {
+      "path": "data/normalized/p9_stoploss_report.json",
+      "bytes": 8593
+    },
+    {
+      "path": "data/normalized/p9_stoploss_trades.csv",
+      "bytes": 474690
+    },
+    {
+      "path": "data/normalized/p9_third_entry_audit.json",
+      "bytes": 5851
+    },
+    {
+      "path": "data/normalized/snapshots.csv",
+      "bytes": 3218628
+    },
+    {
+      "path": "data/research/vnext_horizon_diagnostics.json",
+      "bytes": 23080
+    },
+    {
+      "path": "data/research/vnext_incremental_value.json",
+      "bytes": 17190
+    },
+    {
+      "path": "data/research/vnext_prospective_integrity.json",
+      "bytes": 2263
+    },
+    {
+      "path": "data/shadow/fee_policy_paper.sqlite3",
+      "bytes": 20480
+    },
+    {
+      "path": "data/shadow/fee_policy_research.sqlite3",
+      "bytes": 20480
+    },
+    {
+      "path": "data/shadow/p12_consensus_shadow_decisions.csv",
+      "bytes": 1720419
+    },
+    {
+      "path": "data/shadow/p12_market_resolutions.csv",
+      "bytes": 559889
+    },
+    {
+      "path": "data/shadow/p12_resolution_report.json",
+      "bytes": 768
+    },
+    {
+      "path": "data/shadow/p12_settlement_payoff_audit.json",
+      "bytes": 22341
+    },
+    {
+      "path": "data/shadow/p12_settlement_payoff_rows.csv",
+      "bytes": 57580
+    },
+    {
+      "path": "data/shadow/p12_shadow_failure_analysis.json",
+      "bytes": 17388
+    },
+    {
+      "path": "data/shadow/p12_shadow_integrity_report.json",
+      "bytes": 1180
+    },
+    {
+      "path": "data/shadow/p12_shadow_performance_report.json",
+      "bytes": 2733
+    },
+    {
+      "path": "data/shadow/p12_shadow_settled_trades.csv",
+      "bytes": 105571
+    },
+    {
+      "path": "data/shadow/p12_shadow_trade_diagnostics.csv",
+      "bytes": 8836
+    },
+    {
+      "path": "data/shadow/p12_unresolved_disputed.csv",
+      "bytes": 174
+    },
+    {
+      "path": "data/research/s5_v1/analysis_summary.txt",
+      "bytes": 3059
+    },
+    {
+      "path": "data/research/s5_v1/calibration_s5_exploratory_v1.json",
+      "bytes": 869
+    },
+    {
+      "path": "data/research/s5_v1/inputs.json",
+      "bytes": 5899147
+    },
+    {
+      "path": "data/raw/p12/btc_5m_market_snapshots_p12.csv",
+      "bytes": 72115155
+    },
+    {
+      "path": "data/raw/p13/btc_1m_ohlc.csv",
+      "bytes": 1653590
+    },
+    {
+      "path": "data/raw/v1.1/btc_5m_market_snapshots_v1_4.csv",
+      "bytes": 102489762
+    },
+    {
+      "path": "data/raw/v1.1/btc_5m_market_snapshots_v1_4_O1-17.csv",
+      "bytes": 166128026
+    },
+    {
+      "path": "data/raw/v1.1/btc_5m_market_snapshots_v1_4_S17-27.csv",
+      "bytes": 59228655
+    },
+    {
+      "path": "data/paper/vnext/csv_tail.sqlite3",
+      "bytes": 8192
+    },
+    {
+      "path": "data/paper/vnext/decisions.sqlite3",
+      "bytes": 24576
+    },
+    {
+      "path": "data/paper/vnext/decisions.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/paper/vnext/decisions.sqlite3-wal",
+      "bytes": 0
+    },
+    {
+      "path": "data/paper/vnext/receipts.sqlite3",
+      "bytes": 12288
+    },
+    {
+      "path": "data/paper/vnext/runtime_mode.json",
+      "bytes": 74
+    },
+    {
+      "path": "data/paper/vnext/runtime_status.json",
+      "bytes": 679
+    },
+    {
+      "path": "data/paper/vnext/snapshot_history.sqlite3",
+      "bytes": 36864
+    },
+    {
+      "path": "data/paper/vnext/trades.sqlite3",
+      "bytes": 49152
+    },
+    {
+      "path": "data/paper/vnext/trades.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/paper/vnext/trades.sqlite3-wal",
+      "bytes": 0
+    },
+    {
+      "path": "data/paper/vnext/vnext.lock",
+      "bytes": 1
+    },
+    {
+      "path": "data/paper/vnext_verified/csv_tail.sqlite3",
+      "bytes": 8192
+    },
+    {
+      "path": "data/paper/vnext_verified/csv_tail.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/paper/vnext_verified/csv_tail.sqlite3-wal",
+      "bytes": 4120032
+    },
+    {
+      "path": "data/paper/vnext_verified/decisions.sqlite3",
+      "bytes": 4300800
+    },
+    {
+      "path": "data/paper/vnext_verified/decisions.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/paper/vnext_verified/decisions.sqlite3-wal",
+      "bytes": 4148872
+    },
+    {
+      "path": "data/paper/vnext_verified/receipts.sqlite3",
+      "bytes": 23617536
+    },
+    {
+      "path": "data/paper/vnext_verified/receipts.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/paper/vnext_verified/receipts.sqlite3-wal",
+      "bytes": 4165352
+    },
+    {
+      "path": "data/paper/vnext_verified/resolutions.sqlite3",
+      "bytes": 77824
+    },
+    {
+      "path": "data/paper/vnext_verified/resolutions.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/paper/vnext_verified/resolutions.sqlite3-wal",
+      "bytes": 0
+    },
+    {
+      "path": "data/paper/vnext_verified/runtime_mode.json",
+      "bytes": 74
+    },
+    {
+      "path": "data/paper/vnext_verified/runtime_status.json",
+      "bytes": 1457
+    },
+    {
+      "path": "data/paper/vnext_verified/snapshot_history.sqlite3",
+      "bytes": 4677632
+    },
+    {
+      "path": "data/paper/vnext_verified/snapshot_history.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/paper/vnext_verified/snapshot_history.sqlite3-wal",
+      "bytes": 4161232
+    },
+    {
+      "path": "data/paper/vnext_verified/trades.sqlite3",
+      "bytes": 49152
+    },
+    {
+      "path": "data/paper/vnext_verified/trades.sqlite3-shm",
+      "bytes": 32768
+    },
+    {
+      "path": "data/paper/vnext_verified/trades.sqlite3-wal",
+      "bytes": 8272
+    },
+    {
+      "path": "data/paper/vnext_verified/vnext.lock",
+      "bytes": 20
+    },
+    {
+      "path": "data/normalized/pre_refresh_2026_09_27/markets.csv",
+      "bytes": 514889
+    },
+    {
+      "path": "data/normalized/pre_refresh_2026_09_27/market_resolutions.csv",
+      "bytes": 287184
+    },
+    {
+      "path": "data/normalized/pre_refresh_2026_09_27/p3_resolution_report.json",
+      "bytes": 379
+    },
+    {
+      "path": "data/normalized/pre_refresh_2026_09_27/p3_unresolved_disputed.csv",
+      "bytes": 0
+    },
+    {
+      "path": "data/normalized/pre_refresh_2026_09_27/p4_supervised_v1.csv",
+      "bytes": 3425172
+    },
+    {
+      "path": "data/models/baseline/p12_shadow_model_v1.joblib",
+      "bytes": 1618
+    },
+    {
+      "path": "data/models/baseline/p12_shadow_model_v1.json",
+      "bytes": 863
+    },
+    {
+      "path": "data/models/challengers/hgb3_expanded_v1.joblib",
+      "bytes": 130152
+    },
+    {
+      "path": "data/models/challengers/hgb3_expanded_v1.json",
+      "bytes": 2428
+    },
+    {
+      "path": "data/models/challengers/p13_hgb3_rtds_native_v1.joblib",
+      "bytes": 193776
+    },
+    {
+      "path": "data/models/challengers/p13_hgb3_rtds_native_v1.json",
+      "bytes": 1742
+    },
+    {
+      "path": "data/models/challengers/p13_hgb4_candidate_v1.joblib",
+      "bytes": 201656
+    },
+    {
+      "path": "data/models/challengers/p13_hgb4_candidate_v1.json",
+      "bytes": 2545
+    },
+    {
+      "path": "data/models/challengers/xgboost_expanded_v1.joblib",
+      "bytes": 232631
+    },
+    {
+      "path": "data/models/challengers/xgboost_expanded_v1.json",
+      "bytes": 2972
+    },
+    {
+      "path": "data/models/main/hgb3_expanded_v2.joblib",
+      "bytes": 200008
+    },
+    {
+      "path": "data/models/main/hgb3_expanded_v2.json",
+      "bytes": 2267
+    },
+    {
+      "path": "data/external/bitcoin_history/btcusd_1-min_data.csv",
+      "bytes": 393537695
+    },
+    {
+      "path": "data/experiments/model_expansion/hgb3_expanded_calibration_v1_predictions.csv",
+      "bytes": 1657546
+    },
+    {
+      "path": "data/experiments/model_expansion/hgb3_expanded_calibration_v1_report.json",
+      "bytes": 76963
+    },
+    {
+      "path": "data/experiments/model_expansion/hgb3_expanded_v1.csv",
+      "bytes": 7496832
+    },
+    {
+      "path": "data/experiments/model_expansion/hgb3_expanded_v1_report.json",
+      "bytes": 2494
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/btc_1m_context_features.csv",
+      "bytes": 5192724
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/btc_1m_research_slice.csv",
+      "bytes": 2083294
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_block2_validation_predictions.csv",
+      "bytes": 1676151
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_block2_validation_report.json",
+      "bytes": 8982
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_continuous_reference_comparison_report.json",
+      "bytes": 16532
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_continuous_reference_supervised.csv",
+      "bytes": 18285318
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_enriched_supervised.csv",
+      "bytes": 16267687
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_feature_ablation_report.json",
+      "bytes": 24211
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_k2_model_feature_retest_predictions.csv",
+      "bytes": 1672602
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_k2_model_feature_retest_report.json",
+      "bytes": 15605
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_live_feature_substitution_report.json",
+      "bytes": 12764
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_model_ablation_predictions.csv",
+      "bytes": 546188
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_model_ablation_report.json",
+      "bytes": 17854
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_model_family_retest_predictions.csv",
+      "bytes": 1594979
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_model_family_retest_report.json",
+      "bytes": 10225
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_prospective_robustness_report.json",
+      "bytes": 7204
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_prospective_supervised.csv",
+      "bytes": 4438683
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_prospective_validation_predictions.csv",
+      "bytes": 213266
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_prospective_validation_report.json",
+      "bytes": 7573
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_prospective_validation_report_before_refresh.json",
+      "bytes": 7573
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_rtds_native_walkforward_predictions.csv",
+      "bytes": 856881
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_rtds_native_walkforward_report.json",
+      "bytes": 14045
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_walk_forward_predictions.csv",
+      "bytes": 1218881
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p13_walk_forward_report.json",
+      "bytes": 37358
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p4_expanded_development_pre_block1.csv",
+      "bytes": 6526125
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p4_expanded_development_pre_block1_report.json",
+      "bytes": 646
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p4_extension_pre_block1.csv",
+      "bytes": 1555413
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/p4_extension_pre_block1_report.json",
+      "bytes": 1780
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/rtds_1m_context_features.csv",
+      "bytes": 1195207
+    },
+    {
+      "path": "data/experiments/p14_market_relative/p14_agreement_diagnostics.json",
+      "bytes": 22032
+    },
+    {
+      "path": "data/experiments/p14_market_relative/p14_execution_abstention_before_price_ceiling.csv",
+      "bytes": 1902981
+    },
+    {
+      "path": "data/experiments/p14_market_relative/p14_execution_abstention_before_price_ceiling.json",
+      "bytes": 45031
+    },
+    {
+      "path": "data/experiments/p14_market_relative/p14_execution_abstention_report.json",
+      "bytes": 77190
+    },
+    {
+      "path": "data/experiments/p14_market_relative/p14_execution_abstention_rows.csv",
+      "bytes": 3310230
+    },
+    {
+      "path": "data/experiments/p14_market_relative/p14_p12_price_ceiling_report.json",
+      "bytes": 74133
+    },
+    {
+      "path": "data/experiments/p14_market_relative/p14_p12_price_ceiling_trades.csv",
+      "bytes": 110779
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/pre_six_day_validation/p13_prospective_robustness_report_before_refresh.json",
+      "bytes": 7204
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/pre_six_day_validation/p13_prospective_supervised_before_refresh.csv",
+      "bytes": 1724250
+    },
+    {
+      "path": "data/experiments/p13_model_improvement/pre_six_day_validation/p13_prospective_validation_predictions_before_refresh.csv",
+      "bytes": 213266
+    },
+    {
+      "path": "data/experiments/model_expansion/failed_serialization_run/hgb3_expanded_calibration_v1_predictions.csv",
+      "bytes": 1657546
+    },
+    {
+      "path": "data/experiments/model_expansion/failed_serialization_run/hgb3_expanded_calibration_v1_report.json",
+      "bytes": 50996
+    },
+    {
+      "path": "data/experiments/model_expansion/vm_expansion_v2/hgb3_expanded_v2.csv",
+      "bytes": 8817089
+    },
+    {
+      "path": "data/experiments/model_expansion/vm_expansion_v2/hgb3_expanded_v2_evaluation_predictions.csv",
+      "bytes": 1205393
+    },
+    {
+      "path": "data/experiments/model_expansion/vm_expansion_v2/hgb3_expanded_v2_report.json",
+      "bytes": 1043
+    },
+    {
+      "path": "data/experiments/model_expansion/vm_expansion_v2/hgb3_expanded_v2_training_report.json",
+      "bytes": 2815
+    },
+    {
+      "path": "data/experiments/model_expansion/vm_expansion_v2/hgb3_xgb_v2_comparison.csv",
+      "bytes": 1587387
+    },
+    {
+      "path": "data/experiments/model_expansion/vm_expansion_v2/hgb3_xgb_v2_comparison.json",
+      "bytes": 10233
+    },
+    {
+      "path": "data/experiments/model_expansion/vm_expansion_v2/resolution_sync_report.json",
+      "bytes": 207
+    },
+    {
+      "path": "data/experiments/model_expansion/vm_expansion_v2/verified_resolutions.csv",
+      "bytes": 258962
+    },
+    {
+      "path": "dashboard/.gitignore",
+      "bytes": 144
+    },
+    {
+      "path": "dashboard/config.example.toml",
+      "bytes": 497
+    },
+    {
+      "path": "dashboard/README.md",
+      "bytes": 10819
+    },
+    {
+      "path": "dashboard/audit/initial_inventory.json",
+      "bytes": 106355
+    },
+    {
+      "path": "dashboard/audit/validation.json",
+      "bytes": 10989
+    },
+    {
+      "path": "dashboard/backend/pyproject.toml",
+      "bytes": 111
+    },
+    {
+      "path": "dashboard/backend/pytest.ini",
+      "bytes": 55
+    },
+    {
+      "path": "dashboard/backend/requirements-lock.txt",
+      "bytes": 441
+    },
+    {
+      "path": "dashboard/backend/requirements.txt",
+      "bytes": 96
+    },
+    {
+      "path": "dashboard/frontend/eslint.config.js",
+      "bytes": 318
+    },
+    {
+      "path": "dashboard/frontend/index.html",
+      "bytes": 366
+    },
+    {
+      "path": "dashboard/frontend/package-lock.json",
+      "bytes": 151339
+    },
+    {
+      "path": "dashboard/frontend/package.json",
+      "bytes": 847
+    },
+    {
+      "path": "dashboard/frontend/tsconfig.json",
+      "bytes": 431
+    },
+    {
+      "path": "dashboard/frontend/vite.config.ts",
+      "bytes": 618
+    },
+    {
+      "path": "dashboard/logs/backend.stderr.log",
+      "bytes": 201
+    },
+    {
+      "path": "dashboard/logs/backend.stdout.log",
+      "bytes": 962386
+    },
+    {
+      "path": "dashboard/logs/frontend.stderr.log",
+      "bytes": 0
+    },
+    {
+      "path": "dashboard/logs/frontend.stdout.log",
+      "bytes": 242
+    },
+    {
+      "path": "dashboard/logs/paper-backend.stderr.log",
+      "bytes": 202
+    },
+    {
+      "path": "dashboard/logs/paper-backend.stdout.log",
+      "bytes": 5233
+    },
+    {
+      "path": "dashboard/scripts/setup.ps1",
+      "bytes": 884
+    },
+    {
+      "path": "dashboard/scripts/start_dashboard.ps1",
+      "bytes": 2427
+    },
+    {
+      "path": "dashboard/scripts/verify_local.py",
+      "bytes": 5378
+    },
+    {
+      "path": "dashboard/frontend/src/components.tsx",
+      "bytes": 26114
+    },
+    {
+      "path": "dashboard/frontend/src/hooks.ts",
+      "bytes": 1598
+    },
+    {
+      "path": "dashboard/frontend/src/main.tsx",
+      "bytes": 10062
+    },
+    {
+      "path": "dashboard/frontend/src/pages.tsx",
+      "bytes": 42170
+    },
+    {
+      "path": "dashboard/frontend/src/style.css",
+      "bytes": 24762
+    },
+    {
+      "path": "dashboard/frontend/src/types.ts",
+      "bytes": 4678
+    },
+    {
+      "path": "dashboard/backend/.ruff_cache/.gitignore",
+      "bytes": 35
+    },
+    {
+      "path": "dashboard/backend/.ruff_cache/CACHEDIR.TAG",
+      "bytes": 43
+    },
+    {
+      "path": "dashboard/backend/app/config.py",
+      "bytes": 1180
+    },
+    {
+      "path": "dashboard/backend/app/data.py",
+      "bytes": 7645
+    },
+    {
+      "path": "dashboard/backend/app/main.py",
+      "bytes": 4597
+    },
+    {
+      "path": "dashboard/backend/app/reasons.json",
+      "bytes": 27155
+    },
+    {
+      "path": "dashboard/backend/app/schemas.py",
+      "bytes": 5363
+    },
+    {
+      "path": "dashboard/backend/app/services.py",
+      "bytes": 28704
+    },
+    {
+      "path": "dashboard/backend/app/__init__.py",
+      "bytes": 0
+    },
+    {
+      "path": "dashboard/backend/tests/test_monitor.py",
+      "bytes": 17612
+    },
+    {
+      "path": "dashboard/backend/.ruff_cache/0.16.10/2329009498227074292",
+      "bytes": 172
+    },
+    {
+      "path": "dashboard/backend/.ruff_cache/0.16.10/7157003635348357055",
+      "bytes": 276
+    }
+  ],
+  "bytes_by_root": {
+    "data": 2254162935,
+    "src": 553639,
+    "scripts": 1155034,
+    "tests": 289556,
+    "docs": 14640386,
+    "dashboard": 1462545,
+    "research-OoD": 255544,
+    "ToOrganize": 100494
+  },
+  "versions": {
+    "python": "3.14.5",
+    "numpy": "2.5.3",
+    "pandas": "3.0.6",
+    "scikit-learn": "1.9.1",
+    "pytest": "9.1.1",
+    "joblib": "1.6.0"
+  },
+  "raw": {
+    "path": "data/raw/v1.1/btc_5m_market_snapshots_v1_4_O1-17.csv",
+    "sha256": "71fb69ccaa1b4751c49fe37de8830607e1ff74c532a3c5614e8b5e9776d63aa3",
+    "bytes": 166128026,
+    "rows": 256449,
+    "markets": 4616,
+    "columns": [
+      "observed_at",
+      "market_id",
+      "question",
+      "btc_price",
+      "strike",
+      "seconds_to_expiry",
+      "yes_bid",
+      "yes_ask",
+      "no_bid",
+      "no_ask",
+      "yes_bid_size",
+      "yes_ask_size",
+      "no_bid_size",
+      "no_ask_size",
+      "yes_token_id",
+      "no_token_id",
+      "momentum_60s",
+      "volatility_60s",
+      "reference_timestamp",
+      "reference_age_ms",
+      "reference_latency_ms",
+      "yes_book_timestamp",
+      "yes_book_age_ms",
+      "yes_book_latency_ms",
+      "no_book_timestamp",
+      "no_book_age_ms",
+      "no_book_latency_ms",
+      "yes_tick_size",
+      "yes_min_order_size",
+      "no_tick_size",
+      "no_min_order_size",
+      "snapshot_build_latency_ms",
+      "market_end_at",
+      "collector_version"
+    ],
+    "observed_first": "2026-10-01 17:15:08.609988+00:00",
+    "observed_last": "2026-10-17 18:21:43.175985+00:00",
+    "rows_by_day": {
+      "2026-10-01": 4483,
+      "2026-10-02": 16011,
+      "2026-10-03": 16178,
+      "2026-10-04": 16060,
+      "2026-10-05": 16031,
+      "2026-10-06": 15988,
+      "2026-10-07": 15898,
+      "2026-10-08": 15996,
+      "2026-10-09": 15857,
+      "2026-10-10": 15725,
+      "2026-10-11": 16075,
+      "2026-10-12": 16176,
+      "2026-10-13": 16100,
+      "2026-10-14": 16032,
+      "2026-10-15": 15751,
+      "2026-10-16": 15866,
+      "2026-10-17": 12222
+    },
+    "missing": {
+      "no_bid": 28433,
+      "no_bid_size": 28433,
+      "yes_ask": 28386,
+      "yes_ask_size": 28386,
+      "yes_bid": 27905,
+      "no_ask": 27946,
+      "yes_bid_size": 27905,
+      "no_ask_size": 27946
+    },
+    "exact_duplicates": 0,
+    "duplicate_market_observation": 0,
+    "backward_observations": 0,
+    "binding_conflicts": 0,
+    "malformed_rows": 0,
+    "training_market_overlap": 2851
+  },
+  "protected_hashes": {
+    "data\\experiments\\model_expansion\\vm_expansion_v2\\hgb3_expanded_v2.csv": "104cd254742c4e46cb0e853271023bb7b337c749734e6f2aaf231f9576d9f74d",
+    "data\\models\\main\\hgb3_expanded_v2.joblib": "42647c6810f8ee01313aee24362e0c83e20b4240f951316d2d576160327752e4",
+    "data\\research\\s5_v1\\inputs.json": "143a08600c66bb3180a39ca29f5a4cd9912a8407feb248ebaf690c84d3614e23",
+    "docs\\POLYBTC_S5_EVIDENCE.json": "f07394c985a16dcdbd5941e1d9d23959efed3b0a16eeef920bd4608cc35da465",
+    "docs\\POLYBTC_R1_EVIDENCE.json": "7b0643e7ac5278c608ce0409410f3d3461c854bd13fad3a69b8084cb58f07eff"
+  },
+  "existing_r1_generated_at": "2026-10-19T12:33:20.097632+00:00"
+}

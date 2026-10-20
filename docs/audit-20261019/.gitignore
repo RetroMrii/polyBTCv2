@@ -1,0 +1,5 @@
+# Local synthetic fixtures and build products are not publication evidence.
+core-temp/
+backend-temp/
+frontend-dist/
+__pycache__/

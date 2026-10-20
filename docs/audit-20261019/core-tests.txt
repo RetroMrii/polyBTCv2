@@ -1,0 +1,38 @@
+
+=================================== ERRORS ====================================
+__________ ERROR collecting tests/shadow/test_collect_vnext_local.py __________
+ImportError while importing test module 'H:\PolyBTCv2\tests\shadow\test_collect_vnext_local.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Python314\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\shadow\test_collect_vnext_local.py:6: in <module>
+    from scripts.collect_vnext_local import (
+E   ModuleNotFoundError: No module named 'scripts.collect_vnext_local'
+________ ERROR collecting tests/shadow/test_vnext_incremental_value.py ________
+tests\shadow\test_vnext_incremental_value.py:17: in <module>
+    spec.loader.exec_module(module)
+<frozen importlib._bootstrap_external>:755: in exec_module
+    ???
+<frozen importlib._bootstrap_external>:892: in get_code
+    ???
+<frozen importlib._bootstrap_external>:950: in get_data
+    ???
+E   FileNotFoundError: [Errno 2] No such file or directory: 'H:\\PolyBTCv2\\scripts\\run_vnext_incremental_value.py'
+_________ ERROR collecting tests/shadow/test_vnext_resolution_sync.py _________
+ImportError while importing test module 'H:\PolyBTCv2\tests\shadow\test_vnext_resolution_sync.py'.
+Hint: make sure your test modules/packages have valid Python names.
+Traceback:
+C:\Python314\Lib\importlib\__init__.py:88: in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+tests\shadow\test_vnext_resolution_sync.py:9: in <module>
+    from scripts import run_vnext_resolutions as sync
+E   ImportError: cannot import name 'run_vnext_resolutions' from 'scripts' (H:\PolyBTCv2\scripts\__init__.py)
+=========================== short test summary info ===========================
+ERROR tests/shadow/test_collect_vnext_local.py
+ERROR tests/shadow/test_vnext_incremental_value.py - FileNotFoundError: [Errn...
+ERROR tests/shadow/test_vnext_resolution_sync.py
+!!!!!!!!!!!!!!!!!!! Interrupted: 3 errors during collection !!!!!!!!!!!!!!!!!!!
+1 skipped, 3 errors in 7.64s

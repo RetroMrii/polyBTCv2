@@ -1,0 +1,9 @@
+# Copy to dashboard/config.toml to override startup paths. Use forward slashes.
+# Relative paths resolve against H:/PolyBTCv2 (the repository root).
+# Changes require restarting only the dashboard backend.
+[paths]
+telemetry = "data/live/vnext_market_snapshots.csv"
+decisions = "data/paper/vnext_verified/decisions.sqlite3"
+trades = "data/paper/vnext_verified/trades.sqlite3"
+resolutions = "data/paper/vnext_verified/resolutions.sqlite3"
+report = "data/paper/vnext_verified/prediction_report.json"

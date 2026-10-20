@@ -1,0 +1,675 @@
+[
+  {
+    "path": "docs\\HGB3_V3_DATA_AUDIT.md",
+    "headings": [
+      "HGB3 v3: download and training-data audit",
+      "Result",
+      "File identity and schema",
+      "Calendar coverage (raw observations)",
+      "Exact overlap and deduplication",
+      "Integrity and exclusions",
+      "Training contract and freshness distinction",
+      "Added training cohort",
+      "Reproduction"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\OPERATIONS.md",
+    "headings": [
+      "Operations and recovery",
+      "Reading the report",
+      "Controlled shutdown",
+      "Recovery",
+      "Explicit account binding for offline integration"
+    ],
+    "missing_local_links": [
+      "../POLYBTC_V2_AUDIT_REMEDIATION.md"
+    ]
+  },
+  {
+    "path": "docs\\P_PAPER_L1_REPORT.md",
+    "headings": [
+      "P-PAPER-L1 \u2014 Timing and horizon investigation",
+      "Outcome",
+      "Scope and reproducibility",
+      "Counts",
+      "Ranked causes and corrections",
+      "Timing measurements",
+      "Individual freshness failures",
+      "Representative decision traces",
+      "Late arrival: decision 280840, 180-second horizon",
+      "Late arrival: decision 290573, 180-second horizon",
+      "Stale horizons: decisions 285042 and 286242",
+      "Provenance: decision 289033, 240-second horizon",
+      "Provenance: decision 283633, 90-second horizon",
+      "Actual inference dependencies and history verification",
+      "Code paths and implemented changes",
+      "Validation and operational effect",
+      "Remaining minimal plan"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\PAPER_EVALUATION_REGRESSION_REPORT.md",
+    "headings": [
+      "Paper evaluation regression \u2014 2026-10-13",
+      "Findings ranked by impact",
+      "Journal evidence and rates",
+      "Timing reconstruction",
+      "Delay distributions",
+      "Repair and safety",
+      "Retained real-input validation",
+      "Restart and capture",
+      "Validation results and stage status"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\PAPER_PIPELINE_RECOVERY_REPORT.md",
+    "headings": [
+      "PolyBTC v2 \u2014 End-to-end paper pipeline recovery",
+      "Scope and evidence",
+      "Post-restart baseline",
+      "Measured distributions (milliseconds)",
+      "Root causes, classification and coordinated corrections",
+      "Implementation map",
+      "Validation and operational outcome",
+      "Stage status",
+      "Tests and preservation",
+      "Safety and remaining risks"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\PAPER_TRADING.md",
+    "headings": [
+      "Operating paper trading",
+      "Installation",
+      "Start acquisition",
+      "Start the paper runtime",
+      "If startup reports `Configured source path changed`",
+      "Resolve and settle paper positions",
+      "Inspect operation",
+      "Diagnose source-verification rejections",
+      "Shutdown and recovery",
+      "Simulation contract and limits",
+      "Pipeline recovery operation (2026-10-12)",
+      "Temporary reference allowance and evaluation diagnostics (2026-10-13)",
+      "Clock pause and recovery (S2)",
+      "Optional consolidated paper path (S4)"
+    ],
+    "missing_local_links": [
+      "../POLYBTC_V2_FINAL_READINESS.md"
+    ]
+  },
+  {
+    "path": "docs\\POLYBTC_DECISION_FUNNEL_REPORT.md",
+    "headings": [
+      "PolyBTC v2 \u2014 Decision funnel and execution latency",
+      "Conclusion",
+      "1. Active configuration and investigation window",
+      "2. Decision funnel",
+      "Common-denominator attribution",
+      "Rejections by horizon",
+      "3. Acquisition and provenance",
+      "4. Timing evidence and limitations",
+      "Measured distributions (milliseconds)",
+      "Source age by available boundary (milliseconds; n=194)",
+      "Proven post-verification expiry",
+      "5. Strategy economics",
+      "Supplied examples matched to retained decisions",
+      "6. Infrastructure-only counterfactual",
+      "7. Economic sensitivity \u2014 offline only",
+      "8. Root-cause ranking and smallest next step",
+      "9. Limitations and outstanding questions",
+      "Source-code references"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_R1_COVERAGE_REPORT.md",
+    "headings": [
+      "R1 \u2014 Coverage and selection audit",
+      "Denominators and reconstruction",
+      "Predictive feature funnel",
+      "By horizon and date",
+      "Historical exploratory coverage",
+      "Timing and bias",
+      "Reproduction and checks",
+      "Missing information and next action"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_R1_DATA_INVENTORY.md",
+    "headings": [
+      "R1 \u2014 Data inventory",
+      "Available sources",
+      "Field and provenance map",
+      "Retained stores and official outcomes",
+      "Overlap, drift and preservation"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_R1_FEATURE_FEASIBILITY.md",
+    "headings": [
+      "R1 \u2014 Market-relative feature feasibility",
+      "Cutoffs and verification vocabulary",
+      "Feature definitions and measured support",
+      "Implementation references and limitations"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_R1_R2_EXPERIMENT_PROPOSAL.md",
+    "headings": [
+      "R1 \u2014 Proposed R2 experiment card",
+      "Question and bounded candidates",
+      "Data and causal contract",
+      "Chronology and sample plan",
+      "Metrics and decision rules",
+      "Registration and acceptance checklist"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_S5_CALIBRATION_REPORT.md",
+    "headings": [
+      "S5: Probability calibration and incremental forecast value",
+      "Separation and eligibility",
+      "Methods fixed before calibration fitting",
+      "Later paired forecast metrics",
+      "Uncertainty and dependence",
+      "Horizon and probability-band diagnostics",
+      "Market midpoint probability bands",
+      "Raw HGB3 probability bands",
+      "Platt HGB3 probability bands",
+      "Isotonic HGB3 probability bands",
+      "Market/Platt blend probability bands",
+      "ECE bin sensitivity",
+      "Distribution drift and return regimes",
+      "Historical predecessor calibration: context only",
+      "Conclusion",
+      "Other existing benchmarks (archival context)"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_S5_STRATEGY_COMPARISON.md",
+    "headings": [
+      "S5: Executable strategy comparison",
+      "Common inputs and simulation scope",
+      "Execution and risk assumptions",
+      "Controlled comparison: change estimated payout only",
+      "Explicit alternative: let calibrated estimates choose either side",
+      "Representative trade arithmetic",
+      "Robustness: diagnostics, never threshold selection",
+      "Latency stress",
+      "Uncertainty, drift, horizon and volatility",
+      "Decision and next step"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_S5_STRATEGY_ECONOMICS_AUDIT.md",
+    "headings": [
+      "S5: Strategy economics audit",
+      "Current economics and intent",
+      "Alternative specifications for review",
+      "Research data inventory",
+      "Prospective data and causal quality",
+      "Resolution provenance limits",
+      "Recommended next stage and acceptance",
+      "Reproduction and validation"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_SIMPLIFICATION_AUDIT.md",
+    "headings": [
+      "PolyBTC v2 \u2014 S1 Architecture Simplification Audit",
+      "1. Scope and evidence",
+      "2. Current component and dependency map",
+      "Transaction boundaries",
+      "3. Duplicate responsibility and state inventory",
+      "4. Backward-clock root-cause assessment",
+      "Clock handling recommendation",
+      "5. Target architecture",
+      "6. Estimated reduction and migration risk",
+      "7. Implementation stages, ordered by impact",
+      "S2 \u2014 Clock safety and one paper policy; preserve current transport",
+      "S3 \u2014 One coordinator and typed observation/feature contracts",
+      "S4 \u2014 Replace live CSV transport and consolidate durable ownership",
+      "8. Data preservation and rollback requirements",
+      "9. Changes that must not be made",
+      "10. Smallest safe first implementation step",
+      "Source index"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_SIMPLIFICATION_IMPLEMENTATION.md",
+    "headings": [
+      "Simplification stages S2\u2013S4: implementation and validation",
+      "Result",
+      "Implemented architecture",
+      "S2: clock safety and authoritative paper policy",
+      "S3: fewer transformations and clearer ownership",
+      "S4: optional consolidated ownership",
+      "Files and compatibility",
+      "Real-state preservation and validation",
+      "Test results",
+      "Acceptance still required before declaring sustained reliability"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\POLYBTC_V2_DEVELOPMENT_STAGES.md",
+    "headings": [
+      "PolyBTC v2 \u2014 Development Stages",
+      "Document Purpose",
+      "Core Development Principles",
+      "1. Evidence before architecture complexity",
+      "2. Prediction is not trading",
+      "3. Historical correctness before backtest sophistication",
+      "4. Executable prices matter",
+      "5. Effective sample size is market-level",
+      "6. Research artifacts must be reproducible",
+      "High-Level Phase Map",
+      "P0 \u2014 Specification and Forensic Data Audit",
+      "Objective",
+      "Primary Questions",
+      "Inputs",
+      "P0 Deliverables",
+      "P0-A \u2014 System Architecture Map",
+      "P0-B \u2014 Data Dictionary",
+      "P0-C \u2014 Dataset Inventory",
+      "P0-D \u2014 Timestamp Specification",
+      "P0-E \u2014 Identifier Specification",
+      "P0-F \u2014 Leakage Audit",
+      "P0 Exit Criteria",
+      "P1 \u2014 Canonical Schemas and Historical Ingestion",
+      "Objective",
+      "Core Logical Tables",
+      "Markets",
+      "Snapshots",
+      "Labels",
+      "Orders",
+      "Fills",
+      "Predictions",
+      "Strategy Decisions",
+      "Historical Importers",
+      "Data Validation",
+      "P1 Deliverables",
+      "P1 Exit Criteria",
+      "P2 \u2014 v1.1 Telemetry Extension",
+      "Objective",
+      "High-Priority Telemetry",
+      "Sampling Policy",
+      "Storage",
+      "P2 Exit Criteria",
+      "P3 \u2014 Resolution Reconstruction and Label Validation",
+      "Objective",
+      "Primary Label",
+      "Requirements",
+      "Validation",
+      "P3 Deliverables",
+      "P3 Exit Criteria",
+      "P4 \u2014 Dataset Builder and Feature Pipeline",
+      "Objective",
+      "Dataset Unit",
+      "Initial Prediction Horizons",
+      "Raw Feature Groups",
+      "Contract/reference state",
+      "Reference-price dynamics",
+      "Polymarket state",
+      "Feature Rules",
+      "Versioning",
+      "P4 Exit Criteria",
+      "P5 \u2014 Baseline Predictive Models",
+      "Objective",
+      "Baseline 0 \u2014 Market Probability",
+      "Baseline 1 \u2014 Existing v1/v1.1 Heuristic",
+      "Baseline 2 \u2014 Logistic Regression",
+      "Baseline 3 \u2014 Regularized Logistic Regression",
+      "Split Rules",
+      "P5 Exit Criteria",
+      "P6 \u2014 Probability Calibration",
+      "Objective",
+      "Candidate Methods",
+      "Evaluation",
+      "Isolation Rules",
+      "P6 Exit Criteria",
+      "P7 \u2014 Extended Predictive Models",
+      "Objective",
+      "Candidate Models",
+      "Research Questions",
+      "Guardrails",
+      "P7 Exit Criteria",
+      "P8 \u2014 Strategy and Expected-Value Simulator",
+      "Objective",
+      "Required Separation",
+      "YES/NO Evaluation",
+      "Strategy Variables",
+      "P8 Exit Criteria",
+      "P9 \u2014 Position Management and Re-Entry Research",
+      "Objective",
+      "Policies to Compare",
+      "Experimental Requirement",
+      "Metrics",
+      "P9 Exit Criteria",
+      "P10 \u2014 Realistic Execution Backtester",
+      "Objective",
+      "Execution Levels",
+      "Level 0 \u2014 Mid-Price",
+      "Level 1 \u2014 Bid/Ask Crossing",
+      "Level 2 \u2014 Bid/Ask + Fees",
+      "Level 3 \u2014 Slippage + Latency",
+      "Level 4 \u2014 Depth-Constrained Fills",
+      "Level 5 \u2014 Empirically Calibrated Execution",
+      "Execution Risks to Represent",
+      "P10 Exit Criteria",
+      "P11 \u2014 Walk-Forward and Robustness Evaluation",
+      "Objective",
+      "Evaluation Framework",
+      "Regime Analysis",
+      "Robustness Questions",
+      "P11 Exit Criteria",
+      "P12 \u2014 Paper Trading and Shadow Deployment",
+      "Objective",
+      "Shadow Pipeline",
+      "Compare Offline vs Live",
+      "P12 Exit Criteria",
+      "P13 \u2014 Small Live-Capital Validation",
+      "Objective",
+      "Initial Rules",
+      "Validate",
+      "P13 Exit Criteria",
+      "P14 \u2014 Productionization and Controlled Migration",
+      "Objective",
+      "Production Requirements",
+      "Migration Strategy",
+      "Cross-Cutting Architecture Requirements",
+      "Prediction Layer",
+      "Calibration Layer",
+      "Strategy Layer",
+      "Risk Layer",
+      "Execution Layer",
+      "Portfolio/Accounting Layer",
+      "Market Lifecycle",
+      "Experiment Integrity Rules",
+      "Final Test Set",
+      "Hyperparameter Search",
+      "Threshold Search",
+      "Reporting",
+      "Required Metrics",
+      "Prediction",
+      "Strategy",
+      "Trading",
+      "Execution",
+      "Stop Conditions",
+      "Current Project State",
+      "P10 Final Status \u2014 COMPLETE"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\REPOSITORY_LAYOUT.md",
+    "headings": [
+      "Repository organization \u2014 2026-10-12",
+      "Moves",
+      "Compatibility repairs found during validation",
+      "Validation"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\RESEARCH_BASELINE_S5.md",
+    "headings": [
+      "Research baseline: S5 and the decision funnel",
+      "Baseline conclusion",
+      "Distinct cohorts: do not combine denominators",
+      "Model and historical-data status",
+      "Paired forecast results",
+      "Economic interpretation",
+      "Limitations carried into R1",
+      "Reproduction"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\RESEARCH_PROTOCOL.md",
+    "headings": [
+      "PolyBTC Research protocol",
+      "1. Register the experiment before measuring its final result",
+      "2. Data classes and chronological isolation",
+      "3. Causal features and labels",
+      "4. Matched forecast evaluation",
+      "5. Hypotheses and decision rules",
+      "6. Executable economics and risk",
+      "7. Reporting and reproducibility"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\RESEARCH_QUESTION.md",
+    "headings": [
+      "PolyBTC Research: question, scope and hypotheses",
+      "Research question",
+      "What counts as edge?",
+      "Testable hypotheses",
+      "Research and operational boundaries",
+      "Authority and historical continuity"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\RESEARCH_ROADMAP.md",
+    "headings": [
+      "PolyBTC Research roadmap: R0\u2013R4",
+      "Stages and gates",
+      "First R1 investigation: market-relative feature feasibility",
+      "Experiments and evaluation ownership",
+      "Preservation and scope"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "docs\\RESEARCH_TRANSFORMATION_REVIEW.md",
+    "headings": [
+      "PolyBTC research transformation \u2014 review package",
+      "Recommendation",
+      "What exists and what is currently verifiable",
+      "Git, compatibility and documentation defects",
+      "Evidence ledger and limits",
+      "Additional raw dataset",
+      "Publication plan",
+      "Concrete migration map",
+      "Website and deployment boundary",
+      "Execution sequence after approval",
+      "Decisions required",
+      "Current validation baseline"
+    ],
+    "missing_local_links": [
+      "audit-20261019/BASELINE.md"
+    ]
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_AUDIT_REMEDIATION.md",
+    "headings": [
+      "P-EX-L remediation",
+      "Implemented",
+      "Remaining closure requirements",
+      "External contract references",
+      "Validation"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_FINAL_READINESS.md",
+    "headings": [
+      "PolyBTC v2 \u2014 final engineering readiness",
+      "Scope and verdict",
+      "IMPLEMENTED",
+      "Changes in this completion pass",
+      "VALIDATED",
+      "UNVERIFIED / BLOCKED for real money",
+      "Simulation and economic risks",
+      "REQUIRES USER DECISION before live activation",
+      "Contract references"
+    ],
+    "missing_local_links": [
+      "docs/PAPER_TRADING.md",
+      "docs/OPERATIONS.md"
+    ]
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_E8.md",
+    "headings": [
+      "P-EX-E8 \u2014 Immutable Fee-Policy Provenance",
+      "Objective and inspected inventory",
+      "Changes and reused infrastructure",
+      "Compatibility and safety",
+      "Validation",
+      "Acceptance and open issues"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_E9.md",
+    "headings": [
+      "P-EX-E9 \u2014 Source and Fee Verification Adapter",
+      "Objective and status",
+      "Current implementation inventory and evidence audit",
+      "Changes and contracts",
+      "Applicable fees and accounting: unresolved",
+      "Explicit refresh outside processing",
+      "Files",
+      "Validation and compatibility",
+      "Safety and next gate"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_F.md",
+    "headings": [
+      "P-EX-F \u2014 Controlled paper-execution mode",
+      "SEGMENT / STATUS",
+      "FILES CREATED",
+      "FILES MODIFIED",
+      "IMPLEMENTATION SUMMARY",
+      "EXISTING INFRASTRUCTURE REUSED",
+      "VALIDATION",
+      "SAFETY STATUS",
+      "OPEN ISSUES",
+      "NEXT SEGMENT"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_G.md",
+    "headings": [
+      "P-EX-G \u2014 Order Lifecycle Abstraction",
+      "SEGMENT / STATUS",
+      "FILES CREATED",
+      "FILES MODIFIED",
+      "IMPLEMENTATION SUMMARY",
+      "Verified exchange semantics",
+      "Contract and persistence",
+      "State transitions",
+      "EXISTING INFRASTRUCTURE REUSED",
+      "VALIDATION",
+      "SAFETY STATUS",
+      "OPEN ISSUES",
+      "NEXT SEGMENT"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_H.md",
+    "headings": [
+      "P-EX-H \u2014 Disabled Polymarket CLOB adapter",
+      "SEGMENT / STATUS",
+      "FILES CREATED",
+      "FILES MODIFIED",
+      "IMPLEMENTATION SUMMARY",
+      "Verified SDK and API contract",
+      "Disabled interface and authorization",
+      "Submission and errors",
+      "Fill reconciliation and cancellation",
+      "Credentials and dependency isolation",
+      "EXISTING INFRASTRUCTURE REUSED",
+      "VALIDATION",
+      "SAFETY STATUS",
+      "OPEN ISSUES",
+      "NEXT SEGMENT"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_I.md",
+    "headings": [
+      "P-EX-I \u2014 Durable Live Order and Position Accounting",
+      "SEGMENT / STATUS",
+      "FILES CREATED",
+      "FILES MODIFIED",
+      "IMPLEMENTATION SUMMARY",
+      "EXISTING INFRASTRUCTURE REUSED",
+      "VALIDATION",
+      "SAFETY STATUS",
+      "OPEN ISSUES",
+      "NEXT SEGMENT"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_J.md",
+    "headings": [
+      "P-EX-J \u2014 Live Risk Enforcement",
+      "SEGMENT / STATUS",
+      "FILES CREATED",
+      "FILES MODIFIED",
+      "IMPLEMENTATION SUMMARY",
+      "EXISTING INFRASTRUCTURE REUSED",
+      "VALIDATION",
+      "SAFETY STATUS",
+      "OPEN ISSUES",
+      "NEXT SEGMENT"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_K.md",
+    "headings": [
+      "P-EX-K \u2014 Operations, Monitoring and Recovery",
+      "SEGMENT / STATUS",
+      "FILES CREATED",
+      "FILES MODIFIED",
+      "IMPLEMENTATION SUMMARY",
+      "EXISTING INFRASTRUCTURE REUSED",
+      "VALIDATION",
+      "SAFETY STATUS",
+      "OPEN ISSUES",
+      "NEXT SEGMENT"
+    ],
+    "missing_local_links": []
+  },
+  {
+    "path": "ToOrganize\\POLYBTC_V2_P_EX_L.md",
+    "headings": [
+      "P-EX-L \u2014 Live Readiness Review",
+      "SEGMENT / STATUS",
+      "FILES CREATED / MODIFIED",
+      "IMPLEMENTED",
+      "VALIDATED",
+      "BLOCKED \u2014 unresolved prerequisites for real-money trading",
+      "UNVERIFIED",
+      "REQUIRES USER DECISION",
+      "VALIDATION COMMANDS",
+      "SAFETY STATUS / NEXT SEGMENT"
+    ],
+    "missing_local_links": []
+  }
+]

@@ -1,0 +1,1919 @@
+{
+  "source": "docs/POLYBTC_S5_EVIDENCE.json",
+  "source_sha256": "f07394c985a16dcdbd5941e1d9d23959efed3b0a16eeef920bd4608cc35da465",
+  "classification": "Historical exposed research evidence; not a new independent experiment.",
+  "serialization": "Nonfinite historical metadata values become JSON null; original source is unchanged.",
+  "eligible_observations": 43,
+  "eligible_markets": 36,
+  "baseline": {
+    "A": {
+      "counts": {
+        "causal_fresh_strategy_inputs": 43,
+        "nonpositive_ev": 43
+      },
+      "trades": [],
+      "hypothetical_trades": 0,
+      "net_hypothetical_pnl": 0.0,
+      "ex_post_entry_order_drawdown": 0.0,
+      "win_rate": null,
+      "by_horizon": {},
+      "trade_forecast_brier": null,
+      "trade_forecast_log_loss": null
+    },
+    "B_raw_diagnostic": {
+      "counts": {
+        "causal_fresh_strategy_inputs": 43,
+        "positive_ev": 13,
+        "gap_reject": 7,
+        "nonpositive_ev": 30,
+        "price_reject": 6
+      },
+      "trades": [],
+      "hypothetical_trades": 0,
+      "net_hypothetical_pnl": 0.0,
+      "ex_post_entry_order_drawdown": 0.0,
+      "win_rate": null,
+      "by_horizon": {},
+      "trade_forecast_brier": null,
+      "trade_forecast_log_loss": null
+    },
+    "B_platt": {
+      "counts": {
+        "causal_fresh_strategy_inputs": 43,
+        "nonpositive_ev": 43
+      },
+      "trades": [],
+      "hypothetical_trades": 0,
+      "net_hypothetical_pnl": 0.0,
+      "ex_post_entry_order_drawdown": 0.0,
+      "win_rate": null,
+      "by_horizon": {},
+      "trade_forecast_brier": null,
+      "trade_forecast_log_loss": null
+    },
+    "C": {
+      "counts": {
+        "causal_fresh_strategy_inputs": 43,
+        "nonpositive_ev": 43
+      },
+      "trades": [],
+      "hypothetical_trades": 0,
+      "net_hypothetical_pnl": 0.0,
+      "ex_post_entry_order_drawdown": 0.0,
+      "win_rate": null,
+      "by_horizon": {},
+      "trade_forecast_brier": null,
+      "trade_forecast_log_loss": null
+    }
+  },
+  "alternative_summaries": {
+    "B_platt": {
+      "counts": {
+        "causal_fresh_strategy_inputs": 43,
+        "nonpositive_ev": 3,
+        "positive_ev": 40,
+        "entry_constraints_pass": 39,
+        "one_entry_reject": 3,
+        "capital_reject": 13,
+        "size_reject": 1
+      },
+      "hypothetical_trades": 23,
+      "net_hypothetical_pnl": 0.03633999999999876,
+      "ex_post_entry_order_drawdown": 7.358290000000001,
+      "win_rate": 0.21739130434782608,
+      "by_horizon": {
+        "90": 2,
+        "60": 2,
+        "240": 5,
+        "180": 10,
+        "120": 4
+      },
+      "trade_forecast_brier": 0.1767359300507747,
+      "trade_forecast_log_loss": 0.5387218519239139
+    },
+    "C": {
+      "counts": {
+        "causal_fresh_strategy_inputs": 43,
+        "nonpositive_ev": 29,
+        "positive_ev": 14,
+        "entry_constraints_pass": 14,
+        "one_entry_reject": 1
+      },
+      "hypothetical_trades": 13,
+      "net_hypothetical_pnl": -6.38145,
+      "ex_post_entry_order_drawdown": 7.53359,
+      "win_rate": 0.07692307692307693,
+      "by_horizon": {
+        "180": 3,
+        "120": 4,
+        "240": 2,
+        "30": 1,
+        "90": 2,
+        "60": 1
+      },
+      "trade_forecast_brier": 0.07100896974875508,
+      "trade_forecast_log_loss": 0.27069959759341117
+    }
+  },
+  "accounting_checks": {
+    "B_platt": {
+      "entries": 23,
+      "net_hypothetical_pnl": 0.03633999999999876,
+      "accounting_recomputed": true
+    },
+    "C": {
+      "entries": 13,
+      "net_hypothetical_pnl": -6.38145,
+      "accounting_recomputed": true
+    }
+  },
+  "risk_scenario": "No release of capital during session; settlement receipt time is not retained. Ex-post labelled PnL and entry-order drawdown are not live equity or operational fills.",
+  "sensitivity": {
+    "A": {
+      "zero_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 42,
+          "positive_ev": 1,
+          "direction_reject": 1
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "two_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "double_fee": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "uncertainty_2pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "uncertainty_5pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "gap_10pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "gap_unbounded": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "ceiling_80c_diagnostic": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      }
+    },
+    "B_raw_diagnostic": {
+      "zero_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "positive_ev": 14,
+          "gap_reject": 8,
+          "nonpositive_ev": 29,
+          "price_reject": 5,
+          "entry_constraints_pass": 1
+        },
+        "trades": [
+          {
+            "id": 338402,
+            "condition_id": "0xcd745d42fa14bd250c6a30ca5c39c955cbadc0bff9b17af8291ed8e74460ba85",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.7390522039866414,
+            "estimated_ev": 0.02154220398664144,
+            "execution_price": 0.7,
+            "shares": 5,
+            "fee": 0.0735,
+            "maximum_loss": 3.5735,
+            "won": 1,
+            "hypothetical_pnl": 1.4264999999999999
+          }
+        ],
+        "hypothetical_trades": 1,
+        "net_hypothetical_pnl": 1.4264999999999999,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": 1.0,
+        "by_horizon": {
+          "120": 1
+        },
+        "trade_forecast_brier": 0.06809375224422941,
+        "trade_forecast_log_loss": 0.3023867191396901
+      },
+      "two_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "positive_ev": 10,
+          "gap_reject": 7,
+          "nonpositive_ev": 33,
+          "price_reject": 3
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "double_fee": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "positive_ev": 7,
+          "gap_reject": 7,
+          "nonpositive_ev": 36
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "uncertainty_2pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "positive_ev": 7,
+          "gap_reject": 7,
+          "nonpositive_ev": 36
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "uncertainty_5pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "positive_ev": 4,
+          "gap_reject": 4,
+          "nonpositive_ev": 39
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "gap_10pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "positive_ev": 13,
+          "gap_reject": 4,
+          "nonpositive_ev": 30,
+          "price_reject": 9
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "gap_unbounded": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "positive_ev": 13,
+          "entry_constraints_pass": 3,
+          "one_entry_reject": 1,
+          "nonpositive_ev": 30,
+          "price_reject": 10
+        },
+        "trades": [
+          {
+            "id": 338030,
+            "condition_id": "0x4517582618c41867c9cae2c359cfccb7b4db2154c10d367e1266812a1e538566",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.8198774103237789,
+            "estimated_ev": 0.10236741032377897,
+            "execution_price": 0.7,
+            "shares": 5,
+            "fee": 0.0735,
+            "maximum_loss": 3.5735,
+            "won": 0,
+            "hypothetical_pnl": -3.5735
+          },
+          {
+            "id": 338048,
+            "condition_id": "0xd70ad56e0077167f41a0cc4b62ad9670dc3637248a4fc614c0b1504fed44bc02",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.7497555852362425,
+            "estimated_ev": 0.032245585236242574,
+            "execution_price": 0.7,
+            "shares": 5,
+            "fee": 0.0735,
+            "maximum_loss": 3.5735,
+            "won": 1,
+            "hypothetical_pnl": 1.4264999999999999
+          }
+        ],
+        "hypothetical_trades": 2,
+        "net_hypothetical_pnl": -2.1470000000000002,
+        "ex_post_entry_order_drawdown": 3.5735,
+        "win_rate": 0.5,
+        "by_horizon": {
+          "120": 2
+        },
+        "trade_forecast_brier": 0.36741061753984083,
+        "trade_forecast_log_loss": 1.001062809031481
+      },
+      "ceiling_80c_diagnostic": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "positive_ev": 13,
+          "gap_reject": 7,
+          "nonpositive_ev": 30,
+          "price_reject": 3,
+          "entry_constraints_pass": 3
+        },
+        "trades": [
+          {
+            "id": 338190,
+            "condition_id": "0xe87a833450055b3f5a13a74d3d9d367c6b10d80a4502f58c60b4d06dce949f3a",
+            "horizon": 240,
+            "side": "yes",
+            "estimated_probability": 0.7462747709371872,
+            "estimated_ev": 0.008764770937187218,
+            "execution_price": 0.72,
+            "shares": 5,
+            "fee": 0.07056,
+            "maximum_loss": 3.6705599999999996,
+            "won": 1,
+            "hypothetical_pnl": 1.3294400000000004
+          },
+          {
+            "id": 338220,
+            "condition_id": "0xfa7ca538a4901fb5b90dd58b3fc91ad4aea37c43716cd9ef35b72f16c376b5c6",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.758678147553973,
+            "estimated_ev": 0.01116814755397302,
+            "execution_price": 0.73,
+            "shares": 5,
+            "fee": 0.06899,
+            "maximum_loss": 3.71899,
+            "won": 1,
+            "hypothetical_pnl": 1.2810100000000002
+          },
+          {
+            "id": 338402,
+            "condition_id": "0xcd745d42fa14bd250c6a30ca5c39c955cbadc0bff9b17af8291ed8e74460ba85",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.7390522039866414,
+            "estimated_ev": 0.011542203986641433,
+            "execution_price": 0.71,
+            "shares": 5,
+            "fee": 0.07207,
+            "maximum_loss": 3.62207,
+            "won": 1,
+            "hypothetical_pnl": 1.37793
+          }
+        ],
+        "hypothetical_trades": 3,
+        "net_hypothetical_pnl": 3.9883800000000007,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": 1.0,
+        "by_horizon": {
+          "240": 2,
+          "120": 1
+        },
+        "trade_forecast_brier": 0.06356882685839609,
+        "trade_forecast_log_loss": 0.2904085932063387
+      }
+    },
+    "B_platt": {
+      "zero_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "two_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "double_fee": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "uncertainty_2pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "uncertainty_5pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "gap_10pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "gap_unbounded": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "ceiling_80c_diagnostic": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      }
+    },
+    "C": {
+      "zero_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "two_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "double_fee": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "uncertainty_2pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "uncertainty_5pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "gap_10pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "gap_unbounded": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      },
+      "ceiling_80c_diagnostic": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 43
+        },
+        "trades": [],
+        "hypothetical_trades": 0,
+        "net_hypothetical_pnl": 0.0,
+        "ex_post_entry_order_drawdown": 0.0,
+        "win_rate": null,
+        "by_horizon": {},
+        "trade_forecast_brier": null,
+        "trade_forecast_log_loss": null
+      }
+    }
+  },
+  "alternative_stress": {
+    "B_platt": {
+      "two_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 5,
+          "positive_ev": 38,
+          "entry_constraints_pass": 37,
+          "one_entry_reject": 2,
+          "capital_reject": 13,
+          "size_reject": 1
+        },
+        "trades": [
+          {
+            "id": 338038,
+            "condition_id": "0xe1f03a3d713790b72380a3ee1af7e2fd96b89889797e3b04df34b4dc0c1973c0",
+            "horizon": 60,
+            "side": "no",
+            "estimated_probability": 0.21030577154792296,
+            "estimated_ev": 0.14279577154792297,
+            "execution_price": 0.05,
+            "shares": 5,
+            "fee": 0.01663,
+            "maximum_loss": 0.26663,
+            "won": 0,
+            "hypothetical_pnl": -0.26663
+          },
+          {
+            "id": 338040,
+            "condition_id": "0xc365c6d430e833e85ca21aae8758b8b9d1a92650105ee082d94385d6849064b2",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.49216718125055636,
+            "estimated_ev": 0.17465718125055632,
+            "execution_price": 0.30000000000000004,
+            "shares": 5,
+            "fee": 0.0735,
+            "maximum_loss": 1.5735000000000001,
+            "won": 0,
+            "hypothetical_pnl": -1.5735000000000001
+          },
+          {
+            "id": 338050,
+            "condition_id": "0xd70ad56e0077167f41a0cc4b62ad9670dc3637248a4fc614c0b1504fed44bc02",
+            "horizon": 60,
+            "side": "no",
+            "estimated_probability": 0.21030577154792296,
+            "estimated_ev": 0.14279577154792297,
+            "execution_price": 0.05,
+            "shares": 5,
+            "fee": 0.01663,
+            "maximum_loss": 0.26663,
+            "won": 0,
+            "hypothetical_pnl": -0.26663
+          },
+          {
+            "id": 338053,
+            "condition_id": "0x834d21b8b8c174bef115bd87d6d7251efe5c8b596116e4a09b657fff85aa141c",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.3324720321297998,
+            "estimated_ev": 0.2349620321297998,
+            "execution_price": 0.08,
+            "shares": 5,
+            "fee": 0.02576,
+            "maximum_loss": 0.42576,
+            "won": 0,
+            "hypothetical_pnl": -0.42576
+          },
+          {
+            "id": 338059,
+            "condition_id": "0x59c1403fec11e929bc9af7041c473eb852f80d46aad593978cc023ec7a135ac7",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.3674697575090411,
+            "estimated_ev": 0.0399597575090411,
+            "execution_price": 0.31,
+            "shares": 5,
+            "fee": 0.07487,
+            "maximum_loss": 1.62487,
+            "won": 1,
+            "hypothetical_pnl": 3.37513
+          },
+          {
+            "id": 338065,
+            "condition_id": "0x95c83b5c1ca3b2d0fb393d8f01f63183c8b0889e375539ccb62ee8055a890879",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.5532318774613536,
+            "estimated_ev": 0.1557218774613536,
+            "execution_price": 0.38,
+            "shares": 5,
+            "fee": 0.08246,
+            "maximum_loss": 1.9824599999999999,
+            "won": 1,
+            "hypothetical_pnl": 3.0175400000000003
+          },
+          {
+            "id": 338084,
+            "condition_id": "0xf06cdb76e778f43bc5bc7a01cef598df6d6a1ee4e4007f4d97bed10c24222a3f",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.31451268655895015,
+            "estimated_ev": 0.25700268655895014,
+            "execution_price": 0.04,
+            "shares": 5,
+            "fee": 0.01344,
+            "maximum_loss": 0.21344000000000002,
+            "won": 0,
+            "hypothetical_pnl": -0.21344000000000002
+          },
+          {
+            "id": 338106,
+            "condition_id": "0xa3204e76ad30f8e1cfc90f5704fce348b723a1379351994c8bd1ef1a1446d4b6",
+            "horizon": 240,
+            "side": "yes",
+            "estimated_probability": 0.32813213291310384,
+            "estimated_ev": 0.20062213291310385,
+            "execution_price": 0.11,
+            "shares": 5,
+            "fee": 0.03427,
+            "maximum_loss": 0.5842700000000001,
+            "won": 0,
+            "hypothetical_pnl": -0.5842700000000001
+          },
+          {
+            "id": 338119,
+            "condition_id": "0x9d03a5667853425046a30ce98b736f9d9d3115c2248b7ad27f217842ecda06d3",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.36145029237531223,
+            "estimated_ev": 0.11394029237531225,
+            "execution_price": 0.22999999999999998,
+            "shares": 5,
+            "fee": 0.06199,
+            "maximum_loss": 1.21199,
+            "won": 0,
+            "hypothetical_pnl": -1.21199
+          },
+          {
+            "id": 338125,
+            "condition_id": "0xf64b41ed9ebb20543394e02092d975646135158627c724d50ac2cab4001edf16",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.3626642289762082,
+            "estimated_ev": 0.015154228976208186,
+            "execution_price": 0.33,
+            "shares": 5,
+            "fee": 0.07739,
+            "maximum_loss": 1.7273900000000002,
+            "won": 0,
+            "hypothetical_pnl": -1.7273900000000002
+          },
+          {
+            "id": 338132,
+            "condition_id": "0x2f7210fe0e473ac62a986224dab906282f30f2cbc506990e12bf84fcd844f939",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.49299700601168994,
+            "estimated_ev": 0.26548700601168995,
+            "execution_price": 0.21,
+            "shares": 5,
+            "fee": 0.05807,
+            "maximum_loss": 1.10807,
+            "won": 0,
+            "hypothetical_pnl": -1.10807
+          },
+          {
+            "id": 338150,
+            "condition_id": "0x6b7db6a21f6ac192576518d70a5a00ecc7ed0bc8a1507339b253394956b9bd61",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.518116877572168,
+            "estimated_ev": 0.16060687757216793,
+            "execution_price": 0.34,
+            "shares": 5,
+            "fee": 0.07854,
+            "maximum_loss": 1.7785400000000002,
+            "won": 1,
+            "hypothetical_pnl": 3.2214599999999995
+          },
+          {
+            "id": 338155,
+            "condition_id": "0x0d6418331f6caa1ea41fe22c3ab8d7298eca5ae6b4ad4c11655085006fae275d",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.33663165784391236,
+            "estimated_ev": 0.15912165784391236,
+            "execution_price": 0.16,
+            "shares": 5,
+            "fee": 0.04704,
+            "maximum_loss": 0.84704,
+            "won": 0,
+            "hypothetical_pnl": -0.84704
+          },
+          {
+            "id": 338173,
+            "condition_id": "0xa4daddb73af7859f5c865583a3873fe81238fd0b8f926aa6c51f2944cfcd48cf",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.3972847096198128,
+            "estimated_ev": 0.20977470961981284,
+            "execution_price": 0.16999999999999998,
+            "shares": 5,
+            "fee": 0.04939,
+            "maximum_loss": 0.8993899999999999,
+            "won": 0,
+            "hypothetical_pnl": -0.8993899999999999
+          },
+          {
+            "id": 338181,
+            "condition_id": "0xeb2f303427e3101411dfdfde13043ba2cb153d4cd1c0a8eda91274df8605473d",
+            "horizon": 90,
+            "side": "no",
+            "estimated_probability": 0.28903469323859665,
+            "estimated_ev": 0.14152469323859665,
+            "execution_price": 0.13,
+            "shares": 5,
+            "fee": 0.03959,
+            "maximum_loss": 0.68959,
+            "won": 0,
+            "hypothetical_pnl": -0.68959
+          },
+          {
+            "id": 338190,
+            "condition_id": "0xe87a833450055b3f5a13a74d3d9d367c6b10d80a4502f58c60b4d06dce949f3a",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.38398515906778385,
+            "estimated_ev": 0.04647515906778385,
+            "execution_price": 0.32,
+            "shares": 5,
+            "fee": 0.07616,
+            "maximum_loss": 1.67616,
+            "won": 0,
+            "hypothetical_pnl": -1.67616
+          },
+          {
+            "id": 338197,
+            "condition_id": "0x4cd586520fb00d01d175eabbbde51e86a0b12d1d2432d7d2fe0225a2f0566b34",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.40480216067972413,
+            "estimated_ev": 0.06729216067972413,
+            "execution_price": 0.32,
+            "shares": 5,
+            "fee": 0.07616,
+            "maximum_loss": 1.67616,
+            "won": 0,
+            "hypothetical_pnl": -1.67616
+          },
+          {
+            "id": 338215,
+            "condition_id": "0x71656d4a60e8c6da6834a121d62f697f51478285951730e2b87f253aadfd4e4b",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.49531827813200857,
+            "estimated_ev": 0.16780827813200858,
+            "execution_price": 0.31,
+            "shares": 5,
+            "fee": 0.07487,
+            "maximum_loss": 1.62487,
+            "won": 1,
+            "hypothetical_pnl": 3.37513
+          },
+          {
+            "id": 338220,
+            "condition_id": "0xfa7ca538a4901fb5b90dd58b3fc91ad4aea37c43716cd9ef35b72f16c376b5c6",
+            "horizon": 240,
+            "side": "yes",
+            "estimated_probability": 0.4066676380636726,
+            "estimated_ev": 0.07915763806367263,
+            "execution_price": 0.31,
+            "shares": 5,
+            "fee": 0.07487,
+            "maximum_loss": 1.62487,
+            "won": 0,
+            "hypothetical_pnl": -1.62487
+          },
+          {
+            "id": 338226,
+            "condition_id": "0xa0d26d7818a84112a955799881e619084341e0bf2149a2de875d1e331939e499",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.3606078828463497,
+            "estimated_ev": 0.23309788284634972,
+            "execution_price": 0.11,
+            "shares": 5,
+            "fee": 0.03427,
+            "maximum_loss": 0.5842700000000001,
+            "won": 0,
+            "hypothetical_pnl": -0.5842700000000001
+          },
+          {
+            "id": 338234,
+            "condition_id": "0x3359ead674767a97411c97e9d97fb6b44800503a34cd776341974c3bf41006b9",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.6031810359348148,
+            "estimated_ev": 0.16567103593481472,
+            "execution_price": 0.42000000000000004,
+            "shares": 5,
+            "fee": 0.08526,
+            "maximum_loss": 2.18526,
+            "won": 1,
+            "hypothetical_pnl": 2.81474
+          },
+          {
+            "id": 338360,
+            "condition_id": "0x1f1b05403f564d7533ecf6bd8a46c557f589a6f55f64c52afb5d3ff6dcdc4ed1",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.2792606336728739,
+            "estimated_ev": 0.2017506336728739,
+            "execution_price": 0.06,
+            "shares": 5,
+            "fee": 0.01974,
+            "maximum_loss": 0.31973999999999997,
+            "won": 0,
+            "hypothetical_pnl": -0.31973999999999997
+          }
+        ],
+        "hypothetical_trades": 22,
+        "net_hypothetical_pnl": 0.1090999999999992,
+        "ex_post_entry_order_drawdown": 7.412040000000001,
+        "win_rate": 0.22727272727272727,
+        "by_horizon": {
+          "60": 2,
+          "240": 5,
+          "180": 9,
+          "120": 5,
+          "90": 1
+        },
+        "trade_forecast_brier": 0.15620527108791016,
+        "trade_forecast_log_loss": 0.49655613951915284
+      },
+      "double_fee": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 5,
+          "positive_ev": 38,
+          "entry_constraints_pass": 37,
+          "one_entry_reject": 2,
+          "capital_reject": 13,
+          "size_reject": 1
+        },
+        "trades": [
+          {
+            "id": 338038,
+            "condition_id": "0xe1f03a3d713790b72380a3ee1af7e2fd96b89889797e3b04df34b4dc0c1973c0",
+            "horizon": 60,
+            "side": "no",
+            "estimated_probability": 0.21030577154792296,
+            "estimated_ev": 0.13529577154792294,
+            "execution_price": 0.04,
+            "shares": 5,
+            "fee": 0.02688,
+            "maximum_loss": 0.22688000000000003,
+            "won": 0,
+            "hypothetical_pnl": -0.22688000000000003
+          },
+          {
+            "id": 338040,
+            "condition_id": "0xc365c6d430e833e85ca21aae8758b8b9d1a92650105ee082d94385d6849064b2",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.49216718125055636,
+            "estimated_ev": 0.1671571812505563,
+            "execution_price": 0.29000000000000004,
+            "shares": 5,
+            "fee": 0.14413,
+            "maximum_loss": 1.5941300000000003,
+            "won": 0,
+            "hypothetical_pnl": -1.5941300000000003
+          },
+          {
+            "id": 338050,
+            "condition_id": "0xd70ad56e0077167f41a0cc4b62ad9670dc3637248a4fc614c0b1504fed44bc02",
+            "horizon": 60,
+            "side": "no",
+            "estimated_probability": 0.21030577154792296,
+            "estimated_ev": 0.13529577154792294,
+            "execution_price": 0.04,
+            "shares": 5,
+            "fee": 0.02688,
+            "maximum_loss": 0.22688000000000003,
+            "won": 0,
+            "hypothetical_pnl": -0.22688000000000003
+          },
+          {
+            "id": 338053,
+            "condition_id": "0x834d21b8b8c174bef115bd87d6d7251efe5c8b596116e4a09b657fff85aa141c",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.3324720321297998,
+            "estimated_ev": 0.2274620321297998,
+            "execution_price": 0.06999999999999999,
+            "shares": 5,
+            "fee": 0.04557,
+            "maximum_loss": 0.39557,
+            "won": 0,
+            "hypothetical_pnl": -0.39557
+          },
+          {
+            "id": 338059,
+            "condition_id": "0x59c1403fec11e929bc9af7041c473eb852f80d46aad593978cc023ec7a135ac7",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.3674697575090411,
+            "estimated_ev": 0.0324597575090411,
+            "execution_price": 0.3,
+            "shares": 5,
+            "fee": 0.147,
+            "maximum_loss": 1.647,
+            "won": 1,
+            "hypothetical_pnl": 3.3529999999999998
+          },
+          {
+            "id": 338065,
+            "condition_id": "0x95c83b5c1ca3b2d0fb393d8f01f63183c8b0889e375539ccb62ee8055a890879",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.5532318774613536,
+            "estimated_ev": 0.1482218774613536,
+            "execution_price": 0.37,
+            "shares": 5,
+            "fee": 0.16317,
+            "maximum_loss": 2.01317,
+            "won": 1,
+            "hypothetical_pnl": 2.98683
+          },
+          {
+            "id": 338084,
+            "condition_id": "0xf06cdb76e778f43bc5bc7a01cef598df6d6a1ee4e4007f4d97bed10c24222a3f",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.31451268655895015,
+            "estimated_ev": 0.2495026865589501,
+            "execution_price": 0.03,
+            "shares": 5,
+            "fee": 0.02037,
+            "maximum_loss": 0.17037,
+            "won": 0,
+            "hypothetical_pnl": -0.17037
+          },
+          {
+            "id": 338106,
+            "condition_id": "0xa3204e76ad30f8e1cfc90f5704fce348b723a1379351994c8bd1ef1a1446d4b6",
+            "horizon": 240,
+            "side": "yes",
+            "estimated_probability": 0.32813213291310384,
+            "estimated_ev": 0.19312213291310384,
+            "execution_price": 0.09999999999999999,
+            "shares": 5,
+            "fee": 0.063,
+            "maximum_loss": 0.563,
+            "won": 0,
+            "hypothetical_pnl": -0.563
+          },
+          {
+            "id": 338119,
+            "condition_id": "0x9d03a5667853425046a30ce98b736f9d9d3115c2248b7ad27f217842ecda06d3",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.36145029237531223,
+            "estimated_ev": 0.10644029237531222,
+            "execution_price": 0.22,
+            "shares": 5,
+            "fee": 0.12012,
+            "maximum_loss": 1.22012,
+            "won": 0,
+            "hypothetical_pnl": -1.22012
+          },
+          {
+            "id": 338125,
+            "condition_id": "0xf64b41ed9ebb20543394e02092d975646135158627c724d50ac2cab4001edf16",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.3626642289762082,
+            "estimated_ev": 0.00765422897620819,
+            "execution_price": 0.32,
+            "shares": 5,
+            "fee": 0.15232,
+            "maximum_loss": 1.75232,
+            "won": 0,
+            "hypothetical_pnl": -1.75232
+          },
+          {
+            "id": 338132,
+            "condition_id": "0x2f7210fe0e473ac62a986224dab906282f30f2cbc506990e12bf84fcd844f939",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.49299700601168994,
+            "estimated_ev": 0.25798700601168995,
+            "execution_price": 0.2,
+            "shares": 5,
+            "fee": 0.112,
+            "maximum_loss": 1.112,
+            "won": 0,
+            "hypothetical_pnl": -1.112
+          },
+          {
+            "id": 338150,
+            "condition_id": "0x6b7db6a21f6ac192576518d70a5a00ecc7ed0bc8a1507339b253394956b9bd61",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.518116877572168,
+            "estimated_ev": 0.15310687757216793,
+            "execution_price": 0.33,
+            "shares": 5,
+            "fee": 0.15477,
+            "maximum_loss": 1.8047700000000002,
+            "won": 1,
+            "hypothetical_pnl": 3.1952299999999996
+          },
+          {
+            "id": 338155,
+            "condition_id": "0x0d6418331f6caa1ea41fe22c3ab8d7298eca5ae6b4ad4c11655085006fae275d",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.33663165784391236,
+            "estimated_ev": 0.15162165784391232,
+            "execution_price": 0.15000000000000002,
+            "shares": 5,
+            "fee": 0.08925,
+            "maximum_loss": 0.83925,
+            "won": 0,
+            "hypothetical_pnl": -0.83925
+          },
+          {
+            "id": 338173,
+            "condition_id": "0xa4daddb73af7859f5c865583a3873fe81238fd0b8f926aa6c51f2944cfcd48cf",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.3972847096198128,
+            "estimated_ev": 0.2022747096198128,
+            "execution_price": 0.16,
+            "shares": 5,
+            "fee": 0.09408,
+            "maximum_loss": 0.89408,
+            "won": 0,
+            "hypothetical_pnl": -0.89408
+          },
+          {
+            "id": 338181,
+            "condition_id": "0xeb2f303427e3101411dfdfde13043ba2cb153d4cd1c0a8eda91274df8605473d",
+            "horizon": 90,
+            "side": "no",
+            "estimated_probability": 0.28903469323859665,
+            "estimated_ev": 0.13402469323859664,
+            "execution_price": 0.12,
+            "shares": 5,
+            "fee": 0.07392,
+            "maximum_loss": 0.67392,
+            "won": 0,
+            "hypothetical_pnl": -0.67392
+          },
+          {
+            "id": 338190,
+            "condition_id": "0xe87a833450055b3f5a13a74d3d9d367c6b10d80a4502f58c60b4d06dce949f3a",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.38398515906778385,
+            "estimated_ev": 0.03897515906778385,
+            "execution_price": 0.31,
+            "shares": 5,
+            "fee": 0.14973,
+            "maximum_loss": 1.69973,
+            "won": 0,
+            "hypothetical_pnl": -1.69973
+          },
+          {
+            "id": 338197,
+            "condition_id": "0x4cd586520fb00d01d175eabbbde51e86a0b12d1d2432d7d2fe0225a2f0566b34",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.40480216067972413,
+            "estimated_ev": 0.05979216067972413,
+            "execution_price": 0.31,
+            "shares": 5,
+            "fee": 0.14973,
+            "maximum_loss": 1.69973,
+            "won": 0,
+            "hypothetical_pnl": -1.69973
+          },
+          {
+            "id": 338215,
+            "condition_id": "0x71656d4a60e8c6da6834a121d62f697f51478285951730e2b87f253aadfd4e4b",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.49531827813200857,
+            "estimated_ev": 0.16030827813200857,
+            "execution_price": 0.3,
+            "shares": 5,
+            "fee": 0.147,
+            "maximum_loss": 1.647,
+            "won": 1,
+            "hypothetical_pnl": 3.3529999999999998
+          },
+          {
+            "id": 338220,
+            "condition_id": "0xfa7ca538a4901fb5b90dd58b3fc91ad4aea37c43716cd9ef35b72f16c376b5c6",
+            "horizon": 240,
+            "side": "yes",
+            "estimated_probability": 0.4066676380636726,
+            "estimated_ev": 0.07165763806367262,
+            "execution_price": 0.3,
+            "shares": 5,
+            "fee": 0.147,
+            "maximum_loss": 1.647,
+            "won": 0,
+            "hypothetical_pnl": -1.647
+          },
+          {
+            "id": 338226,
+            "condition_id": "0xa0d26d7818a84112a955799881e619084341e0bf2149a2de875d1e331939e499",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.3606078828463497,
+            "estimated_ev": 0.2255978828463497,
+            "execution_price": 0.09999999999999999,
+            "shares": 5,
+            "fee": 0.063,
+            "maximum_loss": 0.563,
+            "won": 0,
+            "hypothetical_pnl": -0.563
+          },
+          {
+            "id": 338234,
+            "condition_id": "0x3359ead674767a97411c97e9d97fb6b44800503a34cd776341974c3bf41006b9",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.6031810359348148,
+            "estimated_ev": 0.1581710359348147,
+            "execution_price": 0.41000000000000003,
+            "shares": 5,
+            "fee": 0.16933,
+            "maximum_loss": 2.2193300000000002,
+            "won": 1,
+            "hypothetical_pnl": 2.7806699999999998
+          },
+          {
+            "id": 338360,
+            "condition_id": "0x1f1b05403f564d7533ecf6bd8a46c557f589a6f55f64c52afb5d3ff6dcdc4ed1",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.2792606336728739,
+            "estimated_ev": 0.1942506336728739,
+            "execution_price": 0.05,
+            "shares": 5,
+            "fee": 0.03325,
+            "maximum_loss": 0.28325,
+            "won": 0,
+            "hypothetical_pnl": -0.28325
+          }
+        ],
+        "hypothetical_trades": 22,
+        "net_hypothetical_pnl": 0.10749999999999829,
+        "ex_post_entry_order_drawdown": 7.429290000000002,
+        "win_rate": 0.22727272727272727,
+        "by_horizon": {
+          "60": 2,
+          "240": 5,
+          "180": 9,
+          "120": 5,
+          "90": 1
+        },
+        "trade_forecast_brier": 0.15620527108791016,
+        "trade_forecast_log_loss": 0.49655613951915284
+      },
+      "uncertainty_5pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 7,
+          "positive_ev": 36,
+          "entry_constraints_pass": 35,
+          "one_entry_reject": 3,
+          "capital_reject": 8,
+          "size_reject": 1
+        },
+        "trades": [
+          {
+            "id": 338038,
+            "condition_id": "0xe1f03a3d713790b72380a3ee1af7e2fd96b89889797e3b04df34b4dc0c1973c0",
+            "horizon": 60,
+            "side": "no",
+            "estimated_probability": 0.21030577154792296,
+            "estimated_ev": 0.10279577154792297,
+            "execution_price": 0.04,
+            "shares": 5,
+            "fee": 0.01344,
+            "maximum_loss": 0.21344000000000002,
+            "won": 0,
+            "hypothetical_pnl": -0.21344000000000002
+          },
+          {
+            "id": 338040,
+            "condition_id": "0xc365c6d430e833e85ca21aae8758b8b9d1a92650105ee082d94385d6849064b2",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.49216718125055636,
+            "estimated_ev": 0.13465718125055634,
+            "execution_price": 0.29000000000000004,
+            "shares": 5,
+            "fee": 0.07207,
+            "maximum_loss": 1.5220700000000003,
+            "won": 0,
+            "hypothetical_pnl": -1.5220700000000003
+          },
+          {
+            "id": 338050,
+            "condition_id": "0xd70ad56e0077167f41a0cc4b62ad9670dc3637248a4fc614c0b1504fed44bc02",
+            "horizon": 60,
+            "side": "no",
+            "estimated_probability": 0.21030577154792296,
+            "estimated_ev": 0.10279577154792297,
+            "execution_price": 0.04,
+            "shares": 5,
+            "fee": 0.01344,
+            "maximum_loss": 0.21344000000000002,
+            "won": 0,
+            "hypothetical_pnl": -0.21344000000000002
+          },
+          {
+            "id": 338053,
+            "condition_id": "0x834d21b8b8c174bef115bd87d6d7251efe5c8b596116e4a09b657fff85aa141c",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.3324720321297998,
+            "estimated_ev": 0.19496203212979982,
+            "execution_price": 0.06999999999999999,
+            "shares": 5,
+            "fee": 0.02279,
+            "maximum_loss": 0.37278999999999995,
+            "won": 0,
+            "hypothetical_pnl": -0.37278999999999995
+          },
+          {
+            "id": 338065,
+            "condition_id": "0x95c83b5c1ca3b2d0fb393d8f01f63183c8b0889e375539ccb62ee8055a890879",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.5532318774613536,
+            "estimated_ev": 0.11572187746135357,
+            "execution_price": 0.37,
+            "shares": 5,
+            "fee": 0.08159,
+            "maximum_loss": 1.9315900000000001,
+            "won": 1,
+            "hypothetical_pnl": 3.06841
+          },
+          {
+            "id": 338084,
+            "condition_id": "0xf06cdb76e778f43bc5bc7a01cef598df6d6a1ee4e4007f4d97bed10c24222a3f",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.31451268655895015,
+            "estimated_ev": 0.21700268655895016,
+            "execution_price": 0.03,
+            "shares": 5,
+            "fee": 0.01018,
+            "maximum_loss": 0.16018,
+            "won": 0,
+            "hypothetical_pnl": -0.16018
+          },
+          {
+            "id": 338106,
+            "condition_id": "0xa3204e76ad30f8e1cfc90f5704fce348b723a1379351994c8bd1ef1a1446d4b6",
+            "horizon": 240,
+            "side": "yes",
+            "estimated_probability": 0.32813213291310384,
+            "estimated_ev": 0.16062213291310387,
+            "execution_price": 0.09999999999999999,
+            "shares": 5,
+            "fee": 0.0315,
+            "maximum_loss": 0.5315,
+            "won": 0,
+            "hypothetical_pnl": -0.5315
+          },
+          {
+            "id": 338119,
+            "condition_id": "0x9d03a5667853425046a30ce98b736f9d9d3115c2248b7ad27f217842ecda06d3",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.36145029237531223,
+            "estimated_ev": 0.07394029237531224,
+            "execution_price": 0.22,
+            "shares": 5,
+            "fee": 0.06006,
+            "maximum_loss": 1.16006,
+            "won": 0,
+            "hypothetical_pnl": -1.16006
+          },
+          {
+            "id": 338132,
+            "condition_id": "0x2f7210fe0e473ac62a986224dab906282f30f2cbc506990e12bf84fcd844f939",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.49299700601168994,
+            "estimated_ev": 0.22548700601168994,
+            "execution_price": 0.2,
+            "shares": 5,
+            "fee": 0.056,
+            "maximum_loss": 1.056,
+            "won": 0,
+            "hypothetical_pnl": -1.056
+          },
+          {
+            "id": 338150,
+            "condition_id": "0x6b7db6a21f6ac192576518d70a5a00ecc7ed0bc8a1507339b253394956b9bd61",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.518116877572168,
+            "estimated_ev": 0.12060687757216795,
+            "execution_price": 0.33,
+            "shares": 5,
+            "fee": 0.07739,
+            "maximum_loss": 1.7273900000000002,
+            "won": 1,
+            "hypothetical_pnl": 3.27261
+          },
+          {
+            "id": 338155,
+            "condition_id": "0x0d6418331f6caa1ea41fe22c3ab8d7298eca5ae6b4ad4c11655085006fae275d",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.33663165784391236,
+            "estimated_ev": 0.11912165784391235,
+            "execution_price": 0.15000000000000002,
+            "shares": 5,
+            "fee": 0.04463,
+            "maximum_loss": 0.7946300000000002,
+            "won": 0,
+            "hypothetical_pnl": -0.7946300000000002
+          },
+          {
+            "id": 338173,
+            "condition_id": "0xa4daddb73af7859f5c865583a3873fe81238fd0b8f926aa6c51f2944cfcd48cf",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.3972847096198128,
+            "estimated_ev": 0.16977470961981284,
+            "execution_price": 0.16,
+            "shares": 5,
+            "fee": 0.04704,
+            "maximum_loss": 0.84704,
+            "won": 0,
+            "hypothetical_pnl": -0.84704
+          },
+          {
+            "id": 338181,
+            "condition_id": "0xeb2f303427e3101411dfdfde13043ba2cb153d4cd1c0a8eda91274df8605473d",
+            "horizon": 90,
+            "side": "no",
+            "estimated_probability": 0.28903469323859665,
+            "estimated_ev": 0.10152469323859667,
+            "execution_price": 0.12,
+            "shares": 5,
+            "fee": 0.03696,
+            "maximum_loss": 0.63696,
+            "won": 0,
+            "hypothetical_pnl": -0.63696
+          },
+          {
+            "id": 338190,
+            "condition_id": "0xe87a833450055b3f5a13a74d3d9d367c6b10d80a4502f58c60b4d06dce949f3a",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.38398515906778385,
+            "estimated_ev": 0.0064751590677838665,
+            "execution_price": 0.31,
+            "shares": 5,
+            "fee": 0.07487,
+            "maximum_loss": 1.62487,
+            "won": 0,
+            "hypothetical_pnl": -1.62487
+          },
+          {
+            "id": 338197,
+            "condition_id": "0x4cd586520fb00d01d175eabbbde51e86a0b12d1d2432d7d2fe0225a2f0566b34",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.40480216067972413,
+            "estimated_ev": 0.027292160679724144,
+            "execution_price": 0.31,
+            "shares": 5,
+            "fee": 0.07487,
+            "maximum_loss": 1.62487,
+            "won": 0,
+            "hypothetical_pnl": -1.62487
+          },
+          {
+            "id": 338215,
+            "condition_id": "0x71656d4a60e8c6da6834a121d62f697f51478285951730e2b87f253aadfd4e4b",
+            "horizon": 180,
+            "side": "no",
+            "estimated_probability": 0.49531827813200857,
+            "estimated_ev": 0.1278082781320086,
+            "execution_price": 0.3,
+            "shares": 5,
+            "fee": 0.0735,
+            "maximum_loss": 1.5735,
+            "won": 1,
+            "hypothetical_pnl": 3.4265
+          },
+          {
+            "id": 338220,
+            "condition_id": "0xfa7ca538a4901fb5b90dd58b3fc91ad4aea37c43716cd9ef35b72f16c376b5c6",
+            "horizon": 240,
+            "side": "yes",
+            "estimated_probability": 0.4066676380636726,
+            "estimated_ev": 0.039157638063672645,
+            "execution_price": 0.3,
+            "shares": 5,
+            "fee": 0.0735,
+            "maximum_loss": 1.5735,
+            "won": 0,
+            "hypothetical_pnl": -1.5735
+          },
+          {
+            "id": 338226,
+            "condition_id": "0xa0d26d7818a84112a955799881e619084341e0bf2149a2de875d1e331939e499",
+            "horizon": 240,
+            "side": "no",
+            "estimated_probability": 0.3606078828463497,
+            "estimated_ev": 0.19309788284634974,
+            "execution_price": 0.09999999999999999,
+            "shares": 5,
+            "fee": 0.0315,
+            "maximum_loss": 0.5315,
+            "won": 0,
+            "hypothetical_pnl": -0.5315
+          },
+          {
+            "id": 338234,
+            "condition_id": "0x3359ead674767a97411c97e9d97fb6b44800503a34cd776341974c3bf41006b9",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.6031810359348148,
+            "estimated_ev": 0.12567103593481468,
+            "execution_price": 0.41000000000000003,
+            "shares": 5,
+            "fee": 0.08467,
+            "maximum_loss": 2.1346700000000003,
+            "won": 1,
+            "hypothetical_pnl": 2.8653299999999997
+          },
+          {
+            "id": 338239,
+            "condition_id": "0x75ae1662c0d5885f89d10e4fb235c86ab77e8c734144cfeb3e71aa25bd40a1cc",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.615479123696941,
+            "estimated_ev": 0.247969123696941,
+            "execution_price": 0.3,
+            "shares": 5,
+            "fee": 0.0735,
+            "maximum_loss": 1.5735,
+            "won": 0,
+            "hypothetical_pnl": -1.5735
+          },
+          {
+            "id": 338261,
+            "condition_id": "0x797aa078c44af042d4225ee67561a52d2e5e2ba6a348d0260767151832c0bd7c",
+            "horizon": 30,
+            "side": "yes",
+            "estimated_probability": 0.7203018393530773,
+            "estimated_ev": 0.5427918393530773,
+            "execution_price": 0.11,
+            "shares": 5,
+            "fee": 0.03427,
+            "maximum_loss": 0.5842700000000001,
+            "won": 0,
+            "hypothetical_pnl": -0.5842700000000001
+          },
+          {
+            "id": 338263,
+            "condition_id": "0x23ef1c1b9a4e5a75fa5f4baa0115f9af0bd713bab93beb3a08ba8c956ed05f96",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.40845659710894316,
+            "estimated_ev": 0.12094659710894318,
+            "execution_price": 0.22,
+            "shares": 5,
+            "fee": 0.06006,
+            "maximum_loss": 1.16006,
+            "won": 0,
+            "hypothetical_pnl": -1.16006
+          },
+          {
+            "id": 338305,
+            "condition_id": "0xf06b374e6ab556a587968408f2810510a7cb4788fd8c222860b5735bf017b500",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.3487686506137965,
+            "estimated_ev": 0.08125865061379653,
+            "execution_price": 0.2,
+            "shares": 5,
+            "fee": 0.056,
+            "maximum_loss": 1.056,
+            "won": 0,
+            "hypothetical_pnl": -1.056
+          },
+          {
+            "id": 338360,
+            "condition_id": "0x1f1b05403f564d7533ecf6bd8a46c557f589a6f55f64c52afb5d3ff6dcdc4ed1",
+            "horizon": 120,
+            "side": "yes",
+            "estimated_probability": 0.2792606336728739,
+            "estimated_ev": 0.16175063367287393,
+            "execution_price": 0.05,
+            "shares": 5,
+            "fee": 0.01663,
+            "maximum_loss": 0.26663,
+            "won": 0,
+            "hypothetical_pnl": -0.26663
+          }
+        ],
+        "hypothetical_trades": 24,
+        "net_hypothetical_pnl": -4.870460000000001,
+        "ex_post_entry_order_drawdown": 5.982000000000002,
+        "win_rate": 0.16666666666666666,
+        "by_horizon": {
+          "60": 2,
+          "240": 5,
+          "180": 10,
+          "120": 5,
+          "90": 1,
+          "30": 1
+        },
+        "trade_forecast_brier": 0.17045924033935048,
+        "trade_forecast_log_loss": 0.527348923369977
+      }
+    },
+    "C": {
+      "two_ticks": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 37,
+          "positive_ev": 6,
+          "entry_constraints_pass": 6
+        },
+        "trades": [
+          {
+            "id": 338132,
+            "condition_id": "0x2f7210fe0e473ac62a986224dab906282f30f2cbc506990e12bf84fcd844f939",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.23017843578445862,
+            "estimated_ev": 0.0026684357844586302,
+            "execution_price": 0.21,
+            "shares": 5,
+            "fee": 0.05807,
+            "maximum_loss": 1.10807,
+            "won": 0,
+            "hypothetical_pnl": -1.10807
+          },
+          {
+            "id": 338228,
+            "condition_id": "0xa0d26d7818a84112a955799881e619084341e0bf2149a2de875d1e331939e499",
+            "horizon": 120,
+            "side": "no",
+            "estimated_probability": 0.03535374159745175,
+            "estimated_ev": 0.002843741597451748,
+            "execution_price": 0.015,
+            "shares": 5,
+            "fee": 0.00517,
+            "maximum_loss": 0.08016999999999999,
+            "won": 0,
+            "hypothetical_pnl": -0.08016999999999999
+          },
+          {
+            "id": 338239,
+            "condition_id": "0x75ae1662c0d5885f89d10e4fb235c86ab77e8c734144cfeb3e71aa25bd40a1cc",
+            "horizon": 180,
+            "side": "yes",
+            "estimated_probability": 0.3299764489125574,
+            "estimated_ev": 0.0024664489125573973,
+            "execution_price": 0.31,
+            "shares": 5,
+            "fee": 0.07487,
+            "maximum_loss": 1.62487,
+            "won": 0,
+            "hypothetical_pnl": -1.62487
+          },
+          {
+            "id": 338261,
+            "condition_id": "0x797aa078c44af042d4225ee67561a52d2e5e2ba6a348d0260767151832c0bd7c",
+            "horizon": 30,
+            "side": "yes",
+            "estimated_probability": 0.1801002505634281,
+            "estimated_ev": 0.04259025056342809,
+            "execution_price": 0.12000000000000001,
+            "shares": 5,
+            "fee": 0.03696,
+            "maximum_loss": 0.6369600000000001,
+            "won": 0,
+            "hypothetical_pnl": -0.6369600000000001
+          },
+          {
+            "id": 338265,
+            "condition_id": "0x23ef1c1b9a4e5a75fa5f4baa0115f9af0bd713bab93beb3a08ba8c956ed05f96",
+            "horizon": 90,
+            "side": "yes",
+            "estimated_probability": 0.139671415237344,
+            "estimated_ev": 0.002161415237343988,
+            "execution_price": 0.12000000000000001,
+            "shares": 5,
+            "fee": 0.03696,
+            "maximum_loss": 0.6369600000000001,
+            "won": 0,
+            "hypothetical_pnl": -0.6369600000000001
+          },
+          {
+            "id": 338302,
+            "condition_id": "0xad5ea124a7030d7f10bc3eddbfd1e01f84569a7880e6406c8685f82302369d45",
+            "horizon": 60,
+            "side": "yes",
+            "estimated_probability": 0.36078550728628267,
+            "estimated_ev": 0.003275507286282644,
+            "execution_price": 0.34,
+            "shares": 5,
+            "fee": 0.07854,
+            "maximum_loss": 1.7785400000000002,
+            "won": 0,
+            "hypothetical_pnl": -1.7785400000000002
+          }
+        ],
+        "hypothetical_trades": 6,
+        "net_hypothetical_pnl": -5.865570000000001,
+        "ex_post_entry_order_drawdown": 5.865570000000001,
+        "win_rate": 0.0,
+        "by_horizon": {
+          "120": 2,
+          "180": 1,
+          "30": 1,
+          "90": 1,
+          "60": 1
+        },
+        "trade_forecast_brier": 0.0575378071562156,
+        "trade_forecast_log_loss": 0.24909367675449345
+      },
+      "double_fee": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 42,
+          "positive_ev": 1,
+          "entry_constraints_pass": 1
+        },
+        "trades": [
+          {
+            "id": 338261,
+            "condition_id": "0x797aa078c44af042d4225ee67561a52d2e5e2ba6a348d0260767151832c0bd7c",
+            "horizon": 30,
+            "side": "yes",
+            "estimated_probability": 0.1801002505634281,
+            "estimated_ev": 0.03509025056342809,
+            "execution_price": 0.11,
+            "shares": 5,
+            "fee": 0.06853,
+            "maximum_loss": 0.61853,
+            "won": 0,
+            "hypothetical_pnl": -0.61853
+          }
+        ],
+        "hypothetical_trades": 1,
+        "net_hypothetical_pnl": -0.61853,
+        "ex_post_entry_order_drawdown": 0.61853,
+        "win_rate": 0.0,
+        "by_horizon": {
+          "30": 1
+        },
+        "trade_forecast_brier": 0.03243610025300958,
+        "trade_forecast_log_loss": 0.1985732029824766
+      },
+      "uncertainty_5pp": {
+        "counts": {
+          "causal_fresh_strategy_inputs": 43,
+          "nonpositive_ev": 42,
+          "positive_ev": 1,
+          "entry_constraints_pass": 1
+        },
+        "trades": [
+          {
+            "id": 338261,
+            "condition_id": "0x797aa078c44af042d4225ee67561a52d2e5e2ba6a348d0260767151832c0bd7c",
+            "horizon": 30,
+            "side": "yes",
+            "estimated_probability": 0.1801002505634281,
+            "estimated_ev": 0.0025902505634281085,
+            "execution_price": 0.11,
+            "shares": 5,
+            "fee": 0.03427,
+            "maximum_loss": 0.5842700000000001,
+            "won": 0,
+            "hypothetical_pnl": -0.5842700000000001
+          }
+        ],
+        "hypothetical_trades": 1,
+        "net_hypothetical_pnl": -0.5842700000000001,
+        "ex_post_entry_order_drawdown": 0.5842700000000001,
+        "win_rate": 0.0,
+        "by_horizon": {
+          "30": 1
+        },
+        "trade_forecast_brier": 0.03243610025300958,
+        "trade_forecast_log_loss": 0.1985732029824766
+      }
+    }
+  }
+}

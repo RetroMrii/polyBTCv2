@@ -1,0 +1,528 @@
+{
+  "synthetic": false,
+  "network": false,
+  "parity": {
+    "decisions": {
+      "count": 540,
+      "sha256": "019432634fc0bc66414dbcd3882fc112f0930978cbec6051560afde52358f30d"
+    },
+    "entries": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "entry_events": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "entry_decision_context": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "receipts": {
+      "count": 32354,
+      "sha256": "d4b58186bff6f6e0a36e46937c529f19aef3aa7cd4c850a4251ed1d5895e71c4"
+    },
+    "resolutions": {
+      "count": 89,
+      "sha256": "b2ca2546b2eb9f1ceea52c0f1eef8ec721a88620ba7b733e49cea23bc6b39213"
+    },
+    "acquisition": {
+      "count": 32671,
+      "sha256": "66ad586e4cb221574d4395fb076edb0c36cf2e6e7dfc2280ea41dadcd38be93e"
+    },
+    "fee_policies": {
+      "count": 92,
+      "sha256": "e3c28a449d8a791121e3fd38d8851fdfdc7c2e556021c0f39a5619320a99f09d"
+    },
+    "fee_conflicts": {
+      "count": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  },
+  "replays": [
+    {
+      "original_decision_id": 337776,
+      "historical_deadline": "2026-10-12T21:11:03.781277+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+        "prediction_snapshot_id": "9c29a4e11ef85250d47b2f689adc016686a40aded0a2f415794b331e879443b8",
+        "execution_snapshot_id": "b819bcb439d8d7ca2bfd32c25881fb6e0d9c1de728f6455cd7538d4a5c53f7d7",
+        "checked_at_utc": "2026-10-12T21:11:03.781277+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "22c54fe3f28c692830d4ac85ae63224e33bf0aa3022ae68b63302d394fe1b01b",
+          "3bd957c7577cd3436e9bedd960c69fd150cac1897e301ff0b1efea494e513c52",
+          "de124e57a169eaa0ad30e8e11c6beae6da0fc9d6bd784d853615042acb4e4ac0"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "fe6b7e6e025ea252e5cab8dab7f984681b4d109227a258c41b0da1b83c84eeb4",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+        "horizon_seconds": 240,
+        "model_probability_yes": 0.7005339527112011,
+        "market_probability_yes": 0.625,
+        "prediction_market_probability_yes": 0.615,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337779,
+      "historical_deadline": "2026-10-12T21:13:32.520725+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+        "prediction_snapshot_id": "398894cee504d9a6ecf35957a87563e80896ad572faab8c6cf64b59b299ab972",
+        "execution_snapshot_id": "8a878ef9568350c58a794e17e5d2367db2bbe64cd24cb80a546cb5c36567f018",
+        "checked_at_utc": "2026-10-12T21:13:32.520725+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "406383e6a888a835c35a6ca7cbd535a33066e8cbbd1d2e8892cc5c99d86cdec8",
+          "ad2bdd800628c9410e0f450438c807f3a8210c40d5ca0a95e52efabd1c37e3be",
+          "daa92f9a182377416b2f8ec23689e7227d1d9e4df32990ee2c17e0ccb34c2aae"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "7184d255483d2a538d78d99f5fa71c47dcd84aedf0ce257cdbd13ef13e52b9f2",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0xecd095b9159c0bfcdb59424ba34e58a922819a0922f30e1c3d734cac03cb81c0",
+        "horizon_seconds": 90,
+        "model_probability_yes": 0.14692747012546511,
+        "market_probability_yes": 0.045,
+        "prediction_market_probability_yes": 0.055,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337790,
+      "historical_deadline": "2026-10-12T21:23:03.352203+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "prediction_snapshot_id": "96d03f38f861dae402237169929f4226dd1ece7726a0f41cdfb9babefb5c1c79",
+        "execution_snapshot_id": "89dc9cc6dbf4eb8b63b8c58a20a9f3b06c666afc58f8e06213096bc48698085a",
+        "checked_at_utc": "2026-10-12T21:23:03.352203+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "bb9123135887a412d021aab5ec74d86bd08c775ecf9cb3123e1f83da758b7c78",
+          "dc80580f5593cec14c50ee01e95b9048b3f94c1c54c3710d94f9facf42c9ea40",
+          "f5f64418822a4c575f4a5ff5b50d590c955a03f4de34aae9b48fdbad5ccac941"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "e52c3a57d214322ef2f43c8fcc74b05d355f539f15b73b96fb9e0c374097157b",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "horizon_seconds": 120,
+        "model_probability_yes": 0.8096140101951199,
+        "market_probability_yes": 0.865,
+        "prediction_market_probability_yes": 0.845,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337791,
+      "historical_deadline": "2026-10-12T21:23:33.057583+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "prediction_snapshot_id": "45619a80336dff90d3571ac862c859f7be00dd3811206851edbf37069d53dbf2",
+        "execution_snapshot_id": "3d26effdd1ac7ac2adae2f1f0a3c5e3bcb49fcb1eb403658a543a023ea59a2a6",
+        "checked_at_utc": "2026-10-12T21:23:33.057583+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "1da52ef223dd411996b198a59e944a8347c51127bbebcfc7eeb2d9ef8b98a7a0",
+          "7834ce216601c977d029df352c6e8f9579b9d24252503d734a01c00c5ca12000",
+          "bfcf2307c73eaaaaa5b688ae3c5624348f7b449617f0aeb4c6f420b90bf69337"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "66a69604841a4a6f5353caab30da4ae23c63b32d37749ab3e0620ced49d852e8",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "price_ceiling_exceeded",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "horizon_seconds": 90,
+        "model_probability_yes": 0.8454263304866494,
+        "market_probability_yes": 0.885,
+        "prediction_market_probability_yes": 0.875,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337792,
+      "historical_deadline": "2026-10-12T21:24:03.074703+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "prediction_snapshot_id": "a8a9bf23a4c23676201fbe4d6dc7ef83e718bfaab31a37977644a5f639c0a4df",
+        "execution_snapshot_id": "b8424302d052f049fccd001b13bf3390818c43f46ab85ed2e8247400cf9f9814",
+        "checked_at_utc": "2026-10-12T21:24:03.074703+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "1da52ef223dd411996b198a59e944a8347c51127bbebcfc7eeb2d9ef8b98a7a0",
+          "6a5a66fba0c7d7e497691a6546d3d55104b09f18916c4cd086a140aa5715ea49",
+          "71948bb4475aeb90937fa64394eb183090d5a3d26a1df30d25c2d04f3dfcad62"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "45619a80336dff90d3571ac862c859f7be00dd3811206851edbf37069d53dbf2",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0x0a09e7fed2d8cb971f5d5a69289ebd59481f267a3316a0432aef8b327d6a024b",
+        "horizon_seconds": 60,
+        "model_probability_yes": 0.752007551533614,
+        "market_probability_yes": 0.965,
+        "prediction_market_probability_yes": 0.935,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337795,
+      "historical_deadline": "2026-10-12T21:27:02.684558+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+        "prediction_snapshot_id": "f6924d341cd28b5441d7aac44720bf78eb5e05fe61c41d5111788e4cb7cfa4cf",
+        "execution_snapshot_id": "4119810ca51f1c697e52ed6277e0911f248a4e0378460596e0455224385f3c1d",
+        "checked_at_utc": "2026-10-12T21:27:02.684558+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "2b2e269f6bd83355ffb2421a94753ecd34efc322fba41356d9a3d9393d2989b9",
+          "c2a6e28cc3b073b69bfdea0d96d5eda349d303f18415091f18c18de875fed5eb",
+          "fc7e8c4ead2f81470e97c1b345a503cb925df486caf1db5a4c1443b539660331"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "67b6f6d6786e89ba8cffd07fac8066499a05470b39fe07b7567a4895b528d755",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+        "horizon_seconds": 180,
+        "model_probability_yes": 0.26397390178154334,
+        "market_probability_yes": 0.125,
+        "prediction_market_probability_yes": 0.125,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337796,
+      "historical_deadline": "2026-10-12T21:28:02.288194+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+        "prediction_snapshot_id": "8358552e5516e92cc8a4f1a4c2037e62d570465c49366f53c30d94b41188a82a",
+        "execution_snapshot_id": "09a1a37e8d796444ee9f7ae7c0b88774c1098d14bc0bc9396013da9f32d72438",
+        "checked_at_utc": "2026-10-12T21:28:02.288194+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "47fb1df249678468dc4f7e8f9ead0720086e316e3d1b7852ef72a724a29d5fda",
+          "639f3d9d67dda2f01ed8370ab9d59928132ec7ae5b7dabc0d689598b71c0d14e",
+          "de771ef542548041b931b057b422e028d1cf5605ae46464e1664143ea6126702"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "de9564c9eceef34e6b8a947bc054937e02f8a7cb1a3ce5f57a9f695ba5b2684d",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0x7d05767879fb7534ef84f220b47168b003bdec7e3671f95b8fa2a1ae8f84f474",
+        "horizon_seconds": 120,
+        "model_probability_yes": 0.11065484363432705,
+        "market_probability_yes": 0.025,
+        "prediction_market_probability_yes": 0.025,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337801,
+      "historical_deadline": "2026-10-12T21:32:03.291190+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x2d78b0d0d665b3734f23acf82ff0ddb8af6e5185ece4fc4286187bfe9d343401",
+        "prediction_snapshot_id": "7b7c83fb1a52f0123eacfa910e2946a2c4ad6018e6eac3f7a7979c5ed2faa8f7",
+        "execution_snapshot_id": "61346b18e826681094ba70f6b0b482351f93f8769a6a6059a1eb745b1bf30e0c",
+        "checked_at_utc": "2026-10-12T21:32:03.291190+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "10ab70426d929a49e352fd795ac45b392ac3565b89e5133feb1e813f085f6f2d",
+          "9b420e3f7d1068a74cd6f044a690cd76c56a5bbbebd3c3c3543984113b87000a",
+          "cd7fde17d211af09e6f39d92af21c11f5a79a572e5ab3cf663768d03b21c0e48"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "13d01a8e2a5ab926a223b25c525edcc0c32a03c958fca00f26108c9650c2b511",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0x2d78b0d0d665b3734f23acf82ff0ddb8af6e5185ece4fc4286187bfe9d343401",
+        "horizon_seconds": 180,
+        "model_probability_yes": 0.731541746444859,
+        "market_probability_yes": 0.905,
+        "prediction_market_probability_yes": 0.855,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337808,
+      "historical_deadline": "2026-10-12T21:38:03.161700+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+        "prediction_snapshot_id": "bd4c5cffb50e6720bbc40c560dbca87db4726b028b91e0466ed4e747af202ad3",
+        "execution_snapshot_id": "b69052657d51c07bf190d7ed0ad1b524ccf31b1b1368b33a00736e1bd5454513",
+        "checked_at_utc": "2026-10-12T21:38:03.161700+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "0b5277c5493f96d13a96e652f3c7a4861adcf053332209acfc8ac7180fa6541b",
+          "56fe98902f7755f3a92c26a0ab5ac09ff7a4c36d57df308fbf7a5d6dd46f66ce",
+          "dec60f67e51aae6de6864263e44c7c699f955d4139682c8eb163e6be04dce2d3"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "41fb3c5634b2071a5fca83fd33c94b8477068706b74adb6a492e6849eb1fd526",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+        "horizon_seconds": 120,
+        "model_probability_yes": 0.21317705491914496,
+        "market_probability_yes": 0.055,
+        "prediction_market_probability_yes": 0.185,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337809,
+      "historical_deadline": "2026-10-12T21:38:32.147657+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+        "prediction_snapshot_id": "de73dc825138531cecfc4c183fb4a08fc3d3f311c93bf1d2162d02363c4df2e2",
+        "execution_snapshot_id": "85a3094b7e73b94d65ce837c894d4c79cfd7980702373e4d2ad7603e1a7c5f0b",
+        "checked_at_utc": "2026-10-12T21:38:32.147657+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "0b5277c5493f96d13a96e652f3c7a4861adcf053332209acfc8ac7180fa6541b",
+          "2889b2ae6fc3de83ae7f1db85a7f7fe5fcb55118f41911cfc7d224c2e5ae71cf",
+          "6beceaaeb167fd4a0b190d54729ea319951bfb7a65fb166449a598c9b9099784"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "bd4c5cffb50e6720bbc40c560dbca87db4726b028b91e0466ed4e747af202ad3",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "probability_gap_too_large",
+        "condition_id": "0x8eeeaa379cfe7906c1196b9713b3d628d3bd9652103a8ea695854922cd6bbfef",
+        "horizon_seconds": 90,
+        "model_probability_yes": 0.09743362932200245,
+        "market_probability_yes": 0.015,
+        "prediction_market_probability_yes": 0.015,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    },
+    {
+      "original_decision_id": 337849,
+      "historical_deadline": "2026-10-13T08:32:02.931740+00:00",
+      "verification": {
+        "verifier_version": "source_verification_vnext_v2_consumed_anchor",
+        "condition_id": "0xb0232fb3c932196d50fc73126c50f3ee3b4adb2fefe476ba2bda0be837d8c476",
+        "prediction_snapshot_id": "a958426746a5277ddc407f189870358b0d3684cf1d00e34e9d7db95bcc179aa8",
+        "execution_snapshot_id": "4bf7db929e76eb58ad6451651746e14c603e657d247a88704e7780419f04bf66",
+        "checked_at_utc": "2026-10-13T08:32:02.931740+00:00",
+        "reference_source_verified": true,
+        "yes_book_source_verified": true,
+        "no_book_source_verified": true,
+        "fee_policy_verified": true,
+        "fee_descriptor_verified": true,
+        "reasons": [],
+        "evidence_ids": [
+          "33dc538f02115cf7c82cc57469b85ce23008940f73b7262fb37e7477ce876c59",
+          "6125085a9e21be0efa84ccc51f85d47f8c388321b8160dcf3dab2b0803d94800",
+          "67351133621b18ff949520cebdcab0ff76aaed743cbad6888c91bd4936e16543"
+        ],
+        "execution_scope": "paper",
+        "fee_accounting_model": "paper_cash_taker_full_precision_v1",
+        "strike_model": "collector_nearest_boundary_twap_within_5s_v1",
+        "reference_anchor_snapshot_id": "1c6c0f81a46afd72fdbf2eddb2ceb9e62d7fe79fdcc7c43e3e9c2bfd866ab7a7",
+        "diagnostics_version": 1,
+        "reference_max_age_ms": 3000.0,
+        "book_max_age_ms": 500.0,
+        "diagnostics": []
+      },
+      "result": {
+        "status": "ABSTAIN",
+        "reason": "model_market_disagreement",
+        "condition_id": "0xb0232fb3c932196d50fc73126c50f3ee3b4adb2fefe476ba2bda0be837d8c476",
+        "horizon_seconds": 180,
+        "model_probability_yes": 0.24607336942001143,
+        "market_probability_yes": 0.655,
+        "prediction_market_probability_yes": 0.655,
+        "execution_price": null,
+        "estimated_net_ev_per_share": null
+      }
+    }
+  ],
+  "restart_cycles": [
+    {
+      "observed_at_utc": "2026-10-13T13:43:40.402836+00:00",
+      "source_rows": 0,
+      "new_receipts": 0,
+      "cached_snapshots": 32354,
+      "decisions": 0,
+      "checkpoint_bytes": 32671,
+      "mode": "paper_execution",
+      "paper_execution_enabled": false,
+      "kill_switch": true
+    },
+    {
+      "observed_at_utc": "2026-10-13T13:43:42.911359+00:00",
+      "source_rows": 0,
+      "new_receipts": 0,
+      "cached_snapshots": 32354,
+      "decisions": 0,
+      "checkpoint_bytes": 32671,
+      "mode": "paper_execution",
+      "paper_execution_enabled": false,
+      "kill_switch": true
+    }
+  ],
+  "model_sha256": "42647c6810f8ee01313aee24362e0c83e20b4240f951316d2d576160327752e4",
+  "csv_sha256": "dcf89c08308fcfb8353a7ae82d7e1e8f28ee3bcb405bc66b63d05bc65b2c6720",
+  "clock_sampling_bracket_ms": {
+    "n": 2000,
+    "median": 0.00039999940781854093,
+    "p99": 0.0005000001692678779,
+    "maximum": 0.006400001439033076,
+    "meaning": "Local sampling uncertainty only; not NTP offset or proof of long-term clock stability."
+  }
+}

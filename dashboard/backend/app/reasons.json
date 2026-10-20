@@ -1,0 +1,700 @@
+{
+  "before_target_horizon": {
+    "category": "Strategy abstention",
+    "explanation": "Before target horizon. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:323"
+    ]
+  },
+  "below_minimum_order_size": {
+    "category": "Journal / validation",
+    "explanation": "Below minimum order size. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:247",
+      "src/polybtc/risk/vnext.py:225"
+    ]
+  },
+  "daily_loss_limit_reached": {
+    "category": "Risk gate",
+    "explanation": "Daily loss limit reached. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:198"
+    ]
+  },
+  "daily_pnl_date_mismatch": {
+    "category": "Invalid causal inputs",
+    "explanation": "Daily pnl date mismatch. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:160"
+    ]
+  },
+  "daily_worst_case_loss_limit": {
+    "category": "Risk gate",
+    "explanation": "Daily worst case loss limit. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:286"
+    ]
+  },
+  "execution_expiry_mismatch": {
+    "category": "Invalid causal inputs",
+    "explanation": "Execution expiry mismatch. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:434"
+    ]
+  },
+  "execution_market_mismatch": {
+    "category": "Invalid causal inputs",
+    "explanation": "Execution market mismatch. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:428"
+    ]
+  },
+  "execution_price_ceiling": {
+    "category": "Journal / validation",
+    "explanation": "Execution price ceiling. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:259",
+      "src/polybtc/shadow/runner_vnext.py:686"
+    ]
+  },
+  "execution_price_limit": {
+    "category": "Risk gate",
+    "explanation": "Execution price limit. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:231"
+    ]
+  },
+  "execution_snapshot_not_available": {
+    "category": "Telemetry unavailable",
+    "explanation": "Execution snapshot not available. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:455"
+    ]
+  },
+  "execution_snapshot_predates_target": {
+    "category": "Invalid causal inputs",
+    "explanation": "Execution snapshot predates target. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:446"
+    ]
+  },
+  "expected_value_mismatch": {
+    "category": "Invalid causal inputs",
+    "explanation": "Expected value mismatch. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:259"
+    ]
+  },
+  "fill_exceeds_approved_constraints": {
+    "category": "Journal / validation",
+    "explanation": "Fill exceeds approved constraints. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:282"
+    ]
+  },
+  "fresh_execution_quote_required": {
+    "category": "Journal / validation",
+    "explanation": "Fresh execution quote required. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/orchestrator_vnext.py:305"
+    ]
+  },
+  "future_source_timestamp": {
+    "category": "Invalid causal inputs",
+    "explanation": "A source timestamp was later than evaluation time. Negative ages are preserved.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:491"
+    ]
+  },
+  "insufficient_depth": {
+    "category": "Strategy abstention",
+    "explanation": "Insufficient depth. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:213"
+    ]
+  },
+  "insufficient_execution_depth": {
+    "category": "Journal / validation",
+    "explanation": "Insufficient execution depth. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:250"
+    ]
+  },
+  "insufficient_net_ev": {
+    "category": "Strategy abstention",
+    "explanation": "Insufficient net ev. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:227"
+    ]
+  },
+  "invalid_evaluation_timestamp": {
+    "category": "Journal / validation",
+    "explanation": "Invalid evaluation timestamp. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:148"
+    ]
+  },
+  "invalid_fee_estimate": {
+    "category": "Journal / validation",
+    "explanation": "Invalid fee estimate. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:234"
+    ]
+  },
+  "invalid_kill_switch_state": {
+    "category": "Risk gate",
+    "explanation": "Invalid kill switch state. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:170"
+    ]
+  },
+  "invalid_market_id": {
+    "category": "Journal / validation",
+    "explanation": "Invalid market id. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:307",
+      "src/polybtc/strategy/vnext.py:145",
+      "src/polybtc/risk/vnext.py:176"
+    ]
+  },
+  "invalid_market_state": {
+    "category": "Journal / validation",
+    "explanation": "Invalid market state. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:181",
+      "src/polybtc/risk/vnext.py:189"
+    ]
+  },
+  "invalid_minimum_order_size": {
+    "category": "Journal / validation",
+    "explanation": "Invalid minimum order size. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:233"
+    ]
+  },
+  "invalid_model_probability": {
+    "category": "Journal / validation",
+    "explanation": "Invalid model probability. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:382"
+    ]
+  },
+  "invalid_portfolio_numbers": {
+    "category": "Journal / validation",
+    "explanation": "Invalid portfolio numbers. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:167"
+    ]
+  },
+  "invalid_quote_timestamp": {
+    "category": "Journal / validation",
+    "explanation": "Invalid quote timestamp. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:179"
+    ]
+  },
+  "invalid_reference_timestamp": {
+    "category": "Journal / validation",
+    "explanation": "Invalid reference timestamp. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:195"
+    ]
+  },
+  "invalid_requested_size": {
+    "category": "Journal / validation",
+    "explanation": "Invalid requested size. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:210",
+      "src/polybtc/risk/vnext.py:213"
+    ]
+  },
+  "invalid_selected_ask": {
+    "category": "Journal / validation",
+    "explanation": "Invalid selected ask. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:215",
+      "src/polybtc/shadow/executor_vnext.py:218",
+      "src/polybtc/risk/vnext.py:249"
+    ]
+  },
+  "invalid_selected_probability": {
+    "category": "Journal / validation",
+    "explanation": "Invalid selected probability. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:243"
+    ]
+  },
+  "invalid_state_timestamp": {
+    "category": "Journal / validation",
+    "explanation": "Invalid state timestamp. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:151"
+    ]
+  },
+  "invalid_strategy_approval": {
+    "category": "Journal / validation",
+    "explanation": "Invalid strategy approval. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:204"
+    ]
+  },
+  "invalid_tick_size": {
+    "category": "Journal / validation",
+    "explanation": "Invalid tick size. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:224",
+      "src/polybtc/shadow/executor_vnext.py:227",
+      "src/polybtc/strategy/vnext.py:182"
+    ]
+  },
+  "kill_switch_active": {
+    "category": "Risk gate",
+    "explanation": "Kill switch active. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:173"
+    ]
+  },
+  "market_already_entered": {
+    "category": "Strategy abstention",
+    "explanation": "Market already entered. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:195"
+    ]
+  },
+  "market_already_expired": {
+    "category": "Strategy abstention",
+    "explanation": "Market already expired. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:326"
+    ]
+  },
+  "market_direction_neutral": {
+    "category": "Strategy abstention",
+    "explanation": "Market direction neutral. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:168"
+    ]
+  },
+  "market_order_pending": {
+    "category": "Journal / validation",
+    "explanation": "Market order pending. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:192"
+    ]
+  },
+  "missing_ask_depth": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing ask depth. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:210"
+    ]
+  },
+  "missing_book_age": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing book age. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:204"
+    ]
+  },
+  "missing_execution_price": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing execution price. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:228"
+    ]
+  },
+  "missing_execution_snapshot": {
+    "category": "Telemetry unavailable",
+    "explanation": "No separate execution-time snapshot was available after the prediction target.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:417"
+    ]
+  },
+  "missing_execution_snapshot_id": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing execution snapshot id. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:443"
+    ]
+  },
+  "missing_execution_source_timestamps": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing execution source timestamps. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:466"
+    ]
+  },
+  "missing_fee_estimate": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing fee estimate. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:185"
+    ]
+  },
+  "missing_horizon": {
+    "category": "Telemetry unavailable",
+    "explanation": "No eligible historical observation was available for this scheduled horizon.",
+    "source_locations": []
+  },
+  "missing_market_expiry": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing market expiry. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:313"
+    ]
+  },
+  "missing_market_probability": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing market probability. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:521",
+      "src/polybtc/strategy/vnext.py:160"
+    ]
+  },
+  "missing_minimum_order_size": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing minimum order size. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:230",
+      "src/polybtc/shadow/runner_vnext.py:662",
+      "src/polybtc/risk/vnext.py:219"
+    ]
+  },
+  "missing_model_probability": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing model probability. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:157"
+    ]
+  },
+  "missing_or_invalid_ask": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing or invalid ask. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:201"
+    ]
+  },
+  "missing_or_invalid_depth": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing or invalid depth. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:221"
+    ]
+  },
+  "missing_or_invalid_fee_rate": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing or invalid fee rate. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:236",
+      "src/polybtc/shadow/runner_vnext.py:510"
+    ]
+  },
+  "missing_prediction_reference_timestamp": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing prediction reference timestamp. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:338"
+    ]
+  },
+  "missing_reference_age": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing reference age. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:151"
+    ]
+  },
+  "missing_reference_return_30s": {
+    "category": "Telemetry unavailable",
+    "explanation": "The causal 30-second reference-price history was insufficient to construct the model feature.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:365"
+    ]
+  },
+  "missing_reference_timestamp": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing reference timestamp. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:190"
+    ]
+  },
+  "missing_relative_distance": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing relative distance. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:362"
+    ]
+  },
+  "missing_selected_ask": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing selected ask. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:632",
+      "src/polybtc/risk/vnext.py:246"
+    ]
+  },
+  "missing_selected_depth": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing selected depth. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:642"
+    ]
+  },
+  "missing_selected_probability": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing selected probability. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:240"
+    ]
+  },
+  "missing_selected_snapshot": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing selected snapshot. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/orchestrator_vnext.py:295"
+    ]
+  },
+  "missing_selected_tick": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing selected tick. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:652"
+    ]
+  },
+  "missing_source_verification": {
+    "category": "Execution authorization",
+    "explanation": "Missing source verification. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:394"
+    ]
+  },
+  "missing_strategy_execution_price": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing strategy execution price. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:673"
+    ]
+  },
+  "missing_tick_size": {
+    "category": "Telemetry unavailable",
+    "explanation": "Missing tick size. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:556"
+    ]
+  },
+  "model_direction_neutral": {
+    "category": "Strategy abstention",
+    "explanation": "Model direction neutral. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:176"
+    ]
+  },
+  "model_market_disagreement": {
+    "category": "Strategy abstention",
+    "explanation": "Model market disagreement. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:173"
+    ]
+  },
+  "noncausal_prediction_reference": {
+    "category": "Invalid causal inputs",
+    "explanation": "Noncausal prediction reference. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:341"
+    ]
+  },
+  "nonpositive_expected_value": {
+    "category": "Journal / validation",
+    "explanation": "Nonpositive expected value. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:237"
+    ]
+  },
+  "order_value_limit": {
+    "category": "Risk gate",
+    "explanation": "Order value limit. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:268"
+    ]
+  },
+  "portfolio_exposure_limit": {
+    "category": "Risk gate",
+    "explanation": "Portfolio exposure limit. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:272"
+    ]
+  },
+  "portfolio_state_incomplete": {
+    "category": "Journal / validation",
+    "explanation": "Portfolio state incomplete. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:145"
+    ]
+  },
+  "position_size_limit": {
+    "category": "Risk gate",
+    "explanation": "Position size limit. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:216"
+    ]
+  },
+  "positive_net_ev": {
+    "category": "Authorized shadow outcome",
+    "explanation": "Positive net ev. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:229"
+    ]
+  },
+  "prediction_snapshot_not_available": {
+    "category": "Telemetry unavailable",
+    "explanation": "Prediction snapshot not available. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/stream_driver_vnext.py:211"
+    ]
+  },
+  "prediction_snapshot_not_causal": {
+    "category": "Invalid causal inputs",
+    "explanation": "Prediction snapshot not causal. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:335"
+    ]
+  },
+  "prediction_snapshot_unavailable": {
+    "category": "Journal / validation",
+    "explanation": "Prediction snapshot unavailable. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/stream_driver_vnext.py:196"
+    ]
+  },
+  "price_ceiling_exceeded": {
+    "category": "Strategy abstention",
+    "explanation": "Price ceiling exceeded. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:218"
+    ]
+  },
+  "probability_gap_too_large": {
+    "category": "Strategy abstention",
+    "explanation": "Probability gap too large. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:179"
+    ]
+  },
+  "quote_from_future": {
+    "category": "Invalid causal inputs",
+    "explanation": "Quote from future. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:184"
+    ]
+  },
+  "reference_from_future": {
+    "category": "Invalid causal inputs",
+    "explanation": "Reference from future. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:200"
+    ]
+  },
+  "shadow_full_fill": {
+    "category": "Authorized shadow outcome",
+    "explanation": "The journal recorded a hypothetical full fill. This is not a real order.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:284",
+      "src/polybtc/shadow/runner_vnext.py:800"
+    ]
+  },
+  "shadow_risk_approved": {
+    "category": "Risk gate",
+    "explanation": "Shadow risk approved. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:288"
+    ]
+  },
+  "snapshot_arrived_after_target": {
+    "category": "Invalid causal inputs",
+    "explanation": "The observation arrived after the prediction cutoff and cannot be used causally.",
+    "source_locations": [
+      "src/polybtc/shadow/orchestrator_vnext.py:301"
+    ]
+  },
+  "stale_book": {
+    "category": "Telemetry unavailable",
+    "explanation": "Stale book. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/strategy/vnext.py:207"
+    ]
+  },
+  "stale_execution_quote": {
+    "category": "Telemetry unavailable",
+    "explanation": "Stale execution quote. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:187"
+    ]
+  },
+  "stale_execution_reference": {
+    "category": "Telemetry unavailable",
+    "explanation": "Stale execution reference. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/executor_vnext.py:203"
+    ]
+  },
+  "stale_horizon": {
+    "category": "Telemetry unavailable",
+    "explanation": "The nearest eligible snapshot was too old for the scheduled prediction target.",
+    "source_locations": []
+  },
+  "stale_market_books": {
+    "category": "Telemetry unavailable",
+    "explanation": "One or both books exceeded the runner limit of 500 ms.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:503"
+    ]
+  },
+  "stale_reference": {
+    "category": "Telemetry unavailable",
+    "explanation": "The reference source exceeded the runner limit of 2,000 ms.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:494",
+      "src/polybtc/strategy/vnext.py:154"
+    ]
+  },
+  "state_from_future": {
+    "category": "Invalid causal inputs",
+    "explanation": "State from future. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:157"
+    ]
+  },
+  "strategy_did_not_approve": {
+    "category": "Journal / validation",
+    "explanation": "Strategy did not approve. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:201"
+    ]
+  },
+  "unsupported_horizon": {
+    "category": "Journal / validation",
+    "explanation": "Unsupported horizon. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:310",
+      "src/polybtc/strategy/vnext.py:148"
+    ]
+  },
+  "unsupported_strategy_version": {
+    "category": "Journal / validation",
+    "explanation": "Unsupported strategy version. Recorded by the trading pipeline; consult the exact code below.",
+    "source_locations": [
+      "src/polybtc/risk/vnext.py:207"
+    ]
+  },
+  "unverified_execution_provenance": {
+    "category": "Execution authorization",
+    "explanation": "Safety gate: the execution quote or fee provenance was not independently verified. No hypothetical fill was authorized.",
+    "source_locations": []
+  },
+  "unverified_input_provenance": {
+    "category": "Execution authorization",
+    "explanation": "Safety gate: reference, book or fee provenance was not independently verified. This does not indicate a process failure.",
+    "source_locations": [
+      "src/polybtc/shadow/runner_vnext.py:404"
+    ]
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "source": "docs/POLYBTC_S5_EVIDENCE.json",
+  "scope": "Saved-prediction arithmetic only; no model fitting or source re-attestation.",
+  "rows": 93,
+  "markets": 55,
+  "scores": {
+    "market": {
+      "brier": 0.12315639460647956,
+      "log_loss": 0.38514829227720815,
+      "matches_saved": true
+    },
+    "raw": {
+      "brier": 0.1505803722039827,
+      "log_loss": 0.46514961137417743,
+      "matches_saved": true
+    },
+    "platt": {
+      "brier": 0.18108224758032318,
+      "log_loss": 0.5489437033040833,
+      "matches_saved": true
+    },
+    "isotonic": {
+      "brier": 0.18413233726768224,
+      "log_loss": 0.8605115059156584,
+      "matches_saved": true
+    },
+    "combination": {
+      "brier": 0.1262353191145811,
+      "log_loss": 0.40133699277374274,
+      "matches_saved": true
+    }
+  }
+}

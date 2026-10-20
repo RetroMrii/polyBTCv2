@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "market-data-provenance",
+    "category": "Data engineering",
+    "title": "From Market Snapshots to Causal Research Data",
+    "summary": "What the available observations can—and cannot—establish about causal availability.",
+    "file": "papers/market-data-provenance.md",
+    "date": "2026-10-19",
+    "status": "Technical research paper",
+    "reading_minutes": 6
+  },
+  {
+    "slug": "models-versus-market",
+    "category": "Predictive modeling",
+    "title": "Machine Learning versus Market-Implied Bitcoin Probabilities",
+    "summary": "Matched market baselines, historical model comparisons and the limits of added features.",
+    "file": "papers/models-versus-market.md",
+    "date": "2026-10-19",
+    "status": "Technical research paper",
+    "reading_minutes": 5
+  },
+  {
+    "slug": "forecast-calibration",
+    "category": "Forecast reliability",
+    "title": "Probability Calibration under Limited Independent Data",
+    "summary": "A frozen model, two calibrators and a market blend on a small chronological holdout.",
+    "file": "papers/forecast-calibration.md",
+    "date": "2026-10-19",
+    "status": "Technical research paper",
+    "reading_minutes": 5
+  },
+  {
+    "slug": "execution-timing",
+    "category": "Systems engineering",
+    "title": "Execution Timing and Data Freshness in Five-Minute Markets",
+    "summary": "Where observations lose eligibility, and why latency recovery is not a missed fill.",
+    "file": "papers/execution-timing.md",
+    "date": "2026-10-19",
+    "status": "Technical research paper",
+    "reading_minutes": 5
+  },
+  {
+    "slug": "strategy-economics",
+    "category": "Economic evaluation",
+    "title": "Expected Value, Costs and the Limits of Paper Trading",
+    "summary": "Controlled probability substitutions, realistic constraints and conditional simulated returns.",
+    "file": "papers/strategy-economics.md",
+    "date": "2026-10-19",
+    "status": "Technical research paper",
+    "reading_minutes": 6
+  }
+]

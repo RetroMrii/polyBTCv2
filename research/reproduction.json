@@ -1,0 +1,54 @@
+{
+  "version": "publication-evidence-v1",
+  "script_sha256": "8cd7660a31e4002b30b1a5713db03fcbe8b4dc20d09f8f8a37826c886e3da5ec",
+  "python": "3.14.5 (tags/v3.14.5:5607950, May 10 2026, 10:43:50) [MSC v.1944 64 bit (AMD64)]",
+  "matplotlib": "3.10.8",
+  "numpy": "2.5.4",
+  "score_checks": {
+    "market": {
+      "brier": 0.12315639460647956,
+      "log_loss": 0.38514829227720815,
+      "matches_saved": true
+    },
+    "raw": {
+      "brier": 0.1505803722039827,
+      "log_loss": 0.46514961137417743,
+      "matches_saved": true
+    },
+    "platt": {
+      "brier": 0.18108224758032318,
+      "log_loss": 0.5489437033040833,
+      "matches_saved": true
+    },
+    "isotonic": {
+      "brier": 0.18413233726768224,
+      "log_loss": 0.8605115059156584,
+      "matches_saved": true
+    },
+    "combination": {
+      "brier": 0.1262353191145811,
+      "log_loss": 0.40133699277374274,
+      "matches_saved": true
+    }
+  },
+  "accounting_checks": {
+    "B_platt": {
+      "entries": 23,
+      "net_hypothetical_pnl": 0.03633999999999876,
+      "accounting_recomputed": true
+    },
+    "C": {
+      "entries": 13,
+      "net_hypothetical_pnl": -6.38145,
+      "accounting_recomputed": true
+    }
+  },
+  "normalization_source_unchanged": true,
+  "not_reproduced": [
+    "Model fitting",
+    "Raw resolution re-attestation",
+    "Historical bootstrapped intervals (shown from saved evidence)",
+    "Operational executions"
+  ],
+  "public_demo_rows": 159
+}
