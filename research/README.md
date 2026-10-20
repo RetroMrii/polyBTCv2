@@ -1,5 +1,7 @@
 # Research publications
 
+Read the papers online at [PolyBTC Research](https://polybtc-research.vercel.app/#/papers), or use the canonical Markdown files linked below.
+
 **Can machine learning provide a statistically reliable and economically exploitable edge in Polymarket's five-minute Bitcoin markets?**
 
 The retained evidence demonstrates a functioning research system, but no credible incremental predictive or after-cost edge for the tested methods. The later paired comparison is small and exploratory. Negative and inconclusive results remain distinct.

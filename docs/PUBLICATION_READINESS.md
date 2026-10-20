@@ -1,6 +1,6 @@
 # Public repository readiness — October 20, 2026
 
-The local Git repository is initialized and `origin` is configured as `https://github.com/RetroMrii/polyBTCv2.git`. The website now uses the matching GitHub link by default, with an optional `VITE_GITHUB_URL` override. A hosted website URL has not been supplied or verified.
+The local Git repository is initialized and `origin` is configured as `https://github.com/RetroMrii/polyBTCv2.git`. The website now uses the matching GitHub link by default, with an optional `VITE_GITHUB_URL` override. The frontend is now live at [polybtc-research.vercel.app](https://polybtc-research.vercel.app/); the homepage and GitHub backlink were verified in a browser on October 20, 2026.
 
 The owner selected MIT licensing and frontend-only deployment. The root `LICENSE` covers original project code and authored documentation, papers and figures, subject to file-specific notices. Dependencies and upstream data retain their own terms. No hosted backend is needed for this release.
 
@@ -21,7 +21,7 @@ Tests now import grouped modules; the CLI subprocess test and active operations 
 
 ## Final public-file check
 
-The final review used Git's non-ignored candidate file list, with no staging changes. It contained **383 files, approximately 22.96 MB**, with the 100 deleted launchers absent. The index is empty and `main` has no commits. `origin` matches the intended GitHub repository.
+The final review used Git's non-ignored candidate file list, with no staging changes. It contained **383 files, approximately 22.96 MB**, with the 100 deleted launchers absent. At that pre-release check the index was empty and `main` had no commits. `origin` matches the intended GitHub repository.
 
 An isolated export under local `reports/final-public-export/` contained only those candidate files, without datasets, model artifacts, existing `node_modules` or generated frontend content. A fresh `npm ci`, production build and lint succeeded there. This is a clean-file build on Windows, not verification of Vercel's Linux deployment.
 
@@ -31,13 +31,13 @@ MIT metadata is consistent across the root license, Python package and frontend 
 
 Installation reported an ESLint deprecation notice and an esbuild install-script approval warning in the local npm version; install, build and lint still completed successfully. Those warnings are recorded in local logs and are not represented as failures or silently resolved by dependency upgrades.
 
-## Remaining before release
+## Release status and future checks
 
-1. **Stage the reviewed release.** The final check found an empty index and no commits on `main`; all proposed project files are currently untracked. The stale staged launchers are no longer present. Stage the current reviewed files, inspect the staged diff, then make the intended initial commit. This review has not staged or committed anything.
+1. **Initial release completed by the owner.** The local branch now has the `Full Project` commit and tracks `origin/main`. Earlier empty-index observations below describe the pre-release check. Review and commit subsequent documentation changes separately.
 2. **Review third-party redistribution terms.** MIT is now selected and the license file is present. Confirm the public evidence extracts may be redistributed under their source terms; the project's license does not relicense upstream material. See [dataset notes](../datasets/README.md).
 3. **Approve the public file set.** The targeted credential scan found only a synthetic test fixture, not an actual credential. An older collector has a personal home-directory output default, and historical audit logs include local workspace paths. Review whether those should be public. The collector default and hashed evidence were preserved rather than silently changed. Recheck the exact final staged content for secrets and excluded local assets.
 4. **Keep the commit aligned with the checked files.** The clean-export install/build/lint checks have passed. Review the staged snapshot against the current files before committing. Full historical reproduction and model-dependent tests require excluded local artifacts; do not describe them as self-contained in a public clone.
-5. **Publish and verify approved destinations.** The GitHub remote is configured, but this review has not pushed or verified public visibility. If publishing the website too, select/confirm hosting, verify navigation/downloads at the deployed URL, then add that URL to the README. No public deployment is claimed.
+5. **Live site available.** The owner deployed the frontend to Vercel and its URL is linked from the README. The browser check verified the homepage and GitHub backlink; it was not a full repeat of every interaction, mobile check or download test against production. Recheck those flows after future releases.
 
 ## Scope of the prior content review
 

@@ -6,9 +6,8 @@ PolyBTC investigates that question through causal data engineering, matched fore
 
 **Finding:** the tested methods have not demonstrated incremental forecast value over market probabilities or a credible after-cost advantage. In the later paired cohort, market Brier loss was **0.123156** versus **0.150580** for frozen HGB3 on **93 observations / 55 markets**. The raw-minus-market Brier interval includes zero. This is a small, exploratory chronological result, not proof that every ML approach fails. [Methods and uncertainty](research/papers/forecast-calibration.md).
 
-[Read the research collection](research/README.md) · [Open the local research website](http://127.0.0.1:3000/#/) · [Reproduce results](docs/REPRODUCTION.md) · [System and deployment](docs/DEPLOYMENT.md)
+[Open the research website](https://polybtc-research.vercel.app/) · [Read the research collection](research/README.md) · [Reproduce results](docs/REPRODUCTION.md) · [System and deployment](docs/DEPLOYMENT.md)
 
-The local repository is configured with [RetroMrii/polyBTCv2 on GitHub](https://github.com/RetroMrii/polyBTCv2). The local website link requires the preview server below; no hosted website URL has been verified. See the [public-release review](docs/PUBLICATION_READINESS.md) for outstanding checks.
 
 ## Research papers
 

@@ -2,6 +2,8 @@
 
 The website presents five canonical papers, source-linked figures and an interactive historical prediction explorer. The existing eight-page local monitor remains available in development mode. Public builds need no backend and never access operational databases.
 
+**Live website:** [polybtc-research.vercel.app](https://polybtc-research.vercel.app/). The commands below are for local development and preview.
+
 ## Research site
 
 ```powershell
@@ -45,4 +47,4 @@ npm run lint
 npm run build
 ```
 
-The Vite runner config loader avoids the prior bundled-config cache issue. See [deployment preparation](../docs/DEPLOYMENT.md) for static hosting, GitHub configuration, publication approval and local/public boundaries. Build success is not public deployment.
+The Vite runner config loader avoids the prior bundled-config cache issue. See [deployment and local development](../docs/DEPLOYMENT.md) for the live Vercel site, build instructions and local/public boundaries.
